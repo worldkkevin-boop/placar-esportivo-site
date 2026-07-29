@@ -481,6 +481,14 @@
     font-weight: 700;
     cursor: pointer;
   }
+  .flag {
+    height: 0.85em;
+    width: auto;
+    border-radius: 2px;
+    vertical-align: -0.05em;
+    margin-right: 0.15rem;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.35);
+  }
   .team-match-stage {
     font-size: 0.7rem;
     color: var(--muted);
@@ -488,7 +496,21 @@
     letter-spacing: 0.03rem;
     font-weight: 800;
     margin-bottom: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
   }
+  .result-badge {
+    font-size: 0.62rem;
+    font-weight: 800;
+    padding: 0.15rem 0.55rem;
+    border-radius: 999px;
+    letter-spacing: 0.03rem;
+  }
+  .result-badge.win { background: rgba(16,185,129,0.15); color: var(--green); }
+  .result-badge.loss { background: rgba(239,68,68,0.15); color: var(--red); }
+  .result-badge.draw { background: rgba(100,116,139,0.2); color: var(--muted); }
   .team-match-events {
     margin-top: 0.5rem;
     padding-top: 0.5rem;
@@ -580,19 +602,17 @@ const COUNTRY_CODES = {
   'COSTA DO MARFIM': 'CI', 'AFRICA DO SUL': 'ZA', CHINA: 'CN', INDIA: 'IN', 'NOVA ZELANDIA': 'NZ',
   JAMAICA: 'JM', 'COSTA RICA': 'CR', PANAMA: 'PA', HONDURAS: 'HN', CUBA: 'CU', GUATEMALA: 'GT',
 };
-const SPECIAL_FLAGS = { ESCOCIA: '🏴󠁧󠁢󠁳󠁣󠁴󠁿' };
+const SPECIAL_FLAGS = { ESCOCIA: 'GB-SCT' };
 
 function stripAccents(s) { return (s || '').normalize('NFD').replace(/[̀-ͯ]/g, ''); }
 
-function isoToEmoji(code) {
-  return code.toUpperCase().replace(/./g, (c) => String.fromCodePoint(127397 + c.charCodeAt(0)));
-}
-
+// Bandeira como IMAGEM (flagcdn) em vez de emoji — emoji de bandeira não renderiza no Windows
+// (aparecia só "IT", "VE"...), e imagem fica igual e bonita em qualquer aparelho.
 function teamFlag(name) {
   const key = stripAccents((name || '').trim().toUpperCase());
-  if (SPECIAL_FLAGS[key]) return SPECIAL_FLAGS[key] + ' ';
-  const code = COUNTRY_CODES[key];
-  return code ? isoToEmoji(code) + ' ' : '';
+  const code = SPECIAL_FLAGS[key] || COUNTRY_CODES[key];
+  if (!code) return '';
+  return '<img class="flag" src="https://flagcdn.com/w40/' + code.toLowerCase() + '.png" alt="" loading="lazy" onerror="this.style.display=\'none\'"> ';
 }
 
 function teamLabel(name) {
@@ -668,7 +688,21 @@ function renderTeamView(cat, teamName) {
   } else {
     matches.forEach((m, idx) => {
       const hasEvents = m.played && (m.events || []).length > 0;
-      html += '<div class="card"><div class="team-match-stage">' + m.stage + '</div>';
+      // Etiqueta de resultado do PONTO DE VISTA do time em foco (considerando pênaltis no empate)
+      let badge = '';
+      if (m.played) {
+        const isA = m.teamA === teamName;
+        const my = isA ? m.scoreA : m.scoreB;
+        const opp = isA ? m.scoreB : m.scoreA;
+        const myPen = isA ? m.penA : m.penB;
+        const oppPen = isA ? m.penB : m.penA;
+        const res = my > opp ? 'win' : my < opp ? 'loss'
+          : (myPen != null && oppPen != null && myPen !== oppPen ? (myPen > oppPen ? 'win' : 'loss') : 'draw');
+        badge = res === 'win' ? '<span class="result-badge win">✅ VITÓRIA</span>'
+          : res === 'loss' ? '<span class="result-badge loss">❌ DERROTA</span>'
+          : '<span class="result-badge draw">🤝 EMPATE</span>';
+      }
+      html += '<div class="card"><div class="team-match-stage"><span>' + m.stage + '</span>' + badge + '</div>';
       html += '<div class="' + (hasEvents ? 'team-match-row clickable' : 'team-match-row') + '"' + (hasEvents ? ' data-idx="' + idx + '"' : '') + '>';
       html += matchLine(m);
       if (hasEvents) html += '<span class="team-match-hint">Toque pra ver a súmula ▾</span>';
