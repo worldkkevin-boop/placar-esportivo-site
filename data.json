@@ -1,5 +1,71 @@
 {
-  "generatedAt": null,
-  "scheduleDate": "",
-  "categories": []
+  "generatedAt": "2026-07-29T18:00:00.000Z",
+  "scheduleDate": "2026-07-31",
+  "categories": [
+    {
+      "id": "master",
+      "name": "Master (4 Times)",
+      "champion": null,
+      "groups": [
+        {
+          "name": "Grupo A",
+          "standings": [
+            {
+              "name": "ESTADOS UNIDOS",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            },
+            {
+              "name": "GUATEMALA",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            },
+            {
+              "name": "ESPANHA",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            },
+            {
+              "name": "ESCOCIA",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            }
+          ],
+          "matches": []
+        }
+      ],
+      "knockout": [
+        {
+          "name": "Semifinal",
+          "matches": []
+        },
+        {
+          "name": "Final",
+          "matches": []
+        }
+      ],
+      "topScorers": [],
+      "topCards": []
+    }
+  ]
 }
