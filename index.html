@@ -69,7 +69,40 @@
     gap: 0.5rem;
     flex-shrink: 0;
   }
-  .theme-toggle, .share-btn {
+  /* Barra de ações rápidas (Atualizar / Compartilhar) — botões grandes e com texto, bem visíveis */
+  .quick-actions {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.7rem 1rem 0;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  .qa-btn {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    background: var(--card);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 0.65rem;
+    border-radius: 10px;
+    font-size: 0.88rem;
+    font-weight: 800;
+    font-family: inherit;
+    cursor: pointer;
+  }
+  .qa-btn:active { transform: scale(0.97); }
+  .qa-btn.share {
+    background: #25d366;
+    border-color: #25d366;
+    color: #fff;
+  }
+  .qa-icon { display: inline-block; }
+  .qa-icon.spinning { animation: qa-spin 0.8s linear infinite; }
+  @keyframes qa-spin { to { transform: rotate(360deg); } }
+  .theme-toggle {
     flex-shrink: 0;
     background: var(--bg);
     border: 1px solid var(--border);
@@ -492,7 +525,6 @@
     <div class="updated" id="updated">Carregando...</div>
   </div>
   <div class="header-actions">
-    <button class="share-btn" id="shareBtn" title="Compartilhar">📤</button>
     <button class="theme-toggle" id="themeToggle" title="Alternar tema claro/escuro">🌙</button>
   </div>
 </header>
@@ -516,6 +548,10 @@
   <a href="https://pixgg.com/kevinzinho" target="_blank" rel="noreferrer" class="support-qr-link" title="Apoie via Pix">
     <div class="support-qr"><svg xmlns="http://www.w3.org/2000/svg" width="260" height="260" viewBox="0 0 31 31" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h31v31H0z"/><path stroke="#0f172a" d="M1 1.5h7m1 0h2m2 0h1m2 0h2m1 0h1m3 0h7M1 2.5h1m5 0h1m1 0h1m2 0h1m4 0h2m1 0h1m2 0h1m5 0h1M1 3.5h1m1 0h3m1 0h1m1 0h1m1 0h3m2 0h2m1 0h2m2 0h1m1 0h3m1 0h1M1 4.5h1m1 0h3m1 0h1m3 0h1m1 0h1m3 0h2m1 0h2m1 0h1m1 0h3m1 0h1M1 5.5h1m1 0h3m1 0h1m1 0h2m2 0h1m1 0h3m2 0h1m2 0h1m1 0h3m1 0h1M1 6.5h1m5 0h1m2 0h2m4 0h2m1 0h1m3 0h1m5 0h1M1 7.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M13 8.5h2m1 0h2m1 0h1M1 9.5h1m2 0h7m1 0h1m1 0h1m3 0h1m1 0h3m2 0h1m1 0h3M3 10.5h1m10 0h1m2 0h4m3 0h2m1 0h2M3 11.5h2m2 0h1m2 0h3m1 0h1m1 0h4m7 0h1M3 12.5h1m5 0h3m2 0h1m2 0h2m2 0h2m2 0h2m2 0h1M1 13.5h2m2 0h3m3 0h1m1 0h2m1 0h2m2 0h5m4 0h1M2 14.5h5m1 0h1m1 0h3m1 0h2m1 0h3m3 0h7M1 15.5h2m3 0h4m1 0h1m2 0h1m2 0h2m1 0h2m3 0h1m1 0h1m1 0h1M2 16.5h1m1 0h2m4 0h1m1 0h2m2 0h1m2 0h3m5 0h1m1 0h1M2 17.5h2m1 0h1m1 0h1m1 0h2m1 0h1m2 0h1m1 0h1m2 0h2m4 0h1M1 18.5h3m5 0h1m1 0h1m2 0h2m1 0h1m1 0h3m3 0h1m1 0h2M1 19.5h3m2 0h2m2 0h2m1 0h1m2 0h1m1 0h3m1 0h2m1 0h2m2 0h1M1 20.5h2m1 0h3m1 0h1m3 0h2m1 0h1m3 0h1m2 0h2m2 0h2M1 21.5h2m2 0h1m1 0h1m1 0h3m2 0h5m2 0h8M9 22.5h1m5 0h1m2 0h2m1 0h1m3 0h2M1 23.5h7m1 0h5m1 0h1m4 0h2m1 0h1m1 0h2M1 24.5h1m5 0h1m1 0h2m1 0h1m2 0h2m1 0h1m2 0h1m3 0h1m3 0h1M1 25.5h1m1 0h3m1 0h1m1 0h2m1 0h4m2 0h9M1 26.5h1m1 0h3m1 0h1m1 0h1m1 0h1m6 0h2m1 0h2m5 0h1M1 27.5h1m1 0h3m1 0h1m3 0h1m3 0h2m1 0h1m2 0h2m1 0h2m1 0h3M1 28.5h1m5 0h1m4 0h4m1 0h3m2 0h1m2 0h3m1 0h1M1 29.5h7m1 0h1m1 0h2m1 0h3m1 0h1m1 0h2m1 0h4"/></svg></div>
   </a>
+</div>
+<div class="quick-actions">
+  <button id="refreshBtn" class="qa-btn"><span class="qa-icon">🔄</span> Atualizar</button>
+  <button id="shareBtn" class="qa-btn share">📲 Compartilhar</button>
 </div>
 <div class="today-games" id="todayGames"></div>
 <div class="tabs" id="tabs"></div>
@@ -856,6 +892,18 @@ document.getElementById('shareBtn').addEventListener('click', async () => {
   } else {
     window.open('https://wa.me/?text=' + encodeURIComponent(text + ' ' + url), '_blank');
   }
+});
+
+// Atualizar na mão (além do refresh automático a cada 45s) — o ícone gira enquanto carrega.
+document.getElementById('refreshBtn').addEventListener('click', async () => {
+  const btn = document.getElementById('refreshBtn');
+  const icon = btn.querySelector('.qa-icon');
+  btn.disabled = true;
+  icon.classList.add('spinning');
+  document.getElementById('updated').textContent = 'Atualizando...';
+  await load();
+  icon.classList.remove('spinning');
+  btn.disabled = false;
 });
 
 // Botão flutuante de voltar ao topo — aparece depois de rolar uma tela.
