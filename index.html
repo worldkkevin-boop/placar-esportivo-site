@@ -64,7 +64,12 @@
     margin: 0 0 0.15rem;
     font-size: 1.15rem;
   }
-  .theme-toggle {
+  .header-actions {
+    display: flex;
+    gap: 0.5rem;
+    flex-shrink: 0;
+  }
+  .theme-toggle, .share-btn {
     flex-shrink: 0;
     background: var(--bg);
     border: 1px solid var(--border);
@@ -77,6 +82,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .today-games {
+    margin-bottom: 0.5rem;
+  }
+  .today-games .card {
+    border-color: rgba(59,130,246,0.35);
+  }
+  .today-game-stage {
+    font-size: 0.68rem;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.03rem;
+    font-weight: 800;
+    margin-top: 0.5rem;
+  }
+  .today-game-stage:first-child {
+    margin-top: 0;
   }
   .updated {
     color: var(--muted);
@@ -414,7 +436,10 @@
     <h1>🏆 Campeonato</h1>
     <div class="updated" id="updated">Carregando...</div>
   </div>
-  <button class="theme-toggle" id="themeToggle" title="Alternar tema claro/escuro">🌙</button>
+  <div class="header-actions">
+    <button class="share-btn" id="shareBtn" title="Compartilhar">📤</button>
+    <button class="theme-toggle" id="themeToggle" title="Alternar tema claro/escuro">🌙</button>
+  </div>
 </header>
 <div class="channel-card">
   <div class="channel-avatar-wrap">
@@ -437,6 +462,7 @@
     <div class="support-qr"><svg xmlns="http://www.w3.org/2000/svg" width="260" height="260" viewBox="0 0 31 31" shape-rendering="crispEdges"><path fill="#ffffff" d="M0 0h31v31H0z"/><path stroke="#0f172a" d="M1 1.5h7m1 0h2m2 0h1m2 0h2m1 0h1m3 0h7M1 2.5h1m5 0h1m1 0h1m2 0h1m4 0h2m1 0h1m2 0h1m5 0h1M1 3.5h1m1 0h3m1 0h1m1 0h1m1 0h3m2 0h2m1 0h2m2 0h1m1 0h3m1 0h1M1 4.5h1m1 0h3m1 0h1m3 0h1m1 0h1m3 0h2m1 0h2m1 0h1m1 0h3m1 0h1M1 5.5h1m1 0h3m1 0h1m1 0h2m2 0h1m1 0h3m2 0h1m2 0h1m1 0h3m1 0h1M1 6.5h1m5 0h1m2 0h2m4 0h2m1 0h1m3 0h1m5 0h1M1 7.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M13 8.5h2m1 0h2m1 0h1M1 9.5h1m2 0h7m1 0h1m1 0h1m3 0h1m1 0h3m2 0h1m1 0h3M3 10.5h1m10 0h1m2 0h4m3 0h2m1 0h2M3 11.5h2m2 0h1m2 0h3m1 0h1m1 0h4m7 0h1M3 12.5h1m5 0h3m2 0h1m2 0h2m2 0h2m2 0h2m2 0h1M1 13.5h2m2 0h3m3 0h1m1 0h2m1 0h2m2 0h5m4 0h1M2 14.5h5m1 0h1m1 0h3m1 0h2m1 0h3m3 0h7M1 15.5h2m3 0h4m1 0h1m2 0h1m2 0h2m1 0h2m3 0h1m1 0h1m1 0h1M2 16.5h1m1 0h2m4 0h1m1 0h2m2 0h1m2 0h3m5 0h1m1 0h1M2 17.5h2m1 0h1m1 0h1m1 0h2m1 0h1m2 0h1m1 0h1m2 0h2m4 0h1M1 18.5h3m5 0h1m1 0h1m2 0h2m1 0h1m1 0h3m3 0h1m1 0h2M1 19.5h3m2 0h2m2 0h2m1 0h1m2 0h1m1 0h3m1 0h2m1 0h2m2 0h1M1 20.5h2m1 0h3m1 0h1m3 0h2m1 0h1m3 0h1m2 0h2m2 0h2M1 21.5h2m2 0h1m1 0h1m1 0h3m2 0h5m2 0h8M9 22.5h1m5 0h1m2 0h2m1 0h1m3 0h2M1 23.5h7m1 0h5m1 0h1m4 0h2m1 0h1m1 0h2M1 24.5h1m5 0h1m1 0h2m1 0h1m2 0h2m1 0h1m2 0h1m3 0h1m3 0h1M1 25.5h1m1 0h3m1 0h1m1 0h2m1 0h4m2 0h9M1 26.5h1m1 0h3m1 0h1m1 0h1m1 0h1m6 0h2m1 0h2m5 0h1M1 27.5h1m1 0h3m1 0h1m3 0h1m3 0h2m1 0h1m2 0h2m1 0h2m1 0h3M1 28.5h1m5 0h1m4 0h4m1 0h3m2 0h1m2 0h3m1 0h1M1 29.5h7m1 0h1m1 0h2m1 0h3m1 0h1m1 0h2m1 0h4"/></svg></div>
   </a>
 </div>
+<div class="today-games" id="todayGames"></div>
 <div class="tabs" id="tabs"></div>
 <main id="main"></main>
 
@@ -665,6 +691,42 @@ function renderTabs() {
   });
 }
 
+// "YYYY-MM-DD" de hoje, no fuso do próprio aparelho de quem tá vendo — usado só pra achar os jogos
+// marcados pra hoje entre TODAS as categorias, sem precisar que o operador configure nada.
+function todayStr() {
+  const d = new Date();
+  const pad = (n) => String(n).padStart(2, '0');
+  return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate());
+}
+
+function renderTodayGames() {
+  const today = todayStr();
+  const games = [];
+  snapshot.categories.forEach((cat) => {
+    cat.groups.forEach((g) => {
+      g.matches.forEach((m) => {
+        if (m.date === today) games.push({ ...m, categoryName: cat.name, stage: g.name });
+      });
+    });
+    cat.knockout.forEach((r) => {
+      r.matches.forEach((m) => {
+        if (m.date === today) games.push({ ...m, categoryName: cat.name, stage: r.name });
+      });
+    });
+  });
+  games.sort((a, b) => (a.time || '').localeCompare(b.time || ''));
+
+  const el = document.getElementById('todayGames');
+  if (!games.length) { el.innerHTML = ''; return; }
+
+  let html = '<div class="section-title">📅 Jogos de Hoje</div><div class="card">';
+  games.forEach((m) => {
+    html += '<div class="today-game-stage">' + m.categoryName + ' · ' + m.stage + '</div>' + matchLine(m);
+  });
+  html += '</div>';
+  el.innerHTML = html;
+}
+
 async function load() {
   try {
     const res = await fetch('./data.json?t=' + Date.now(), { cache: 'no-store' });
@@ -672,10 +734,12 @@ async function load() {
     snapshot = await res.json();
     document.getElementById('updated').textContent = fmtUpdated(snapshot.generatedAt);
     if (!snapshot.categories || !snapshot.categories.length) {
+      document.getElementById('todayGames').innerHTML = '';
       document.getElementById('tabs').innerHTML = '';
       document.getElementById('main').innerHTML = '<div class="empty">O campeonato ainda não foi publicado. Volte mais tarde.</div>';
       return;
     }
+    renderTodayGames();
     if (!activeCategoryId || !snapshot.categories.some((c) => c.id === activeCategoryId)) {
       activeCategoryId = snapshot.categories[0].id;
     }
@@ -706,6 +770,18 @@ document.getElementById('themeToggle').addEventListener('click', () => {
   const current = document.documentElement.getAttribute('data-theme')
     || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
   applyTheme(current === 'light' ? 'dark' : 'light');
+});
+
+// Compartilhar: usa o menu nativo do celular (WhatsApp, Instagram etc. já aparecem sozinhos ali)
+// quando existe; sem isso (navegador de computador), cai direto num link do WhatsApp Web.
+document.getElementById('shareBtn').addEventListener('click', async () => {
+  const url = 'https://worldkkevin-boop.github.io/placar-esportivo-site/';
+  const text = '🏆 Acompanhe o campeonato ao vivo — grupos, confrontos e artilheiros:';
+  if (navigator.share) {
+    try { await navigator.share({ title: 'Campeonato', text, url }); } catch (_e) { /* usuário cancelou o compartilhamento */ }
+  } else {
+    window.open('https://wa.me/?text=' + encodeURIComponent(text + ' ' + url), '_blank');
+  }
 });
 
 load();
