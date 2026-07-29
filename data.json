@@ -1,5 +1,365 @@
 {
-  "generatedAt": null,
-  "scheduleDate": "",
-  "categories": []
+  "generatedAt": "2026-07-29T17:26:31.373Z",
+  "scheduleDate": "2026-07-31",
+  "categories": [
+    {
+      "id": "principal",
+      "name": "Principal (16 Times)",
+      "champion": null,
+      "groups": [
+        {
+          "name": "Grupo A",
+          "standings": [
+            {
+              "name": "ITÁLIA",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            },
+            {
+              "name": "ARÁBIA SAUDITA",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            },
+            {
+              "name": "VENEZUELA",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            },
+            {
+              "name": "SENEGAL",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            }
+          ],
+          "matches": []
+        },
+        {
+          "name": "Grupo B",
+          "standings": [
+            {
+              "name": "INGLATERRA",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            },
+            {
+              "name": "UGANDA",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            },
+            {
+              "name": "SUÉCIA",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            },
+            {
+              "name": "UCRÂNIA",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            }
+          ],
+          "matches": []
+        },
+        {
+          "name": "Grupo C",
+          "standings": [
+            {
+              "name": "PORTUGAL",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            },
+            {
+              "name": "GRÉCIA",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            },
+            {
+              "name": "COLÔMBIA",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            },
+            {
+              "name": "BRASIL",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            }
+          ],
+          "matches": []
+        },
+        {
+          "name": "Grupo D",
+          "standings": [
+            {
+              "name": "ARGENTINA",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            },
+            {
+              "name": "FRANÇA",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            },
+            {
+              "name": "GANA",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            },
+            {
+              "name": "HAITI",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            }
+          ],
+          "matches": []
+        }
+      ],
+      "knockout": [
+        {
+          "name": "Quartas de Final",
+          "matches": []
+        },
+        {
+          "name": "Semifinal",
+          "matches": []
+        },
+        {
+          "name": "Final",
+          "matches": []
+        }
+      ],
+      "topScorers": [],
+      "topCards": []
+    },
+    {
+      "id": "master",
+      "name": "Master (4 Times)",
+      "champion": null,
+      "groups": [
+        {
+          "name": "Grupo A",
+          "standings": [
+            {
+              "name": "GUATEMALA",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            },
+            {
+              "name": "ESCÓCIA",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            },
+            {
+              "name": "ESTADOS UNIDOS",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            },
+            {
+              "name": "ESPANHA",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            }
+          ],
+          "matches": []
+        }
+      ],
+      "knockout": [
+        {
+          "name": "Final",
+          "matches": []
+        }
+      ],
+      "topScorers": [],
+      "topCards": []
+    },
+    {
+      "id": "feminino",
+      "name": "Feminino (6 Times)",
+      "champion": null,
+      "groups": [
+        {
+          "name": "Grupo A",
+          "standings": [
+            {
+              "name": "SUÉCIA",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            },
+            {
+              "name": "FRANÇA",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            },
+            {
+              "name": "ESPANHA",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            }
+          ],
+          "matches": []
+        },
+        {
+          "name": "Grupo B",
+          "standings": [
+            {
+              "name": "PORTUGAL",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            },
+            {
+              "name": "HOLANDA",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            },
+            {
+              "name": "MINEKO",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            }
+          ],
+          "matches": []
+        }
+      ],
+      "knockout": [
+        {
+          "name": "Semi-final",
+          "matches": []
+        },
+        {
+          "name": "FINAL",
+          "matches": []
+        }
+      ],
+      "topScorers": [],
+      "topCards": []
+    }
+  ]
 }
