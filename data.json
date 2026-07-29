@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T17:32:19.137Z",
+  "generatedAt": "2026-07-29T17:52:22.904Z",
   "scheduleDate": "2026-07-31",
   "categories": [
     {
@@ -11,14 +11,14 @@
           "name": "Grupo A",
           "standings": [
             {
-              "name": "ITÁLIA",
-              "pj": 0,
-              "v": 0,
+              "name": "SENEGAL",
+              "pj": 1,
+              "v": 1,
               "e": 0,
               "d": 0,
-              "gp": 0,
-              "gc": 0,
-              "pts": 0
+              "gp": 5,
+              "gc": 3,
+              "pts": 3
             },
             {
               "name": "ARÁBIA SAUDITA",
@@ -41,34 +41,187 @@
               "pts": 0
             },
             {
-              "name": "SENEGAL",
-              "pj": 0,
+              "name": "ITÁLIA",
+              "pj": 1,
               "v": 0,
               "e": 0,
-              "d": 0,
-              "gp": 0,
-              "gc": 0,
+              "d": 1,
+              "gp": 3,
+              "gc": 5,
               "pts": 0
             }
           ],
           "matches": [
             {
+              "id": "id-1785346105165-15",
               "teamA": "ITÁLIA",
               "teamB": "SENEGAL",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
+              "scoreA": 3,
+              "scoreB": 5,
+              "played": true,
               "date": "2026-07-31",
-              "time": "19:00"
+              "time": "19:00",
+              "events": [
+                {
+                  "id": "id-1785347398754-14",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "34",
+                  "name": "TESNFCUJA",
+                  "assistNumber": "342",
+                  "assistName": "EFWE",
+                  "period": 1,
+                  "clockElapsed": 0
+                },
+                {
+                  "id": "id-1785347398934-16",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "342",
+                  "name": "EFWE",
+                  "assistNumber": "543",
+                  "assistName": "DFDSV",
+                  "period": 1,
+                  "clockElapsed": 0
+                },
+                {
+                  "id": "id-1785347399114-18",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "543",
+                  "name": "DFDSV",
+                  "assistNumber": "34",
+                  "assistName": "TESNFCUJA",
+                  "period": 1,
+                  "clockElapsed": 0
+                },
+                {
+                  "id": "id-1785347399878-20",
+                  "type": "goal",
+                  "teamName": "SENEGAL",
+                  "number": "123",
+                  "name": "3RDFDF",
+                  "assistNumber": null,
+                  "assistName": null,
+                  "period": 1,
+                  "clockElapsed": 0
+                },
+                {
+                  "id": "id-1785347400082-22",
+                  "type": "goal",
+                  "teamName": "SENEGAL",
+                  "number": "556",
+                  "name": "EFGEDG",
+                  "assistNumber": null,
+                  "assistName": null,
+                  "period": 1,
+                  "clockElapsed": 0
+                },
+                {
+                  "id": "id-1785347400284-24",
+                  "type": "goal",
+                  "teamName": "SENEGAL",
+                  "number": "123",
+                  "name": "3RDFDF",
+                  "assistNumber": "556",
+                  "assistName": "EFGEDG",
+                  "period": 1,
+                  "clockElapsed": 0
+                },
+                {
+                  "id": "id-1785347400502-26",
+                  "type": "goal",
+                  "teamName": "SENEGAL",
+                  "number": "556",
+                  "name": "EFGEDG",
+                  "assistNumber": null,
+                  "assistName": null,
+                  "period": 1,
+                  "clockElapsed": 0
+                },
+                {
+                  "id": "id-1785347400674-28",
+                  "type": "goal",
+                  "teamName": "SENEGAL",
+                  "number": "123",
+                  "name": "3RDFDF",
+                  "assistNumber": "556",
+                  "assistName": "EFGEDG",
+                  "period": 1,
+                  "clockElapsed": 0
+                },
+                {
+                  "id": "id-1785347401702-30",
+                  "type": "yellow",
+                  "teamName": "SENEGAL",
+                  "number": "123",
+                  "name": "3RDFDF",
+                  "assistNumber": null,
+                  "assistName": null,
+                  "period": 1,
+                  "clockElapsed": 0,
+                  "paid": false
+                },
+                {
+                  "id": "id-1785347401867-32",
+                  "type": "yellow",
+                  "teamName": "SENEGAL",
+                  "number": "435",
+                  "name": "4FGS",
+                  "assistNumber": null,
+                  "assistName": null,
+                  "period": 1,
+                  "clockElapsed": 0,
+                  "paid": false
+                },
+                {
+                  "id": "id-1785347402361-34",
+                  "type": "red",
+                  "teamName": "ITÁLIA",
+                  "number": "543",
+                  "name": "DFDSV",
+                  "assistNumber": null,
+                  "assistName": null,
+                  "period": 1,
+                  "clockElapsed": 0,
+                  "paid": false
+                },
+                {
+                  "id": "id-1785347402917-36",
+                  "type": "yellow",
+                  "teamName": "ITÁLIA",
+                  "number": "543",
+                  "name": "DFDSV",
+                  "assistNumber": null,
+                  "assistName": null,
+                  "period": 1,
+                  "clockElapsed": 0,
+                  "paid": false
+                },
+                {
+                  "id": "id-1785347403089-38",
+                  "type": "yellow",
+                  "teamName": "ITÁLIA",
+                  "number": "342",
+                  "name": "EFWE",
+                  "assistNumber": null,
+                  "assistName": null,
+                  "period": 1,
+                  "clockElapsed": 0,
+                  "paid": false
+                }
+              ]
             },
             {
+              "id": "id-1785346108337-17",
               "teamA": "VENEZUELA",
               "teamB": "ARÁBIA SAUDITA",
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
               "date": "",
-              "time": ""
+              "time": "",
+              "events": []
             }
           ]
         },
@@ -225,8 +378,73 @@
           "matches": []
         }
       ],
-      "topScorers": [],
-      "topCards": []
+      "topScorers": [
+        {
+          "teamName": "SENEGAL",
+          "number": "123",
+          "name": "3RDFDF",
+          "goals": 3,
+          "assists": 0
+        },
+        {
+          "teamName": "SENEGAL",
+          "number": "556",
+          "name": "EFGEDG",
+          "goals": 2,
+          "assists": 2
+        },
+        {
+          "teamName": "ITÁLIA",
+          "number": "543",
+          "name": "DFDSV",
+          "goals": 1,
+          "assists": 1
+        },
+        {
+          "teamName": "ITÁLIA",
+          "number": "342",
+          "name": "EFWE",
+          "goals": 1,
+          "assists": 1
+        },
+        {
+          "teamName": "ITÁLIA",
+          "number": "34",
+          "name": "TESNFCUJA",
+          "goals": 1,
+          "assists": 1
+        }
+      ],
+      "topCards": [
+        {
+          "teamName": "ITÁLIA",
+          "number": "543",
+          "name": "DFDSV",
+          "yellow": 1,
+          "red": 1
+        },
+        {
+          "teamName": "SENEGAL",
+          "number": "123",
+          "name": "3RDFDF",
+          "yellow": 1,
+          "red": 0
+        },
+        {
+          "teamName": "SENEGAL",
+          "number": "435",
+          "name": "4FGS",
+          "yellow": 1,
+          "red": 0
+        },
+        {
+          "teamName": "ITÁLIA",
+          "number": "342",
+          "name": "EFWE",
+          "yellow": 1,
+          "red": 0
+        }
+      ]
     },
     {
       "id": "master",
@@ -279,13 +497,15 @@
           ],
           "matches": [
             {
+              "id": "id-1785346114523-19",
               "teamA": "GUATEMALA",
               "teamB": "ESPANHA",
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
               "date": "",
-              "time": ""
+              "time": "",
+              "events": []
             }
           ]
         }
@@ -340,13 +560,15 @@
           ],
           "matches": [
             {
+              "id": "id-1785346118858-21",
               "teamA": "FRANÇA",
               "teamB": "SUÉCIA",
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
               "date": "",
-              "time": ""
+              "time": "",
+              "events": []
             }
           ]
         },
