@@ -176,6 +176,34 @@
     font-size: 0.75rem;
     white-space: nowrap;
   }
+  .match-score-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.15rem;
+  }
+  .match-date {
+    color: var(--muted);
+    font-size: 0.65rem;
+    white-space: nowrap;
+  }
+  .team-match-row.clickable {
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.15s ease;
+  }
+  .team-match-row.clickable:hover {
+    background: rgba(59,130,246,0.06);
+  }
+  .team-match-hint {
+    display: block;
+    text-align: center;
+    font-size: 0.68rem;
+    color: var(--accent);
+    font-weight: 700;
+    margin-top: -0.2rem;
+    padding-bottom: 0.2rem;
+  }
   .champion-banner {
     background: linear-gradient(135deg, rgba(250,204,21,0.15), rgba(250,204,21,0.03));
     border: 1px solid rgba(250,204,21,0.4);
@@ -305,9 +333,12 @@
     margin-top: 0.5rem;
     padding-top: 0.5rem;
     border-top: 1px dashed var(--border);
-    display: flex;
+    display: none;
     flex-direction: column;
     gap: 0.3rem;
+  }
+  .team-match-events.open {
+    display: flex;
   }
   .event-line {
     font-size: 0.78rem;
@@ -398,11 +429,12 @@ function fmtUpdated(iso) {
 
 function matchLine(m) {
   const pending = !m.played;
+  const dateLabel = m.date ? (formatDate(m.date) + (m.time ? ' ' + m.time : '')) : '';
   return '<div class="match-row">' +
     '<span class="match-team">' + teamLabel(m.teamA) + '</span>' +
     (pending
-      ? '<span class="match-pending">' + (m.date ? (formatDate(m.date) + (m.time ? ' ' + m.time : '')) : 'a definir') + '</span>'
-      : '<span class="match-score">' + m.scoreA + ' x ' + m.scoreB + (m.penA != null ? ' (pen. ' + m.penA + 'x' + m.penB + ')' : '') + '</span>') +
+      ? '<span class="match-pending">' + (dateLabel || 'a definir') + '</span>'
+      : '<span class="match-score-wrap"><span class="match-score">' + m.scoreA + ' x ' + m.scoreB + (m.penA != null ? ' (pen. ' + m.penA + 'x' + m.penB + ')' : '') + '</span>' + (dateLabel ? '<span class="match-date">' + dateLabel + '</span>' : '') + '</span>') +
     '<span class="match-team right">' + teamLabel(m.teamB) + '</span>' +
     '</div>';
 }
@@ -448,10 +480,15 @@ function renderTeamView(cat, teamName) {
   if (!matches.length) {
     html += '<div class="empty">Nenhum confronto encontrado pra esse time ainda.</div>';
   } else {
-    matches.forEach((m) => {
-      html += '<div class="card"><div class="team-match-stage">' + m.stage + '</div>' + matchLine(m);
-      if (m.played && (m.events || []).length) {
-        html += '<div class="team-match-events">' + m.events.map(eventLine).join('') + '</div>';
+    matches.forEach((m, idx) => {
+      const hasEvents = m.played && (m.events || []).length > 0;
+      html += '<div class="card"><div class="team-match-stage">' + m.stage + '</div>';
+      html += '<div class="' + (hasEvents ? 'team-match-row clickable' : 'team-match-row') + '"' + (hasEvents ? ' data-idx="' + idx + '"' : '') + '>';
+      html += matchLine(m);
+      if (hasEvents) html += '<span class="team-match-hint">Toque pra ver a súmula ▾</span>';
+      html += '</div>';
+      if (hasEvents) {
+        html += '<div class="team-match-events" id="events-' + idx + '">' + m.events.map(eventLine).join('') + '</div>';
       }
       html += '</div>';
     });
@@ -461,6 +498,14 @@ function renderTeamView(cat, teamName) {
   document.getElementById('backBtn').addEventListener('click', () => {
     selectedTeam = null;
     renderCategory(cat);
+  });
+  document.querySelectorAll('.team-match-row.clickable').forEach((row) => {
+    row.addEventListener('click', () => {
+      const evEl = document.getElementById('events-' + row.dataset.idx);
+      const hint = row.querySelector('.team-match-hint');
+      const nowOpen = evEl.classList.toggle('open');
+      if (hint) hint.textContent = nowOpen ? 'Toque pra fechar ▴' : 'Toque pra ver a súmula ▾';
+    });
   });
 }
 
