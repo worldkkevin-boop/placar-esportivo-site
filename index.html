@@ -173,6 +173,61 @@
   }
   tr:last-child td { border-bottom: none; }
   tr:first-child td { font-weight: 800; color: var(--gold); }
+  /* Zona de classificação: os 2 primeiros de cada grupo */
+  tr.q td { background: rgba(16,185,129,0.07); }
+  tr.q td:first-child { border-left: 3px solid var(--green); }
+  .table-legend {
+    margin-top: 0.4rem;
+    font-size: 0.68rem;
+    font-weight: 700;
+    color: var(--green);
+  }
+  /* Chips de atalho pra pular direto a cada seção da página */
+  .jump-row {
+    display: flex;
+    gap: 0.4rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 0.3rem;
+    margin-bottom: 0.5rem;
+  }
+  .jump-chip {
+    flex: 0 0 auto;
+    background: var(--card);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 0.35rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .section-title { scroll-margin-top: 4.5rem; }
+  /* Vencedor em destaque nos confrontos já jogados */
+  .match-team.winner { font-weight: 800; }
+  .match-team.loser { color: var(--muted); }
+  /* Botão flutuante de voltar ao topo (a página fica longa no celular) */
+  #topBtn {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    z-index: 20;
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 50%;
+    border: 1px solid var(--border);
+    background: var(--accent);
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease;
+  }
+  #topBtn.show { opacity: 1; pointer-events: auto; }
   .match-row {
     display: flex;
     align-items: center;
@@ -465,6 +520,7 @@
 <div class="today-games" id="todayGames"></div>
 <div class="tabs" id="tabs"></div>
 <main id="main"></main>
+<button id="topBtn" title="Voltar ao topo">↑</button>
 
 <script>
 let snapshot = null;
@@ -516,12 +572,20 @@ function fmtUpdated(iso) {
 function matchLine(m) {
   const pending = !m.played;
   const dateLabel = m.date ? (formatDate(m.date) + (m.time ? ' ' + m.time : '')) : '';
+  // Quem venceu fica em negrito e o perdedor esmaece (considerando pênaltis no empate).
+  let clsA = 'match-team', clsB = 'match-team right';
+  if (!pending) {
+    const aWins = m.scoreA !== m.scoreB ? m.scoreA > m.scoreB : (m.penA != null && m.penA > m.penB);
+    const bWins = m.scoreA !== m.scoreB ? m.scoreB > m.scoreA : (m.penB != null && m.penB > m.penA);
+    if (aWins) { clsA += ' winner'; clsB += ' loser'; }
+    else if (bWins) { clsB += ' winner'; clsA += ' loser'; }
+  }
   return '<div class="match-row">' +
-    '<span class="match-team">' + teamLabel(m.teamA) + '</span>' +
+    '<span class="' + clsA + '">' + teamLabel(m.teamA) + '</span>' +
     (pending
       ? '<span class="match-pending">' + (dateLabel || 'a definir') + '</span>'
       : '<span class="match-score-wrap"><span class="match-score">' + m.scoreA + ' x ' + m.scoreB + (m.penA != null ? ' (pen. ' + m.penA + 'x' + m.penB + ')' : '') + '</span>' + (dateLabel ? '<span class="match-date">' + dateLabel + '</span>' : '') + '</span>') +
-    '<span class="match-team right">' + teamLabel(m.teamB) + '</span>' +
+    '<span class="' + clsB + '">' + teamLabel(m.teamB) + '</span>' +
     '</div>';
 }
 
@@ -608,7 +672,16 @@ function renderCategory(cat) {
     html += '<div class="champion-banner">🏆 CAMPEÃO: ' + teamLabel(cat.champion.champion) + '<br><span style="font-weight:400;font-size:0.8rem;">Vice: ' + teamLabel(cat.champion.runnerUp) + '</span></div>';
   }
 
-  html += '<div class="section-title">Classificação</div>';
+  // Atalhos pra pular direto a cada seção (a página fica longa no celular)
+  html += '<div class="jump-row">' +
+    '<a class="jump-chip" href="#sec-class">📊 Classificação</a>' +
+    '<a class="jump-chip" href="#sec-conf">⚔️ Confrontos</a>' +
+    '<a class="jump-chip" href="#sec-mata">🏟️ Mata-mata</a>' +
+    (cat.topScorers.length ? '<a class="jump-chip" href="#sec-art">⚽ Artilheiros</a>' : '') +
+    (cat.topCards.length ? '<a class="jump-chip" href="#sec-cards">🟨 Cartões</a>' : '') +
+    '</div>';
+
+  html += '<div class="section-title" id="sec-class">Classificação</div>';
   if (!cat.groups.length) {
     html += '<div class="empty">Nenhum grupo cadastrado ainda.</div>';
   }
@@ -618,15 +691,16 @@ function renderCategory(cat) {
       html += '<div class="empty">Sem times ainda.</div>';
     } else {
       html += '<table><thead><tr><th>Time</th><th>PJ</th><th>V</th><th>E</th><th>D</th><th>SG</th><th>Pts</th></tr></thead><tbody>';
-      g.standings.forEach((t) => {
-        html += '<tr><td>' + teamLabel(t.name) + '</td><td>' + t.pj + '</td><td>' + t.v + '</td><td>' + t.e + '</td><td>' + t.d + '</td><td>' + (t.gp - t.gc) + '</td><td>' + t.pts + '</td></tr>';
+      g.standings.forEach((t, idx) => {
+        html += '<tr' + (idx < 2 ? ' class="q"' : '') + '><td>' + teamLabel(t.name) + '</td><td>' + t.pj + '</td><td>' + t.v + '</td><td>' + t.e + '</td><td>' + t.d + '</td><td>' + (t.gp - t.gc) + '</td><td>' + t.pts + '</td></tr>';
       });
       html += '</tbody></table>';
+      html += '<div class="table-legend">▎Os 2 primeiros se classificam</div>';
     }
     html += '</div>';
   });
 
-  html += '<div class="section-title">Confrontos</div>';
+  html += '<div class="section-title" id="sec-conf">Confrontos</div>';
   cat.groups.forEach((g) => {
     if (!g.matches.length) return;
     html += '<div class="card"><h3>' + g.name + '</h3>';
@@ -637,7 +711,7 @@ function renderCategory(cat) {
     html += '<div class="empty">Nenhum confronto sorteado ainda.</div>';
   }
 
-  html += '<div class="section-title">Mata-mata</div>';
+  html += '<div class="section-title" id="sec-mata">Mata-mata</div>';
   const hasKnockout = cat.knockout.some((r) => r.matches.length);
   if (!hasKnockout) {
     html += '<div class="empty">Ainda não começou.</div>';
@@ -651,7 +725,7 @@ function renderCategory(cat) {
   }
 
   if (cat.topScorers.length) {
-    html += '<div class="section-title">⚽ Artilheiros</div><div class="card"><table><thead><tr><th>Jogador</th><th>Time</th><th>Gols</th><th>Assist.</th></tr></thead><tbody>';
+    html += '<div class="section-title" id="sec-art">⚽ Artilheiros</div><div class="card"><table><thead><tr><th>Jogador</th><th>Time</th><th>Gols</th><th>Assist.</th></tr></thead><tbody>';
     cat.topScorers.forEach((p) => {
       html += '<tr><td>' + (p.number ? 'Nº ' + p.number + ' ' : '') + p.name + '</td><td>' + teamLabel(p.teamName) + '</td><td>' + p.goals + '</td><td>' + p.assists + '</td></tr>';
     });
@@ -659,7 +733,7 @@ function renderCategory(cat) {
   }
 
   if (cat.topCards.length) {
-    html += '<div class="section-title">🟨🟥 Cartões</div><div class="card"><table><thead><tr><th>Jogador</th><th>Time</th><th>Am.</th><th>Verm.</th></tr></thead><tbody>';
+    html += '<div class="section-title" id="sec-cards">🟨🟥 Cartões</div><div class="card"><table><thead><tr><th>Jogador</th><th>Time</th><th>Am.</th><th>Verm.</th></tr></thead><tbody>';
     cat.topCards.forEach((p) => {
       html += '<tr><td>' + (p.number ? 'Nº ' + p.number + ' ' : '') + p.name + '</td><td>' + teamLabel(p.teamName) + '</td><td>' + p.yellow + '</td><td>' + p.red + '</td></tr>';
     });
@@ -783,6 +857,13 @@ document.getElementById('shareBtn').addEventListener('click', async () => {
     window.open('https://wa.me/?text=' + encodeURIComponent(text + ' ' + url), '_blank');
   }
 });
+
+// Botão flutuante de voltar ao topo — aparece depois de rolar uma tela.
+const topBtn = document.getElementById('topBtn');
+window.addEventListener('scroll', () => {
+  topBtn.classList.toggle('show', window.scrollY > window.innerHeight);
+}, { passive: true });
+topBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
 
 load();
 setInterval(load, 45000);
