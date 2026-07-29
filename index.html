@@ -167,6 +167,65 @@
     font-size: 0.85rem;
     margin-bottom: 1rem;
   }
+  .channel-card {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 0.7rem 1rem;
+    background: var(--card);
+    border-bottom: 1px solid var(--border);
+  }
+  .channel-avatar-wrap {
+    position: relative;
+    width: 42px;
+    height: 42px;
+    flex-shrink: 0;
+  }
+  .channel-avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+  }
+  .channel-avatar-fallback {
+    display: none;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #3b82f6, #1e293b);
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .channel-info {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .channel-name {
+    font-weight: 800;
+    font-size: 0.95rem;
+  }
+  .channel-sub {
+    font-size: 0.7rem;
+    color: var(--muted);
+  }
+  .channel-live-btn {
+    flex-shrink: 0;
+    background: #ff0000;
+    color: white;
+    font-weight: 800;
+    font-size: 0.75rem;
+    padding: 0.5rem 0.9rem;
+    border-radius: 999px;
+    text-decoration: none;
+    white-space: nowrap;
+  }
 </style>
 </head>
 <body>
@@ -174,6 +233,17 @@
   <h1>🏆 Campeonato</h1>
   <div class="updated" id="updated">Carregando...</div>
 </header>
+<div class="channel-card">
+  <div class="channel-avatar-wrap">
+    <img src="channel-avatar.png" alt="TV Kevinho" class="channel-avatar" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+    <div class="channel-avatar-fallback">🎙️</div>
+  </div>
+  <div class="channel-info">
+    <span class="channel-name">TV Kevinho</span>
+    <span class="channel-sub">Cobertura completa do campeonato</span>
+  </div>
+  <a href="https://www.youtube.com/@TVkevinho/live" target="_blank" rel="noreferrer" class="channel-live-btn">🔴 Assista ao Vivo</a>
+</div>
 <div class="tabs" id="tabs"></div>
 <main id="main"></main>
 
