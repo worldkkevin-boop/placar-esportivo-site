@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T23:09:32.617Z",
+  "generatedAt": "2026-07-29T23:11:59.601Z",
   "scheduleDate": "2026-07-31",
   "categories": [
     {
@@ -12,26 +12,26 @@
           "standings": [
             {
               "name": "ITÁLIA",
-              "pj": 0,
+              "pj": 1,
               "v": 0,
-              "e": 0,
+              "e": 1,
               "d": 0,
               "gp": 0,
               "gc": 0,
-              "pts": 0
-            },
-            {
-              "name": "ARÁBIA SAUDITA",
-              "pj": 0,
-              "v": 0,
-              "e": 0,
-              "d": 0,
-              "gp": 0,
-              "gc": 0,
-              "pts": 0
+              "pts": 1
             },
             {
               "name": "VENEZUELA",
+              "pj": 1,
+              "v": 0,
+              "e": 1,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 1
+            },
+            {
+              "name": "ARÁBIA SAUDITA",
               "pj": 0,
               "v": 0,
               "e": 0,
@@ -58,10 +58,40 @@
               "teamB": "VENEZUELA",
               "scoreA": 0,
               "scoreB": 0,
-              "played": false,
+              "played": true,
               "date": "2026-07-29",
               "time": "",
-              "events": []
+              "events": [
+                {
+                  "id": "manual-1785366689076-rmyps",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "34",
+                  "name": "TESNFCUJA",
+                  "assistNumber": "342",
+                  "assistName": "EFWE"
+                },
+                {
+                  "id": "manual-1785366697828-13b50",
+                  "type": "red",
+                  "teamName": "ITÁLIA",
+                  "number": "543",
+                  "name": "DFDSV",
+                  "assistNumber": null,
+                  "assistName": null,
+                  "paid": false
+                },
+                {
+                  "id": "manual-1785366703581-rhjip",
+                  "type": "yellow",
+                  "teamName": "ITÁLIA",
+                  "number": "34",
+                  "name": "TESNFCUJA",
+                  "assistNumber": null,
+                  "assistName": null,
+                  "paid": false
+                }
+              ]
             },
             {
               "id": "id-1785365531283-17",
@@ -273,8 +303,38 @@
           "matches": []
         }
       ],
-      "topScorers": [],
-      "topCards": []
+      "topScorers": [
+        {
+          "teamName": "ITÁLIA",
+          "number": "34",
+          "name": "TESNFCUJA",
+          "goals": 1,
+          "assists": 0
+        },
+        {
+          "teamName": "ITÁLIA",
+          "number": "342",
+          "name": "EFWE",
+          "goals": 0,
+          "assists": 1
+        }
+      ],
+      "topCards": [
+        {
+          "teamName": "ITÁLIA",
+          "number": "543",
+          "name": "DFDSV",
+          "yellow": 0,
+          "red": 1
+        },
+        {
+          "teamName": "ITÁLIA",
+          "number": "34",
+          "name": "TESNFCUJA",
+          "yellow": 1,
+          "red": 0
+        }
+      ]
     },
     {
       "id": "master",
