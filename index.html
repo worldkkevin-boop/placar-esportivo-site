@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Campeonato — Acompanhe</title>
+<style>
+  :root {
+    --bg: #0b1120;
+    --card: #0f172a;
+    --border: rgba(255,255,255,0.08);
+    --text: #e2e8f0;
+    --muted: #64748b;
+    --accent: #3b82f6;
+    --gold: #facc15;
+    --green: #10b981;
+    --red: #ef4444;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f1f5f9;
+      --card: #ffffff;
+      --border: rgba(15,23,42,0.1);
+      --text: #0f172a;
+      --muted: #64748b;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    padding-bottom: 2rem;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--card);
+    border-bottom: 1px solid var(--border);
+    padding: 0.9rem 1rem 0.7rem;
+  }
+  h1 {
+    margin: 0 0 0.15rem;
+    font-size: 1.15rem;
+  }
+  .updated {
+    color: var(--muted);
+    font-size: 0.75rem;
+  }
+  .tabs {
+    display: flex;
+    gap: 0.4rem;
+    overflow-x: auto;
+    padding: 0.7rem 1rem 0;
+    -webkit-overflow-scrolling: touch;
+  }
+  .tab {
+    flex: 0 0 auto;
+    background: var(--card);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 0.45rem 0.9rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .tab.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: white;
+  }
+  main {
+    padding: 1rem;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  .section-title {
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 1.25rem 0 0.5rem;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.8rem 0.9rem;
+    margin-bottom: 0.7rem;
+  }
+  .card h3 {
+    margin: 0 0 0.5rem;
+    font-size: 0.95rem;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.82rem;
+  }
+  th, td {
+    text-align: left;
+    padding: 0.3rem 0.35rem;
+  }
+  th {
+    color: var(--muted);
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03rem;
+    border-bottom: 1px solid var(--border);
+  }
+  td {
+    border-bottom: 1px solid var(--border);
+  }
+  tr:last-child td { border-bottom: none; }
+  tr:first-child td { font-weight: 800; color: var(--gold); }
+  .match-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding: 0.4rem 0;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.88rem;
+  }
+  .match-row:last-child { border-bottom: none; }
+  .match-team { flex: 1; }
+  .match-team.right { text-align: right; }
+  .match-score {
+    font-weight: 800;
+    padding: 0.15rem 0.6rem;
+    border-radius: 6px;
+    background: rgba(59,130,246,0.12);
+    color: var(--accent);
+    white-space: nowrap;
+  }
+  .match-pending {
+    color: var(--muted);
+    font-size: 0.75rem;
+    white-space: nowrap;
+  }
+  .champion-banner {
+    background: linear-gradient(135deg, rgba(250,204,21,0.15), rgba(250,204,21,0.03));
+    border: 1px solid rgba(250,204,21,0.4);
+    border-radius: 10px;
+    padding: 0.9rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: 800;
+    color: var(--gold);
+  }
+  .empty {
+    color: var(--muted);
+    font-size: 0.85rem;
+    padding: 0.5rem 0;
+  }
+  .error-banner {
+    background: rgba(239,68,68,0.1);
+    border: 1px solid rgba(239,68,68,0.35);
+    color: var(--red);
+    border-radius: 8px;
+    padding: 0.7rem 0.9rem;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>🏆 Campeonato</h1>
+  <div class="updated" id="updated">Carregando...</div>
+</header>
+<div class="tabs" id="tabs"></div>
+<main id="main"></main>
+
+<script>
+let snapshot = null;
+let activeCategoryId = null;
+
+function fmtUpdated(iso) {
+  if (!iso) return 'Ainda não publicado';
+  const d = new Date(iso);
+  return 'Atualizado em ' + d.toLocaleDateString('pt-BR') + ' às ' + d.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
+}
+
+function matchLine(m) {
+  const pending = !m.played;
+  return '<div class="match-row">' +
+    '<span class="match-team">' + m.teamA + '</span>' +
+    (pending
+      ? '<span class="match-pending">' + (m.date ? (formatDate(m.date) + (m.time ? ' ' + m.time : '')) : 'a definir') + '</span>'
+      : '<span class="match-score">' + m.scoreA + ' x ' + m.scoreB + (m.penA != null ? ' (pen. ' + m.penA + 'x' + m.penB + ')' : '') + '</span>') +
+    '<span class="match-team right">' + m.teamB + '</span>' +
+    '</div>';
+}
+
+function formatDate(d) {
+  const parts = (d || '').split('-');
+  if (parts.length !== 3) return d;
+  return parts[2] + '/' + parts[1];
+}
+
+function renderCategory(cat) {
+  let html = '';
+
+  if (cat.champion) {
+    html += '<div class="champion-banner">🏆 CAMPEÃO: ' + cat.champion.champion + '<br><span style="font-weight:400;font-size:0.8rem;">Vice: ' + cat.champion.runnerUp + '</span></div>';
+  }
+
+  html += '<div class="section-title">Classificação</div>';
+  if (!cat.groups.length) {
+    html += '<div class="empty">Nenhum grupo cadastrado ainda.</div>';
+  }
+  cat.groups.forEach((g) => {
+    html += '<div class="card"><h3>' + g.name + '</h3>';
+    if (!g.standings.length) {
+      html += '<div class="empty">Sem times ainda.</div>';
+    } else {
+      html += '<table><thead><tr><th>Time</th><th>PJ</th><th>V</th><th>E</th><th>D</th><th>SG</th><th>Pts</th></tr></thead><tbody>';
+      g.standings.forEach((t) => {
+        html += '<tr><td>' + t.name + '</td><td>' + t.pj + '</td><td>' + t.v + '</td><td>' + t.e + '</td><td>' + t.d + '</td><td>' + (t.gp - t.gc) + '</td><td>' + t.pts + '</td></tr>';
+      });
+      html += '</tbody></table>';
+    }
+    html += '</div>';
+  });
+
+  html += '<div class="section-title">Confrontos</div>';
+  cat.groups.forEach((g) => {
+    if (!g.matches.length) return;
+    html += '<div class="card"><h3>' + g.name + '</h3>';
+    g.matches.forEach((m) => { html += matchLine(m); });
+    html += '</div>';
+  });
+  if (cat.groups.every((g) => !g.matches.length)) {
+    html += '<div class="empty">Nenhum confronto sorteado ainda.</div>';
+  }
+
+  html += '<div class="section-title">Mata-mata</div>';
+  const hasKnockout = cat.knockout.some((r) => r.matches.length);
+  if (!hasKnockout) {
+    html += '<div class="empty">Ainda não começou.</div>';
+  } else {
+    cat.knockout.forEach((r) => {
+      if (!r.matches.length) return;
+      html += '<div class="card"><h3>' + r.name + '</h3>';
+      r.matches.forEach((m) => { html += matchLine(m); });
+      html += '</div>';
+    });
+  }
+
+  if (cat.topScorers.length) {
+    html += '<div class="section-title">⚽ Artilheiros</div><div class="card"><table><thead><tr><th>Jogador</th><th>Time</th><th>Gols</th><th>Assist.</th></tr></thead><tbody>';
+    cat.topScorers.forEach((p) => {
+      html += '<tr><td>' + (p.number ? 'Nº ' + p.number + ' ' : '') + p.name + '</td><td>' + p.teamName + '</td><td>' + p.goals + '</td><td>' + p.assists + '</td></tr>';
+    });
+    html += '</tbody></table></div>';
+  }
+
+  if (cat.topCards.length) {
+    html += '<div class="section-title">🟨🟥 Cartões</div><div class="card"><table><thead><tr><th>Jogador</th><th>Time</th><th>Am.</th><th>Verm.</th></tr></thead><tbody>';
+    cat.topCards.forEach((p) => {
+      html += '<tr><td>' + (p.number ? 'Nº ' + p.number + ' ' : '') + p.name + '</td><td>' + p.teamName + '</td><td>' + p.yellow + '</td><td>' + p.red + '</td></tr>';
+    });
+    html += '</tbody></table></div>';
+  }
+
+  document.getElementById('main').innerHTML = html;
+}
+
+function renderTabs() {
+  const tabs = document.getElementById('tabs');
+  tabs.innerHTML = snapshot.categories.map((c) =>
+    '<button class="tab ' + (c.id === activeCategoryId ? 'active' : '') + '" data-id="' + c.id + '">' + c.name + '</button>'
+  ).join('');
+  tabs.querySelectorAll('.tab').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      activeCategoryId = btn.dataset.id;
+      renderTabs();
+      const cat = snapshot.categories.find((c) => c.id === activeCategoryId);
+      if (cat) renderCategory(cat);
+    });
+  });
+}
+
+async function load() {
+  try {
+    const res = await fetch('./data.json?t=' + Date.now(), { cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    snapshot = await res.json();
+    document.getElementById('updated').textContent = fmtUpdated(snapshot.generatedAt);
+    if (!snapshot.categories || !snapshot.categories.length) {
+      document.getElementById('tabs').innerHTML = '';
+      document.getElementById('main').innerHTML = '<div class="empty">O campeonato ainda não foi publicado. Volte mais tarde.</div>';
+      return;
+    }
+    if (!activeCategoryId || !snapshot.categories.some((c) => c.id === activeCategoryId)) {
+      activeCategoryId = snapshot.categories[0].id;
+    }
+    renderTabs();
+    renderCategory(snapshot.categories.find((c) => c.id === activeCategoryId));
+  } catch (err) {
+    document.getElementById('main').innerHTML = '<div class="error-banner">Não deu pra carregar os dados agora. Puxe a tela pra baixo pra tentar de novo.</div>';
+  }
+}
+
+load();
+setInterval(load, 45000);
+</script>
+</body>
+</html>
