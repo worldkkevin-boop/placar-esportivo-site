@@ -25,6 +25,21 @@
       --muted: #64748b;
     }
   }
+  /* Escolha manual do tema (botão no header) sempre vence o padrão do sistema, nos dois sentidos. */
+  :root[data-theme="dark"] {
+    --bg: #0b1120;
+    --card: #0f172a;
+    --border: rgba(255,255,255,0.08);
+    --text: #e2e8f0;
+    --muted: #64748b;
+  }
+  :root[data-theme="light"] {
+    --bg: #f1f5f9;
+    --card: #ffffff;
+    --border: rgba(15,23,42,0.1);
+    --text: #0f172a;
+    --muted: #64748b;
+  }
   * { box-sizing: border-box; }
   body {
     margin: 0;
@@ -40,10 +55,28 @@
     background: var(--card);
     border-bottom: 1px solid var(--border);
     padding: 0.9rem 1rem 0.7rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.5rem;
   }
   h1 {
     margin: 0 0 0.15rem;
     font-size: 1.15rem;
+  }
+  .theme-toggle {
+    flex-shrink: 0;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .updated {
     color: var(--muted);
@@ -226,16 +259,85 @@
     text-decoration: none;
     white-space: nowrap;
   }
+  .team-select-row {
+    margin-bottom: 1rem;
+  }
+  .team-select {
+    width: 100%;
+    background: var(--card);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 0.6rem 0.7rem;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .team-view-header {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    margin-bottom: 1rem;
+  }
+  .team-view-header h2 {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+  .back-btn {
+    background: var(--card);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 0.4rem 0.7rem;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .team-match-stage {
+    font-size: 0.7rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.03rem;
+    font-weight: 800;
+    margin-bottom: 0.3rem;
+  }
+  .team-match-events {
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px dashed var(--border);
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  .event-line {
+    font-size: 0.78rem;
+  }
+  .event-minute {
+    display: inline-block;
+    font-size: 0.65rem;
+    font-weight: 800;
+    color: var(--muted);
+    background: rgba(100,116,139,0.15);
+    border-radius: 4px;
+    padding: 0.05rem 0.3rem;
+    margin-right: 0.3rem;
+  }
+  .event-team {
+    color: var(--muted);
+  }
 </style>
 </head>
 <body>
 <header>
-  <h1>🏆 Campeonato</h1>
-  <div class="updated" id="updated">Carregando...</div>
+  <div>
+    <h1>🏆 Campeonato</h1>
+    <div class="updated" id="updated">Carregando...</div>
+  </div>
+  <button class="theme-toggle" id="themeToggle" title="Alternar tema claro/escuro">🌙</button>
 </header>
 <div class="channel-card">
   <div class="channel-avatar-wrap">
-    <img src="channel-avatar.png" alt="TV Kevinho" class="channel-avatar" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+    <img src="channel-avatar.jpg" alt="TV Kevinho" class="channel-avatar" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
     <div class="channel-avatar-fallback">🎙️</div>
   </div>
   <div class="channel-info">
@@ -250,6 +352,43 @@
 <script>
 let snapshot = null;
 let activeCategoryId = null;
+let selectedTeam = null; // null = visão geral da categoria; senão, nome do time em foco
+
+// Mesmo mapa de país->código do app principal (utils/flags.js), só que aqui vira emoji de bandeira
+// na hora (em vez de SVG) — o site público só roda no celular da galera, onde emoji de bandeira
+// renderiza liso (diferente do telão em Windows, que precisa de SVG de verdade).
+const COUNTRY_CODES = {
+  ITALIA: 'IT', 'ARABIA SAUDITA': 'SA', VENEZUELA: 'VE', SENEGAL: 'SN', INGLATERRA: 'GB',
+  UGANDA: 'UG', SUECIA: 'SE', UCRANIA: 'UA', PORTUGAL: 'PT', GRECIA: 'GR', COLOMBIA: 'CO',
+  BRASIL: 'BR', ARGENTINA: 'AR', FRANCA: 'FR', GANA: 'GH', HAITI: 'HT', ESPANHA: 'ES',
+  HOLANDA: 'NL', 'PAISES BAIXOS': 'NL', ALEMANHA: 'DE', 'ESTADOS UNIDOS': 'US', EUA: 'US',
+  MEXICO: 'MX', JAPAO: 'JP', 'COREIA DO SUL': 'KR', MARROCOS: 'MA', CROACIA: 'HR', BELGICA: 'BE',
+  SUICA: 'CH', DINAMARCA: 'DK', POLONIA: 'PL', SERVIA: 'RS', TUNISIA: 'TN', CAMAROES: 'CM',
+  CANADA: 'CA', AUSTRALIA: 'AU', IRA: 'IR', CATAR: 'QA', QATAR: 'QA', EQUADOR: 'EC', URUGUAI: 'UY',
+  CHILE: 'CL', PARAGUAI: 'PY', BOLIVIA: 'BO', PERU: 'PE', 'PAIS DE GALES': 'GB', IRLANDA: 'IE',
+  AUSTRIA: 'AT', ROMENIA: 'RO', TURQUIA: 'TR', RUSSIA: 'RU', ESLOVAQUIA: 'SK', HUNGRIA: 'HU',
+  FINLANDIA: 'FI', NORUEGA: 'NO', ISLANDIA: 'IS', EGITO: 'EG', NIGERIA: 'NG', ARGELIA: 'DZ',
+  'COSTA DO MARFIM': 'CI', 'AFRICA DO SUL': 'ZA', CHINA: 'CN', INDIA: 'IN', 'NOVA ZELANDIA': 'NZ',
+  JAMAICA: 'JM', 'COSTA RICA': 'CR', PANAMA: 'PA', HONDURAS: 'HN', CUBA: 'CU', GUATEMALA: 'GT',
+};
+const SPECIAL_FLAGS = { ESCOCIA: '🏴󠁧󠁢󠁳󠁣󠁴󠁿' };
+
+function stripAccents(s) { return (s || '').normalize('NFD').replace(/[̀-ͯ]/g, ''); }
+
+function isoToEmoji(code) {
+  return code.toUpperCase().replace(/./g, (c) => String.fromCodePoint(127397 + c.charCodeAt(0)));
+}
+
+function teamFlag(name) {
+  const key = stripAccents((name || '').trim().toUpperCase());
+  if (SPECIAL_FLAGS[key]) return SPECIAL_FLAGS[key] + ' ';
+  const code = COUNTRY_CODES[key];
+  return code ? isoToEmoji(code) + ' ' : '';
+}
+
+function teamLabel(name) {
+  return teamFlag(name) + (name || '');
+}
 
 function fmtUpdated(iso) {
   if (!iso) return 'Ainda não publicado';
@@ -260,11 +399,11 @@ function fmtUpdated(iso) {
 function matchLine(m) {
   const pending = !m.played;
   return '<div class="match-row">' +
-    '<span class="match-team">' + m.teamA + '</span>' +
+    '<span class="match-team">' + teamLabel(m.teamA) + '</span>' +
     (pending
       ? '<span class="match-pending">' + (m.date ? (formatDate(m.date) + (m.time ? ' ' + m.time : '')) : 'a definir') + '</span>'
       : '<span class="match-score">' + m.scoreA + ' x ' + m.scoreB + (m.penA != null ? ' (pen. ' + m.penA + 'x' + m.penB + ')' : '') + '</span>') +
-    '<span class="match-team right">' + m.teamB + '</span>' +
+    '<span class="match-team right">' + teamLabel(m.teamB) + '</span>' +
     '</div>';
 }
 
@@ -274,11 +413,68 @@ function formatDate(d) {
   return parts[2] + '/' + parts[1];
 }
 
+function formatEventMinute(ev) {
+  if (ev.clockElapsed == null) return '';
+  const minute = Math.floor(ev.clockElapsed / 60) + 1;
+  const periodLabel = ev.period === 2 ? '2ºT' : '1ºT';
+  return '<span class="event-minute">' + periodLabel + ' ' + minute + "'" + '</span>';
+}
+
+function eventLine(ev) {
+  const icon = ev.type === 'goal' ? '⚽' : ev.type === 'yellow' ? '🟨' : '🟥';
+  const who = ev.number ? 'Nº ' + ev.number + ' ' + (ev.name || '') : (ev.name || 'Não identificado');
+  const assist = ev.type === 'goal' && ev.assistName ? ' · assist. ' + (ev.assistNumber ? 'Nº ' + ev.assistNumber + ' ' : '') + ev.assistName : '';
+  const second = ev.viaSecondYellow ? ' · 2º amarelo' : '';
+  return '<div class="event-line">' + formatEventMinute(ev) + icon + ' ' + who + assist + second + ' <span class="event-team">(' + teamLabel(ev.teamName) + ')</span></div>';
+}
+
+// Junta os confrontos (grupo + mata-mata) de um time só, pra visão "Meu Time" — cada partida
+// mostra o placar/data igual ao resto do site, e se já foi jogada, lista os gols/cartões dela.
+function renderTeamView(cat, teamName) {
+  const matches = [];
+  cat.groups.forEach((g) => {
+    g.matches.forEach((m) => {
+      if (m.teamA === teamName || m.teamB === teamName) matches.push({ ...m, stage: g.name });
+    });
+  });
+  cat.knockout.forEach((r) => {
+    r.matches.forEach((m) => {
+      if (m.teamA === teamName || m.teamB === teamName) matches.push({ ...m, stage: r.name });
+    });
+  });
+
+  let html = '<div class="team-view-header"><button class="back-btn" id="backBtn">← Voltar</button><h2>' + teamLabel(teamName) + '</h2></div>';
+
+  if (!matches.length) {
+    html += '<div class="empty">Nenhum confronto encontrado pra esse time ainda.</div>';
+  } else {
+    matches.forEach((m) => {
+      html += '<div class="card"><div class="team-match-stage">' + m.stage + '</div>' + matchLine(m);
+      if (m.played && (m.events || []).length) {
+        html += '<div class="team-match-events">' + m.events.map(eventLine).join('') + '</div>';
+      }
+      html += '</div>';
+    });
+  }
+
+  document.getElementById('main').innerHTML = html;
+  document.getElementById('backBtn').addEventListener('click', () => {
+    selectedTeam = null;
+    renderCategory(cat);
+  });
+}
+
 function renderCategory(cat) {
   let html = '';
 
+  const teamNames = [...new Set(cat.groups.flatMap((g) => g.standings.map((s) => s.name)))].sort();
+  html += '<div class="team-select-row"><select id="teamSelect" class="team-select">' +
+    '<option value="">🔎 Ver súmula por time...</option>' +
+    teamNames.map((t) => '<option value="' + t.replace(/"/g, '&quot;') + '">' + teamLabel(t) + '</option>').join('') +
+    '</select></div>';
+
   if (cat.champion) {
-    html += '<div class="champion-banner">🏆 CAMPEÃO: ' + cat.champion.champion + '<br><span style="font-weight:400;font-size:0.8rem;">Vice: ' + cat.champion.runnerUp + '</span></div>';
+    html += '<div class="champion-banner">🏆 CAMPEÃO: ' + teamLabel(cat.champion.champion) + '<br><span style="font-weight:400;font-size:0.8rem;">Vice: ' + teamLabel(cat.champion.runnerUp) + '</span></div>';
   }
 
   html += '<div class="section-title">Classificação</div>';
@@ -292,7 +488,7 @@ function renderCategory(cat) {
     } else {
       html += '<table><thead><tr><th>Time</th><th>PJ</th><th>V</th><th>E</th><th>D</th><th>SG</th><th>Pts</th></tr></thead><tbody>';
       g.standings.forEach((t) => {
-        html += '<tr><td>' + t.name + '</td><td>' + t.pj + '</td><td>' + t.v + '</td><td>' + t.e + '</td><td>' + t.d + '</td><td>' + (t.gp - t.gc) + '</td><td>' + t.pts + '</td></tr>';
+        html += '<tr><td>' + teamLabel(t.name) + '</td><td>' + t.pj + '</td><td>' + t.v + '</td><td>' + t.e + '</td><td>' + t.d + '</td><td>' + (t.gp - t.gc) + '</td><td>' + t.pts + '</td></tr>';
       });
       html += '</tbody></table>';
     }
@@ -326,7 +522,7 @@ function renderCategory(cat) {
   if (cat.topScorers.length) {
     html += '<div class="section-title">⚽ Artilheiros</div><div class="card"><table><thead><tr><th>Jogador</th><th>Time</th><th>Gols</th><th>Assist.</th></tr></thead><tbody>';
     cat.topScorers.forEach((p) => {
-      html += '<tr><td>' + (p.number ? 'Nº ' + p.number + ' ' : '') + p.name + '</td><td>' + p.teamName + '</td><td>' + p.goals + '</td><td>' + p.assists + '</td></tr>';
+      html += '<tr><td>' + (p.number ? 'Nº ' + p.number + ' ' : '') + p.name + '</td><td>' + teamLabel(p.teamName) + '</td><td>' + p.goals + '</td><td>' + p.assists + '</td></tr>';
     });
     html += '</tbody></table></div>';
   }
@@ -334,12 +530,18 @@ function renderCategory(cat) {
   if (cat.topCards.length) {
     html += '<div class="section-title">🟨🟥 Cartões</div><div class="card"><table><thead><tr><th>Jogador</th><th>Time</th><th>Am.</th><th>Verm.</th></tr></thead><tbody>';
     cat.topCards.forEach((p) => {
-      html += '<tr><td>' + (p.number ? 'Nº ' + p.number + ' ' : '') + p.name + '</td><td>' + p.teamName + '</td><td>' + p.yellow + '</td><td>' + p.red + '</td></tr>';
+      html += '<tr><td>' + (p.number ? 'Nº ' + p.number + ' ' : '') + p.name + '</td><td>' + teamLabel(p.teamName) + '</td><td>' + p.yellow + '</td><td>' + p.red + '</td></tr>';
     });
     html += '</tbody></table></div>';
   }
 
   document.getElementById('main').innerHTML = html;
+  document.getElementById('teamSelect').addEventListener('change', (e) => {
+    if (e.target.value) {
+      selectedTeam = e.target.value;
+      renderTeamView(cat, selectedTeam);
+    }
+  });
 }
 
 function renderTabs() {
@@ -350,6 +552,7 @@ function renderTabs() {
   tabs.querySelectorAll('.tab').forEach((btn) => {
     btn.addEventListener('click', () => {
       activeCategoryId = btn.dataset.id;
+      selectedTeam = null;
       renderTabs();
       const cat = snapshot.categories.find((c) => c.id === activeCategoryId);
       if (cat) renderCategory(cat);
@@ -372,11 +575,33 @@ async function load() {
       activeCategoryId = snapshot.categories[0].id;
     }
     renderTabs();
-    renderCategory(snapshot.categories.find((c) => c.id === activeCategoryId));
+    const cat = snapshot.categories.find((c) => c.id === activeCategoryId);
+    if (selectedTeam && cat && cat.groups.some((g) => g.standings.some((s) => s.name === selectedTeam))) {
+      renderTeamView(cat, selectedTeam);
+    } else {
+      selectedTeam = null;
+      renderCategory(cat);
+    }
   } catch (err) {
     document.getElementById('main').innerHTML = '<div class="error-banner">Não deu pra carregar os dados agora. Puxe a tela pra baixo pra tentar de novo.</div>';
   }
 }
+
+function applyTheme(theme) {
+  document.documentElement.setAttribute('data-theme', theme);
+  document.getElementById('themeToggle').textContent = theme === 'light' ? '🌙' : '☀️';
+  localStorage.setItem('theme', theme);
+}
+
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme === 'light' || savedTheme === 'dark') applyTheme(savedTheme);
+else document.getElementById('themeToggle').textContent = window.matchMedia('(prefers-color-scheme: light)').matches ? '🌙' : '☀️';
+
+document.getElementById('themeToggle').addEventListener('click', () => {
+  const current = document.documentElement.getAttribute('data-theme')
+    || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+  applyTheme(current === 'light' ? 'dark' : 'light');
+});
 
 load();
 setInterval(load, 45000);
