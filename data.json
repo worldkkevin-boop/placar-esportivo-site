@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T17:26:31.373Z",
+  "generatedAt": "2026-07-29T17:28:46.756Z",
   "scheduleDate": "2026-07-31",
   "categories": [
     {
@@ -51,7 +51,26 @@
               "pts": 0
             }
           ],
-          "matches": []
+          "matches": [
+            {
+              "teamA": "ITÁLIA",
+              "teamB": "SENEGAL",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": ""
+            },
+            {
+              "teamA": "VENEZUELA",
+              "teamB": "ARÁBIA SAUDITA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": ""
+            }
+          ]
         },
         {
           "name": "Grupo B",
@@ -258,7 +277,17 @@
               "pts": 0
             }
           ],
-          "matches": []
+          "matches": [
+            {
+              "teamA": "GUATEMALA",
+              "teamB": "ESPANHA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": ""
+            }
+          ]
         }
       ],
       "knockout": [
@@ -309,7 +338,17 @@
               "pts": 0
             }
           ],
-          "matches": []
+          "matches": [
+            {
+              "teamA": "FRANÇA",
+              "teamB": "SUÉCIA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": ""
+            }
+          ]
         },
         {
           "name": "Grupo B",
