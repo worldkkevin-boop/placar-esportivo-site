@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T17:28:46.756Z",
+  "generatedAt": "2026-07-29T17:32:19.137Z",
   "scheduleDate": "2026-07-31",
   "categories": [
     {
@@ -58,8 +58,8 @@
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
-              "date": "",
-              "time": ""
+              "date": "2026-07-31",
+              "time": "19:00"
             },
             {
               "teamA": "VENEZUELA",
