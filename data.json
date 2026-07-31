@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T22:00:02.751Z",
+  "generatedAt": "2026-07-31T22:01:41.106Z",
   "scheduleDate": "2026-07-31",
   "categories": [
     {
@@ -93,6 +93,17 @@
                   "paid": true
                 }
               ]
+            },
+            {
+              "id": "id-1785535272707-15",
+              "teamA": "ARÁBIA SAUDITA",
+              "teamB": "VENEZUELA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-02",
+              "time": "18:59",
+              "events": []
             }
           ]
         },
