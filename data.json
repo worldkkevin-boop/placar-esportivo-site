@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T23:11:59.601Z",
+  "generatedAt": "2026-07-31T22:00:02.751Z",
   "scheduleDate": "2026-07-31",
   "categories": [
     {
@@ -11,7 +11,27 @@
           "name": "Grupo A",
           "standings": [
             {
+              "name": "ARÁBIA SAUDITA",
+              "pj": 1,
+              "v": 1,
+              "e": 0,
+              "d": 0,
+              "gp": 4,
+              "gc": 3,
+              "pts": 3
+            },
+            {
               "name": "ITÁLIA",
+              "pj": 1,
+              "v": 0,
+              "e": 1,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 1
+            },
+            {
+              "name": "SENEGAL",
               "pj": 1,
               "v": 0,
               "e": 1,
@@ -24,129 +44,55 @@
               "name": "VENEZUELA",
               "pj": 1,
               "v": 0,
-              "e": 1,
-              "d": 0,
-              "gp": 0,
-              "gc": 0,
-              "pts": 1
-            },
-            {
-              "name": "ARÁBIA SAUDITA",
-              "pj": 0,
-              "v": 0,
               "e": 0,
-              "d": 0,
-              "gp": 0,
-              "gc": 0,
-              "pts": 0
-            },
-            {
-              "name": "SENEGAL",
-              "pj": 0,
-              "v": 0,
-              "e": 0,
-              "d": 0,
-              "gp": 0,
-              "gc": 0,
+              "d": 1,
+              "gp": 3,
+              "gc": 4,
               "pts": 0
             }
           ],
           "matches": [
             {
-              "id": "id-1785365233429-15",
-              "teamA": "ITÁLIA",
-              "teamB": "VENEZUELA",
+              "id": "id-1785530070092-15",
+              "teamA": "SENEGAL",
+              "teamB": "ITÁLIA",
               "scoreA": 0,
               "scoreB": 0,
               "played": true,
-              "date": "2026-07-29",
+              "date": "",
+              "time": "",
+              "events": []
+            },
+            {
+              "id": "id-1785534861872-15",
+              "teamA": "VENEZUELA",
+              "teamB": "ARÁBIA SAUDITA",
+              "scoreA": 3,
+              "scoreB": 4,
+              "played": true,
+              "date": "",
               "time": "",
               "events": [
                 {
-                  "id": "manual-1785366689076-rmyps",
+                  "id": "id-1785534797647-24",
                   "type": "goal",
-                  "teamName": "ITÁLIA",
-                  "number": "34",
-                  "name": "TESNFCUJA",
-                  "assistNumber": "342",
-                  "assistName": "EFWE"
+                  "teamName": "VENEZUELA",
+                  "number": "57",
+                  "name": "FHH",
+                  "period": 1,
+                  "clockElapsed": 0
                 },
                 {
-                  "id": "manual-1785366697828-13b50",
-                  "type": "red",
-                  "teamName": "ITÁLIA",
-                  "number": "543",
-                  "name": "DFDSV",
-                  "assistNumber": null,
-                  "assistName": null,
-                  "paid": false
-                },
-                {
-                  "id": "manual-1785366703581-rhjip",
+                  "id": "id-1785534800155-39",
                   "type": "yellow",
-                  "teamName": "ITÁLIA",
-                  "number": "34",
-                  "name": "TESNFCUJA",
-                  "assistNumber": null,
-                  "assistName": null,
-                  "paid": false
+                  "teamName": "VENEZUELA",
+                  "number": "57",
+                  "name": "FHH",
+                  "period": 1,
+                  "clockElapsed": 0,
+                  "paid": true
                 }
               ]
-            },
-            {
-              "id": "id-1785365531283-17",
-              "teamA": "SENEGAL",
-              "teamB": "ARÁBIA SAUDITA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
-              "date": "2026-07-29",
-              "time": "",
-              "events": []
-            },
-            {
-              "id": "id-1785365559054-19",
-              "teamA": "ITÁLIA",
-              "teamB": "ARÁBIA SAUDITA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
-              "date": "",
-              "time": "",
-              "events": []
-            },
-            {
-              "id": "id-1785365566696-21",
-              "teamA": "VENEZUELA",
-              "teamB": "SENEGAL",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
-              "date": "",
-              "time": "",
-              "events": []
-            },
-            {
-              "id": "id-1785365591841-23",
-              "teamA": "ITÁLIA",
-              "teamB": "SENEGAL",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
-              "date": "",
-              "time": "",
-              "events": []
-            },
-            {
-              "id": "id-1785365602454-25",
-              "teamA": "VENEZUELA",
-              "teamB": "ARÁBIA SAUDITA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
-              "date": "",
-              "time": "",
-              "events": []
             }
           ]
         },
@@ -305,32 +251,17 @@
       ],
       "topScorers": [
         {
-          "teamName": "ITÁLIA",
-          "number": "34",
-          "name": "TESNFCUJA",
-          "goals": 1,
-          "assists": 0
-        },
-        {
-          "teamName": "ITÁLIA",
-          "number": "342",
-          "name": "EFWE",
-          "goals": 0,
-          "assists": 1
+          "teamName": "VENEZUELA",
+          "number": "57",
+          "name": "FHH",
+          "goals": 1
         }
       ],
       "topCards": [
         {
-          "teamName": "ITÁLIA",
-          "number": "543",
-          "name": "DFDSV",
-          "yellow": 0,
-          "red": 1
-        },
-        {
-          "teamName": "ITÁLIA",
-          "number": "34",
-          "name": "TESNFCUJA",
+          "teamName": "VENEZUELA",
+          "number": "57",
+          "name": "FHH",
           "yellow": 1,
           "red": 0
         }
@@ -345,27 +276,17 @@
           "name": "Grupo A",
           "standings": [
             {
-              "name": "GUATEMALA",
-              "pj": 0,
-              "v": 0,
-              "e": 0,
-              "d": 0,
-              "gp": 0,
-              "gc": 0,
-              "pts": 0
-            },
-            {
-              "name": "ESCÓCIA",
-              "pj": 0,
-              "v": 0,
-              "e": 0,
-              "d": 0,
-              "gp": 0,
-              "gc": 0,
-              "pts": 0
-            },
-            {
               "name": "ESTADOS UNIDOS",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            },
+            {
+              "name": "GUATEMALA",
               "pj": 0,
               "v": 0,
               "e": 0,
@@ -383,12 +304,26 @@
               "gp": 0,
               "gc": 0,
               "pts": 0
+            },
+            {
+              "name": "ESCÓCIA",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
             }
           ],
           "matches": []
         }
       ],
       "knockout": [
+        {
+          "name": "Semifinal",
+          "matches": []
+        },
         {
           "name": "Final",
           "matches": []
@@ -399,7 +334,7 @@
     },
     {
       "id": "feminino",
-      "name": "Feminino (6 Times)",
+      "name": "Feminino (5 Times)",
       "champion": null,
       "groups": [
         {
@@ -460,16 +395,6 @@
               "gp": 0,
               "gc": 0,
               "pts": 0
-            },
-            {
-              "name": "MINEKO",
-              "pj": 0,
-              "v": 0,
-              "e": 0,
-              "d": 0,
-              "gp": 0,
-              "gc": 0,
-              "pts": 0
             }
           ],
           "matches": []
@@ -477,11 +402,11 @@
       ],
       "knockout": [
         {
-          "name": "Semi-final",
+          "name": "Semifinal",
           "matches": []
         },
         {
-          "name": "FINAL",
+          "name": "Final",
           "matches": []
         }
       ],
