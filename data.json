@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-01T00:43:27.578Z",
-  "scheduleDate": "2026-08-02",
+  "generatedAt": "2026-08-01T00:51:09.258Z",
+  "scheduleDate": "2026-07-31",
   "categories": [
     {
       "id": "principal",
@@ -409,8 +409,8 @@
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
-              "date": "",
-              "time": "",
+              "date": "2026-07-31",
+              "time": "21:50",
               "events": []
             },
             {
