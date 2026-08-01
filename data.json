@@ -1,11 +1,14 @@
 {
-  "generatedAt": "2026-08-01T22:33:25.721Z",
-  "scheduleDate": "2026-07-31",
+  "generatedAt": "2026-08-01T23:18:42.518Z",
+  "scheduleDate": "2026-08-01",
   "categories": [
     {
       "id": "principal",
       "name": "Principal (16 Times)",
       "champion": null,
+      "eliminated": [
+        "FRANÇA"
+      ],
       "groups": [
         {
           "name": "Grupo A",
@@ -249,6 +252,16 @@
           "name": "Grupo C",
           "standings": [
             {
+              "name": "COLÔMBIA",
+              "pj": 1,
+              "v": 1,
+              "e": 0,
+              "d": 0,
+              "gp": 6,
+              "gc": 4,
+              "pts": 3
+            },
+            {
               "name": "PORTUGAL",
               "pj": 0,
               "v": 0,
@@ -269,23 +282,13 @@
               "pts": 0
             },
             {
-              "name": "COLÔMBIA",
-              "pj": 0,
-              "v": 0,
-              "e": 0,
-              "d": 0,
-              "gp": 0,
-              "gc": 0,
-              "pts": 0
-            },
-            {
               "name": "BRASIL",
-              "pj": 0,
+              "pj": 1,
               "v": 0,
               "e": 0,
-              "d": 0,
-              "gp": 0,
-              "gc": 0,
+              "d": 1,
+              "gp": 4,
+              "gc": 6,
               "pts": 0
             }
           ],
@@ -294,12 +297,115 @@
               "id": "tabela-1785622372429-1",
               "teamA": "COLÔMBIA",
               "teamB": "BRASIL",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
+              "scoreA": 6,
+              "scoreB": 4,
+              "played": true,
               "date": "2026-08-01",
               "time": "19:00",
-              "events": [],
+              "events": [
+                {
+                  "id": "sumula-papel-1785626226333-g",
+                  "type": "goal",
+                  "teamName": "COLÔMBIA",
+                  "number": "14",
+                  "name": "AUGUSTO CESAR D. SILVA D. OLIVEIRA"
+                },
+                {
+                  "id": "sumula-papel-1785626226333-h",
+                  "type": "goal",
+                  "teamName": "COLÔMBIA",
+                  "number": "8",
+                  "name": "ROGEL COSTA D. OLIVEIRA"
+                },
+                {
+                  "id": "sumula-papel-1785626226333-i",
+                  "type": "goal",
+                  "teamName": "COLÔMBIA",
+                  "number": "8",
+                  "name": "ROGEL COSTA D. OLIVEIRA"
+                },
+                {
+                  "id": "sumula-papel-1785626226333-j",
+                  "type": "goal",
+                  "teamName": "COLÔMBIA",
+                  "number": "11",
+                  "name": "CHRISTYAN VITOR D. SILVA LIMA"
+                },
+                {
+                  "id": "sumula-papel-1785626226333-k",
+                  "type": "goal",
+                  "teamName": "COLÔMBIA",
+                  "number": "14",
+                  "name": "AUGUSTO CESAR D. SILVA D. OLIVEIRA"
+                },
+                {
+                  "id": "sumula-papel-1785626226333-l",
+                  "type": "goal",
+                  "teamName": "COLÔMBIA",
+                  "number": "01",
+                  "name": ""
+                },
+                {
+                  "id": "sumula-papel-1785626226333-m",
+                  "type": "yellow",
+                  "teamName": "COLÔMBIA",
+                  "number": "19",
+                  "name": "ADRIEL CARVALHO D. COSTA",
+                  "paid": false
+                },
+                {
+                  "id": "sumula-papel-1785626226333-n",
+                  "type": "yellow",
+                  "teamName": "COLÔMBIA",
+                  "number": "2",
+                  "name": "LEANDRO D. SILVA DE SOUZA",
+                  "paid": false
+                },
+                {
+                  "id": "sumula-papel-1785626226333-o",
+                  "type": "yellow",
+                  "teamName": "COLÔMBIA",
+                  "number": "7",
+                  "name": "SHAIDSON KEISLEN D. SILVA DE SENA",
+                  "paid": false
+                },
+                {
+                  "id": "sumula-papel-1785626226333-p",
+                  "type": "goal",
+                  "teamName": "BRASIL",
+                  "number": "7",
+                  "name": "ANDERSON D. FREITAS SANTOS"
+                },
+                {
+                  "id": "sumula-papel-1785626226333-q",
+                  "type": "goal",
+                  "teamName": "BRASIL",
+                  "number": "10",
+                  "name": "RODRIGO OLIVEIRA D. SILVA"
+                },
+                {
+                  "id": "sumula-papel-1785626226333-r",
+                  "type": "goal",
+                  "teamName": "BRASIL",
+                  "number": "9",
+                  "name": "ALEFF JUNIOR FURTADO D. SILVA"
+                },
+                {
+                  "id": "sumula-papel-1785626226333-s",
+                  "type": "goal",
+                  "teamName": "BRASIL",
+                  "number": "4",
+                  "name": "THIAGO D. OLIVEIRA FREITAS"
+                },
+                {
+                  "id": "sumula-papel-1785626226333-t",
+                  "type": "red",
+                  "teamName": "BRASIL",
+                  "number": "17",
+                  "name": "JOARLYSON LUIZ XAVIER SANTOS",
+                  "paid": false
+                }
+              ],
               "wo": null
             },
             {
@@ -456,30 +562,6 @@
               "time": "19:00",
               "events": [],
               "wo": null
-            },
-            {
-              "id": "tabela-1785622372430-v",
-              "teamA": "ARGENTINA",
-              "teamB": "FRANÇA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
-              "date": "",
-              "time": "",
-              "events": [],
-              "wo": null
-            },
-            {
-              "id": "tabela-1785622372430-w",
-              "teamA": "FRANÇA",
-              "teamB": "HAITI",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
-              "date": "",
-              "time": "",
-              "events": [],
-              "wo": null
             }
           ]
         }
@@ -599,13 +681,86 @@
           ]
         }
       ],
-      "topScorers": [],
-      "topCards": []
+      "topScorers": [
+        {
+          "teamName": "COLÔMBIA",
+          "number": "14",
+          "name": "AUGUSTO CESAR D. SILVA D. OLIVEIRA",
+          "goals": 2
+        },
+        {
+          "teamName": "COLÔMBIA",
+          "number": "8",
+          "name": "ROGEL COSTA D. OLIVEIRA",
+          "goals": 2
+        },
+        {
+          "teamName": "BRASIL",
+          "number": "9",
+          "name": "ALEFF JUNIOR FURTADO D. SILVA",
+          "goals": 1
+        },
+        {
+          "teamName": "BRASIL",
+          "number": "7",
+          "name": "ANDERSON D. FREITAS SANTOS",
+          "goals": 1
+        },
+        {
+          "teamName": "COLÔMBIA",
+          "number": "11",
+          "name": "CHRISTYAN VITOR D. SILVA LIMA",
+          "goals": 1
+        },
+        {
+          "teamName": "BRASIL",
+          "number": "10",
+          "name": "RODRIGO OLIVEIRA D. SILVA",
+          "goals": 1
+        },
+        {
+          "teamName": "BRASIL",
+          "number": "4",
+          "name": "THIAGO D. OLIVEIRA FREITAS",
+          "goals": 1
+        }
+      ],
+      "topCards": [
+        {
+          "teamName": "BRASIL",
+          "number": "17",
+          "name": "JOARLYSON LUIZ XAVIER SANTOS",
+          "yellow": 0,
+          "red": 1
+        },
+        {
+          "teamName": "COLÔMBIA",
+          "number": "19",
+          "name": "ADRIEL CARVALHO D. COSTA",
+          "yellow": 1,
+          "red": 0
+        },
+        {
+          "teamName": "COLÔMBIA",
+          "number": "2",
+          "name": "LEANDRO D. SILVA DE SOUZA",
+          "yellow": 1,
+          "red": 0
+        },
+        {
+          "teamName": "COLÔMBIA",
+          "number": "7",
+          "name": "SHAIDSON KEISLEN D. SILVA DE SENA",
+          "yellow": 1,
+          "red": 0
+        }
+      ]
     },
     {
       "id": "master",
       "name": "Master (4 Times)",
       "champion": null,
+      "eliminated": [],
       "groups": [
         {
           "name": "Grupo A",
@@ -982,6 +1137,7 @@
       "id": "feminino",
       "name": "Feminino (5 Times)",
       "champion": null,
+      "eliminated": [],
       "groups": [
         {
           "name": "Grupo A",
@@ -1078,16 +1234,6 @@
               "gp": 0,
               "gc": 0,
               "pts": 0
-            },
-            {
-              "name": "MARROCOS",
-              "pj": 0,
-              "v": 0,
-              "e": 0,
-              "d": 0,
-              "gp": 0,
-              "gc": 0,
-              "pts": 0
             }
           ],
           "matches": [
@@ -1100,30 +1246,6 @@
               "played": false,
               "date": "2026-08-06",
               "time": "19:00",
-              "events": [],
-              "wo": null
-            },
-            {
-              "id": "tabela-1785622372448-x",
-              "teamA": "PORTUGAL",
-              "teamB": "MARROCOS",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
-              "date": "",
-              "time": "",
-              "events": [],
-              "wo": null
-            },
-            {
-              "id": "tabela-1785622372448-y",
-              "teamA": "HOLANDA",
-              "teamB": "MARROCOS",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
-              "date": "",
-              "time": "",
               "events": [],
               "wo": null
             }
