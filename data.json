@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T00:51:09.258Z",
+  "generatedAt": "2026-08-01T06:02:17.854Z",
   "scheduleDate": "2026-07-31",
   "categories": [
     {
@@ -61,7 +61,8 @@
               "played": false,
               "date": "",
               "time": "",
-              "events": []
+              "events": [],
+              "wo": null
             },
             {
               "id": "id-1785539472610-15",
@@ -72,7 +73,8 @@
               "played": false,
               "date": "",
               "time": "",
-              "events": []
+              "events": [],
+              "wo": null
             },
             {
               "id": "id-1785539483569-19",
@@ -81,9 +83,10 @@
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
-              "date": "",
-              "time": "",
-              "events": []
+              "date": "2026-08-01",
+              "time": "22:00",
+              "events": [],
+              "wo": null
             },
             {
               "id": "id-1785539490398-21",
@@ -94,7 +97,8 @@
               "played": false,
               "date": "",
               "time": "",
-              "events": []
+              "events": [],
+              "wo": null
             },
             {
               "id": "id-1785540260746-51",
@@ -105,7 +109,8 @@
               "played": false,
               "date": "",
               "time": "",
-              "events": []
+              "events": [],
+              "wo": null
             },
             {
               "id": "id-1785540262495-53",
@@ -116,7 +121,8 @@
               "played": false,
               "date": "",
               "time": "",
-              "events": []
+              "events": [],
+              "wo": null
             }
           ]
         },
@@ -174,7 +180,8 @@
               "played": false,
               "date": "",
               "time": "",
-              "events": []
+              "events": [],
+              "wo": null
             },
             {
               "id": "id-1785540193836-17",
@@ -185,7 +192,8 @@
               "played": false,
               "date": "",
               "time": "",
-              "events": []
+              "events": [],
+              "wo": null
             },
             {
               "id": "id-1785540197590-19",
@@ -196,7 +204,8 @@
               "played": false,
               "date": "",
               "time": "",
-              "events": []
+              "events": [],
+              "wo": null
             },
             {
               "id": "id-1785540200578-21",
@@ -205,9 +214,10 @@
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
-              "date": "",
-              "time": "",
-              "events": []
+              "date": "2026-08-01",
+              "time": "21:00",
+              "events": [],
+              "wo": null
             },
             {
               "id": "id-1785540203574-23",
@@ -218,7 +228,8 @@
               "played": false,
               "date": "",
               "time": "",
-              "events": []
+              "events": [],
+              "wo": null
             },
             {
               "id": "id-1785540208470-25",
@@ -229,7 +240,8 @@
               "played": false,
               "date": "",
               "time": "",
-              "events": []
+              "events": [],
+              "wo": null
             }
           ]
         },
@@ -287,7 +299,8 @@
               "played": false,
               "date": "",
               "time": "",
-              "events": []
+              "events": [],
+              "wo": null
             },
             {
               "id": "id-1785540216732-29",
@@ -296,9 +309,10 @@
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
-              "date": "",
-              "time": "",
-              "events": []
+              "date": "2026-08-01",
+              "time": "19:00",
+              "events": [],
+              "wo": null
             },
             {
               "id": "id-1785540219408-31",
@@ -309,7 +323,8 @@
               "played": false,
               "date": "",
               "time": "",
-              "events": []
+              "events": [],
+              "wo": null
             },
             {
               "id": "id-1785540221493-33",
@@ -320,7 +335,8 @@
               "played": false,
               "date": "",
               "time": "",
-              "events": []
+              "events": [],
+              "wo": null
             },
             {
               "id": "id-1785540225757-35",
@@ -331,7 +347,8 @@
               "played": false,
               "date": "",
               "time": "",
-              "events": []
+              "events": [],
+              "wo": null
             },
             {
               "id": "id-1785540228945-37",
@@ -342,7 +359,8 @@
               "played": false,
               "date": "",
               "time": "",
-              "events": []
+              "events": [],
+              "wo": null
             }
           ]
         },
@@ -350,27 +368,17 @@
           "name": "Grupo D",
           "standings": [
             {
-              "name": "ARGENTINA",
-              "pj": 0,
-              "v": 0,
-              "e": 0,
-              "d": 0,
-              "gp": 0,
-              "gc": 0,
-              "pts": 0
-            },
-            {
-              "name": "FRANÇA",
-              "pj": 0,
-              "v": 0,
-              "e": 0,
-              "d": 0,
-              "gp": 0,
-              "gc": 0,
-              "pts": 0
-            },
-            {
               "name": "GANA",
+              "pj": 1,
+              "v": 1,
+              "e": 0,
+              "d": 0,
+              "gp": 3,
+              "gc": 0,
+              "pts": 3
+            },
+            {
+              "name": "ARGENTINA",
               "pj": 0,
               "v": 0,
               "e": 0,
@@ -388,6 +396,16 @@
               "gp": 0,
               "gc": 0,
               "pts": 0
+            },
+            {
+              "name": "FRANÇA",
+              "pj": 1,
+              "v": 0,
+              "e": 0,
+              "d": 1,
+              "gp": 0,
+              "gc": 3,
+              "pts": 0
             }
           ],
           "matches": [
@@ -398,20 +416,22 @@
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
-              "date": "",
-              "time": "",
-              "events": []
+              "date": "2026-08-01",
+              "time": "20:00",
+              "events": [],
+              "wo": null
             },
             {
               "id": "id-1785540237846-41",
               "teamA": "GANA",
               "teamB": "FRANÇA",
-              "scoreA": 0,
+              "scoreA": 3,
               "scoreB": 0,
-              "played": false,
+              "played": true,
               "date": "2026-07-31",
               "time": "21:50",
-              "events": []
+              "events": [],
+              "wo": "B"
             },
             {
               "id": "id-1785540240814-43",
@@ -422,7 +442,8 @@
               "played": false,
               "date": "",
               "time": "",
-              "events": []
+              "events": [],
+              "wo": null
             },
             {
               "id": "id-1785540243961-45",
@@ -433,7 +454,8 @@
               "played": false,
               "date": "",
               "time": "",
-              "events": []
+              "events": [],
+              "wo": null
             },
             {
               "id": "id-1785540247177-47",
@@ -444,7 +466,8 @@
               "played": false,
               "date": "",
               "time": "",
-              "events": []
+              "events": [],
+              "wo": null
             },
             {
               "id": "id-1785540253189-49",
@@ -455,7 +478,8 @@
               "played": false,
               "date": "",
               "time": "",
-              "events": []
+              "events": [],
+              "wo": null
             }
           ]
         }
@@ -486,7 +510,7 @@
           "name": "Grupo A",
           "standings": [
             {
-              "name": "GUATEMALA",
+              "name": "ESPANHA",
               "pj": 1,
               "v": 1,
               "e": 0,
@@ -516,7 +540,7 @@
               "pts": 0
             },
             {
-              "name": "ESPANHA",
+              "name": "GUATEMALA",
               "pj": 1,
               "v": 0,
               "e": 0,
@@ -536,7 +560,8 @@
               "played": false,
               "date": "",
               "time": "",
-              "events": []
+              "events": [],
+              "wo": null
             },
             {
               "id": "id-1785540416318-21",
@@ -547,7 +572,8 @@
               "played": false,
               "date": "",
               "time": "",
-              "events": []
+              "events": [],
+              "wo": null
             },
             {
               "id": "id-1785540419600-23",
@@ -558,18 +584,135 @@
               "played": false,
               "date": "",
               "time": "",
-              "events": []
+              "events": [],
+              "wo": null
             },
             {
               "id": "id-1785540422670-25",
               "teamA": "ESPANHA",
               "teamB": "GUATEMALA",
-              "scoreA": 2,
-              "scoreB": 12,
+              "scoreA": 12,
+              "scoreB": 2,
               "played": true,
               "date": "2026-07-31",
               "time": "20:30",
-              "events": []
+              "events": [
+                {
+                  "id": "sumula-papel-1785563827335-0",
+                  "type": "goal",
+                  "teamName": "ESPANHA",
+                  "number": "13",
+                  "name": "MARCEL JANDSON MENESE"
+                },
+                {
+                  "id": "sumula-papel-1785563827336-1",
+                  "type": "goal",
+                  "teamName": "ESPANHA",
+                  "number": "13",
+                  "name": "MARCEL JANDSON MENESE"
+                },
+                {
+                  "id": "sumula-papel-1785563827336-2",
+                  "type": "goal",
+                  "teamName": "ESPANHA",
+                  "number": "7",
+                  "name": "ROBSON DA COSTA FERREIRA"
+                },
+                {
+                  "id": "sumula-papel-1785563827336-3",
+                  "type": "goal",
+                  "teamName": "ESPANHA",
+                  "number": "7",
+                  "name": "ROBSON DA COSTA FERREIRA"
+                },
+                {
+                  "id": "sumula-papel-1785563827336-4",
+                  "type": "goal",
+                  "teamName": "ESPANHA",
+                  "number": "11",
+                  "name": "EDILSON COSTA D. SILVA"
+                },
+                {
+                  "id": "sumula-papel-1785563827336-5",
+                  "type": "goal",
+                  "teamName": "ESPANHA",
+                  "number": "13",
+                  "name": "MARCEL JANDSON MENESE"
+                },
+                {
+                  "id": "sumula-papel-1785563827336-6",
+                  "type": "goal",
+                  "teamName": "ESPANHA",
+                  "number": "3",
+                  "name": "ALBERTO FRIAZ CARDOSO"
+                },
+                {
+                  "id": "sumula-papel-1785563827336-7",
+                  "type": "goal",
+                  "teamName": "ESPANHA",
+                  "number": "3",
+                  "name": "ALBERTO FRIAZ CARDOSO"
+                },
+                {
+                  "id": "sumula-papel-1785563827336-8",
+                  "type": "goal",
+                  "teamName": "ESPANHA",
+                  "number": "7",
+                  "name": "ROBSON DA COSTA FERREIRA"
+                },
+                {
+                  "id": "sumula-papel-1785563827336-9",
+                  "type": "goal",
+                  "teamName": "ESPANHA",
+                  "number": "7",
+                  "name": "ROBSON DA COSTA FERREIRA"
+                },
+                {
+                  "id": "sumula-papel-1785563827336-a",
+                  "type": "goal",
+                  "teamName": "ESPANHA",
+                  "number": "3",
+                  "name": "ALBERTO FRIAZ CARDOSO"
+                },
+                {
+                  "id": "sumula-papel-1785563827336-b",
+                  "type": "goal",
+                  "teamName": "ESPANHA",
+                  "number": "9",
+                  "name": "BRUNO BORGES D. SILVA"
+                },
+                {
+                  "id": "sumula-papel-1785563827336-c",
+                  "type": "goal",
+                  "teamName": "GUATEMALA",
+                  "number": "3",
+                  "name": "FABIO PINHEIRO D. SILVA"
+                },
+                {
+                  "id": "sumula-papel-1785563827336-d",
+                  "type": "goal",
+                  "teamName": "GUATEMALA",
+                  "number": "3",
+                  "name": "FABIO PINHEIRO D. SILVA"
+                },
+                {
+                  "id": "sumula-papel-1785563827336-e",
+                  "type": "yellow",
+                  "teamName": "GUATEMALA",
+                  "number": "14",
+                  "name": "DANIELSON PIMENTA COSTA",
+                  "paid": false
+                },
+                {
+                  "id": "sumula-papel-1785563827336-f",
+                  "type": "yellow",
+                  "teamName": "GUATEMALA",
+                  "number": "11",
+                  "name": "FRANCISCO LAMEIRA SALES",
+                  "paid": false
+                }
+              ],
+              "wo": null
             },
             {
               "id": "id-1785540429194-27",
@@ -580,7 +723,8 @@
               "played": false,
               "date": "",
               "time": "",
-              "events": []
+              "events": [],
+              "wo": null
             },
             {
               "id": "id-1785540433757-29",
@@ -591,7 +735,8 @@
               "played": false,
               "date": "",
               "time": "",
-              "events": []
+              "events": [],
+              "wo": null
             }
           ]
         }
@@ -606,8 +751,60 @@
           "matches": []
         }
       ],
-      "topScorers": [],
-      "topCards": []
+      "topScorers": [
+        {
+          "teamName": "ESPANHA",
+          "number": "7",
+          "name": "ROBSON DA COSTA FERREIRA",
+          "goals": 4
+        },
+        {
+          "teamName": "ESPANHA",
+          "number": "3",
+          "name": "ALBERTO FRIAZ CARDOSO",
+          "goals": 3
+        },
+        {
+          "teamName": "ESPANHA",
+          "number": "13",
+          "name": "MARCEL JANDSON MENESE",
+          "goals": 3
+        },
+        {
+          "teamName": "GUATEMALA",
+          "number": "3",
+          "name": "FABIO PINHEIRO D. SILVA",
+          "goals": 2
+        },
+        {
+          "teamName": "ESPANHA",
+          "number": "9",
+          "name": "BRUNO BORGES D. SILVA",
+          "goals": 1
+        },
+        {
+          "teamName": "ESPANHA",
+          "number": "11",
+          "name": "EDILSON COSTA D. SILVA",
+          "goals": 1
+        }
+      ],
+      "topCards": [
+        {
+          "teamName": "GUATEMALA",
+          "number": "14",
+          "name": "DANIELSON PIMENTA COSTA",
+          "yellow": 1,
+          "red": 0
+        },
+        {
+          "teamName": "GUATEMALA",
+          "number": "11",
+          "name": "FRANCISCO LAMEIRA SALES",
+          "yellow": 1,
+          "red": 0
+        }
+      ]
     },
     {
       "id": "feminino",
