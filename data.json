@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T22:03:47.640Z",
+  "generatedAt": "2026-08-01T00:43:27.578Z",
   "scheduleDate": "2026-08-02",
   "categories": [
     {
@@ -51,7 +51,74 @@
               "pts": 0
             }
           ],
-          "matches": []
+          "matches": [
+            {
+              "id": "id-1785539490927-15",
+              "teamA": "SENEGAL",
+              "teamB": "ARÁBIA SAUDITA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": []
+            },
+            {
+              "id": "id-1785539472610-15",
+              "teamA": "ITÁLIA",
+              "teamB": "VENEZUELA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": []
+            },
+            {
+              "id": "id-1785539483569-19",
+              "teamA": "ARÁBIA SAUDITA",
+              "teamB": "ITÁLIA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": []
+            },
+            {
+              "id": "id-1785539490398-21",
+              "teamA": "SENEGAL",
+              "teamB": "VENEZUELA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": []
+            },
+            {
+              "id": "id-1785540260746-51",
+              "teamA": "ARÁBIA SAUDITA",
+              "teamB": "VENEZUELA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": []
+            },
+            {
+              "id": "id-1785540262495-53",
+              "teamA": "SENEGAL",
+              "teamB": "ITÁLIA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": []
+            }
+          ]
         },
         {
           "name": "Grupo B",
@@ -77,7 +144,7 @@
               "pts": 0
             },
             {
-              "name": "SU��CIA",
+              "name": "SUECIA",
               "pj": 0,
               "v": 0,
               "e": 0,
@@ -97,7 +164,74 @@
               "pts": 0
             }
           ],
-          "matches": []
+          "matches": [
+            {
+              "id": "id-1785540190731-15",
+              "teamA": "UGANDA",
+              "teamB": "SUECIA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": []
+            },
+            {
+              "id": "id-1785540193836-17",
+              "teamA": "INGLATERRA",
+              "teamB": "UCRÂNIA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": []
+            },
+            {
+              "id": "id-1785540197590-19",
+              "teamA": "SUECIA",
+              "teamB": "UCRÂNIA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": []
+            },
+            {
+              "id": "id-1785540200578-21",
+              "teamA": "INGLATERRA",
+              "teamB": "UGANDA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": []
+            },
+            {
+              "id": "id-1785540203574-23",
+              "teamA": "UCRÂNIA",
+              "teamB": "UGANDA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": []
+            },
+            {
+              "id": "id-1785540208470-25",
+              "teamA": "INGLATERRA",
+              "teamB": "SUECIA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": []
+            }
+          ]
         },
         {
           "name": "Grupo C",
@@ -143,7 +277,74 @@
               "pts": 0
             }
           ],
-          "matches": []
+          "matches": [
+            {
+              "id": "id-1785540213708-27",
+              "teamA": "GRÉCIA",
+              "teamB": "PORTUGAL",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": []
+            },
+            {
+              "id": "id-1785540216732-29",
+              "teamA": "COLÔMBIA",
+              "teamB": "BRASIL",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": []
+            },
+            {
+              "id": "id-1785540219408-31",
+              "teamA": "GRÉCIA",
+              "teamB": "COLÔMBIA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": []
+            },
+            {
+              "id": "id-1785540221493-33",
+              "teamA": "PORTUGAL",
+              "teamB": "BRASIL",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": []
+            },
+            {
+              "id": "id-1785540225757-35",
+              "teamA": "COLÔMBIA",
+              "teamB": "PORTUGAL",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": []
+            },
+            {
+              "id": "id-1785540228945-37",
+              "teamA": "BRASIL",
+              "teamB": "GRÉCIA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": []
+            }
+          ]
         },
         {
           "name": "Grupo D",
@@ -189,7 +390,74 @@
               "pts": 0
             }
           ],
-          "matches": []
+          "matches": [
+            {
+              "id": "id-1785540233727-39",
+              "teamA": "HAITI",
+              "teamB": "ARGENTINA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": []
+            },
+            {
+              "id": "id-1785540237846-41",
+              "teamA": "GANA",
+              "teamB": "FRANÇA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": []
+            },
+            {
+              "id": "id-1785540240814-43",
+              "teamA": "HAITI",
+              "teamB": "GANA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": []
+            },
+            {
+              "id": "id-1785540243961-45",
+              "teamA": "ARGENTINA",
+              "teamB": "FRANÇA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": []
+            },
+            {
+              "id": "id-1785540247177-47",
+              "teamA": "GANA",
+              "teamB": "ARGENTINA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": []
+            },
+            {
+              "id": "id-1785540253189-49",
+              "teamA": "HAITI",
+              "teamB": "FRANÇA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": []
+            }
+          ]
         }
       ],
       "knockout": [
@@ -218,6 +486,16 @@
           "name": "Grupo A",
           "standings": [
             {
+              "name": "GUATEMALA",
+              "pj": 1,
+              "v": 1,
+              "e": 0,
+              "d": 0,
+              "gp": 12,
+              "gc": 2,
+              "pts": 3
+            },
+            {
               "name": "ESTADOS UNIDOS",
               "pj": 0,
               "v": 0,
@@ -228,7 +506,7 @@
               "pts": 0
             },
             {
-              "name": "GUATEMALA",
+              "name": "ESCOCIA",
               "pj": 0,
               "v": 0,
               "e": 0,
@@ -239,26 +517,83 @@
             },
             {
               "name": "ESPANHA",
-              "pj": 0,
+              "pj": 1,
               "v": 0,
               "e": 0,
-              "d": 0,
-              "gp": 0,
-              "gc": 0,
-              "pts": 0
-            },
-            {
-              "name": "ESC��CIA",
-              "pj": 0,
-              "v": 0,
-              "e": 0,
-              "d": 0,
-              "gp": 0,
-              "gc": 0,
+              "d": 1,
+              "gp": 2,
+              "gc": 12,
               "pts": 0
             }
           ],
-          "matches": []
+          "matches": [
+            {
+              "id": "id-1785540412246-19",
+              "teamA": "ESTADOS UNIDOS",
+              "teamB": "GUATEMALA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": []
+            },
+            {
+              "id": "id-1785540416318-21",
+              "teamA": "ESPANHA",
+              "teamB": "ESCOCIA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": []
+            },
+            {
+              "id": "id-1785540419600-23",
+              "teamA": "ESTADOS UNIDOS",
+              "teamB": "ESCOCIA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": []
+            },
+            {
+              "id": "id-1785540422670-25",
+              "teamA": "ESPANHA",
+              "teamB": "GUATEMALA",
+              "scoreA": 2,
+              "scoreB": 12,
+              "played": true,
+              "date": "2026-07-31",
+              "time": "20:30",
+              "events": []
+            },
+            {
+              "id": "id-1785540429194-27",
+              "teamA": "ESTADOS UNIDOS",
+              "teamB": "ESPANHA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": []
+            },
+            {
+              "id": "id-1785540433757-29",
+              "teamA": "GUATEMALA",
+              "teamB": "ESCOCIA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": []
+            }
+          ]
         }
       ],
       "knockout": [
@@ -283,7 +618,7 @@
           "name": "Grupo A",
           "standings": [
             {
-              "name": "SUÉCIA",
+              "name": "SUECIA",
               "pj": 0,
               "v": 0,
               "e": 0,
