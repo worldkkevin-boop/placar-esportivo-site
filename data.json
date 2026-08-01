@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T06:02:17.854Z",
+  "generatedAt": "2026-08-01T22:33:25.721Z",
   "scheduleDate": "2026-07-31",
   "categories": [
     {
@@ -53,33 +53,9 @@
           ],
           "matches": [
             {
-              "id": "id-1785539490927-15",
-              "teamA": "SENEGAL",
-              "teamB": "ARÁBIA SAUDITA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
-              "date": "",
-              "time": "",
-              "events": [],
-              "wo": null
-            },
-            {
-              "id": "id-1785539472610-15",
+              "id": "tabela-1785622372429-4",
               "teamA": "ITÁLIA",
-              "teamB": "VENEZUELA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
-              "date": "",
-              "time": "",
-              "events": [],
-              "wo": null
-            },
-            {
-              "id": "id-1785539483569-19",
-              "teamA": "ARÁBIA SAUDITA",
-              "teamB": "ITÁLIA",
+              "teamB": "ARÁBIA SAUDITA",
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
@@ -89,38 +65,62 @@
               "wo": null
             },
             {
-              "id": "id-1785539490398-21",
-              "teamA": "SENEGAL",
-              "teamB": "VENEZUELA",
+              "id": "tabela-1785622372429-6",
+              "teamA": "VENEZUELA",
+              "teamB": "SENEGAL",
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
-              "date": "",
-              "time": "",
+              "date": "2026-08-03",
+              "time": "20:00",
               "events": [],
               "wo": null
             },
             {
-              "id": "id-1785540260746-51",
-              "teamA": "ARÁBIA SAUDITA",
-              "teamB": "VENEZUELA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
-              "date": "",
-              "time": "",
-              "events": [],
-              "wo": null
-            },
-            {
-              "id": "id-1785540262495-53",
+              "id": "tabela-1785622372430-c",
               "teamA": "SENEGAL",
               "teamB": "ITÁLIA",
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
-              "date": "",
-              "time": "",
+              "date": "2026-08-04",
+              "time": "22:00",
+              "events": [],
+              "wo": null
+            },
+            {
+              "id": "tabela-1785622372430-e",
+              "teamA": "ARÁBIA SAUDITA",
+              "teamB": "SENEGAL",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-05",
+              "time": "21:00",
+              "events": [],
+              "wo": null
+            },
+            {
+              "id": "tabela-1785622372430-m",
+              "teamA": "ARÁBIA SAUDITA",
+              "teamB": "VENEZUELA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-07",
+              "time": "21:00",
+              "events": [],
+              "wo": null
+            },
+            {
+              "id": "tabela-1785622372430-r",
+              "teamA": "ITÁLIA",
+              "teamB": "VENEZUELA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-08",
+              "time": "22:00",
               "events": [],
               "wo": null
             }
@@ -172,43 +172,7 @@
           ],
           "matches": [
             {
-              "id": "id-1785540190731-15",
-              "teamA": "UGANDA",
-              "teamB": "SUECIA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
-              "date": "",
-              "time": "",
-              "events": [],
-              "wo": null
-            },
-            {
-              "id": "id-1785540193836-17",
-              "teamA": "INGLATERRA",
-              "teamB": "UCRÂNIA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
-              "date": "",
-              "time": "",
-              "events": [],
-              "wo": null
-            },
-            {
-              "id": "id-1785540197590-19",
-              "teamA": "SUECIA",
-              "teamB": "UCRÂNIA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
-              "date": "",
-              "time": "",
-              "events": [],
-              "wo": null
-            },
-            {
-              "id": "id-1785540200578-21",
+              "id": "tabela-1785622372429-3",
               "teamA": "INGLATERRA",
               "teamB": "UGANDA",
               "scoreA": 0,
@@ -220,26 +184,62 @@
               "wo": null
             },
             {
-              "id": "id-1785540203574-23",
+              "id": "tabela-1785622372429-7",
+              "teamA": "SUECIA",
+              "teamB": "UCRÂNIA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-03",
+              "time": "21:00",
+              "events": [],
+              "wo": null
+            },
+            {
+              "id": "tabela-1785622372430-f",
+              "teamA": "UCRÂNIA",
+              "teamB": "INGLATERRA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-05",
+              "time": "22:00",
+              "events": [],
+              "wo": null
+            },
+            {
+              "id": "tabela-1785622372430-i",
+              "teamA": "UGANDA",
+              "teamB": "SUECIA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-06",
+              "time": "20:00",
+              "events": [],
+              "wo": null
+            },
+            {
+              "id": "tabela-1785622372430-s",
               "teamA": "UCRÂNIA",
               "teamB": "UGANDA",
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
-              "date": "",
-              "time": "",
+              "date": "2026-08-10",
+              "time": "19:00",
               "events": [],
               "wo": null
             },
             {
-              "id": "id-1785540208470-25",
-              "teamA": "INGLATERRA",
-              "teamB": "SUECIA",
+              "id": "tabela-1785622372430-u",
+              "teamA": "SUECIA",
+              "teamB": "INGLATERRA",
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
-              "date": "",
-              "time": "",
+              "date": "2026-08-10",
+              "time": "21:00",
               "events": [],
               "wo": null
             }
@@ -291,19 +291,7 @@
           ],
           "matches": [
             {
-              "id": "id-1785540213708-27",
-              "teamA": "GRÉCIA",
-              "teamB": "PORTUGAL",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
-              "date": "",
-              "time": "",
-              "events": [],
-              "wo": null
-            },
-            {
-              "id": "id-1785540216732-29",
+              "id": "tabela-1785622372429-1",
               "teamA": "COLÔMBIA",
               "teamB": "BRASIL",
               "scoreA": 0,
@@ -315,50 +303,62 @@
               "wo": null
             },
             {
-              "id": "id-1785540219408-31",
+              "id": "tabela-1785622372429-8",
               "teamA": "GRÉCIA",
-              "teamB": "COLÔMBIA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
-              "date": "",
-              "time": "",
-              "events": [],
-              "wo": null
-            },
-            {
-              "id": "id-1785540221493-33",
-              "teamA": "PORTUGAL",
-              "teamB": "BRASIL",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
-              "date": "",
-              "time": "",
-              "events": [],
-              "wo": null
-            },
-            {
-              "id": "id-1785540225757-35",
-              "teamA": "COLÔMBIA",
               "teamB": "PORTUGAL",
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
-              "date": "",
-              "time": "",
+              "date": "2026-08-03",
+              "time": "22:00",
               "events": [],
               "wo": null
             },
             {
-              "id": "id-1785540228945-37",
+              "id": "tabela-1785622372430-j",
+              "teamA": "PORTUGAL",
+              "teamB": "COLÔMBIA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-06",
+              "time": "21:00",
+              "events": [],
+              "wo": null
+            },
+            {
+              "id": "tabela-1785622372430-n",
               "teamA": "BRASIL",
               "teamB": "GRÉCIA",
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
-              "date": "",
-              "time": "",
+              "date": "2026-08-07",
+              "time": "22:00",
+              "events": [],
+              "wo": null
+            },
+            {
+              "id": "tabela-1785622372430-q",
+              "teamA": "GRÉCIA",
+              "teamB": "COLÔMBIA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-08",
+              "time": "21:00",
+              "events": [],
+              "wo": null
+            },
+            {
+              "id": "tabela-1785622372430-t",
+              "teamA": "BRASIL",
+              "teamB": "PORTUGAL",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-10",
+              "time": "20:00",
               "events": [],
               "wo": null
             }
@@ -410,9 +410,21 @@
           ],
           "matches": [
             {
-              "id": "id-1785540233727-39",
-              "teamA": "HAITI",
-              "teamB": "ARGENTINA",
+              "id": "id-1785540237846-41",
+              "teamA": "GANA",
+              "teamB": "FRANÇA",
+              "scoreA": 3,
+              "scoreB": 0,
+              "played": true,
+              "date": "2026-07-31",
+              "time": "21:00",
+              "events": [],
+              "wo": "B"
+            },
+            {
+              "id": "tabela-1785622372429-2",
+              "teamA": "ARGENTINA",
+              "teamB": "HAITI",
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
@@ -422,31 +434,31 @@
               "wo": null
             },
             {
-              "id": "id-1785540237846-41",
-              "teamA": "GANA",
-              "teamB": "FRANÇA",
-              "scoreA": 3,
-              "scoreB": 0,
-              "played": true,
-              "date": "2026-07-31",
-              "time": "21:50",
-              "events": [],
-              "wo": "B"
-            },
-            {
-              "id": "id-1785540240814-43",
+              "id": "tabela-1785622372429-9",
               "teamA": "HAITI",
               "teamB": "GANA",
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
-              "date": "",
-              "time": "",
+              "date": "2026-08-04",
+              "time": "19:00",
               "events": [],
               "wo": null
             },
             {
-              "id": "id-1785540243961-45",
+              "id": "tabela-1785622372430-k",
+              "teamA": "ARGENTINA",
+              "teamB": "GANA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-07",
+              "time": "19:00",
+              "events": [],
+              "wo": null
+            },
+            {
+              "id": "tabela-1785622372430-v",
               "teamA": "ARGENTINA",
               "teamB": "FRANÇA",
               "scoreA": 0,
@@ -458,21 +470,9 @@
               "wo": null
             },
             {
-              "id": "id-1785540247177-47",
-              "teamA": "GANA",
-              "teamB": "ARGENTINA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
-              "date": "",
-              "time": "",
-              "events": [],
-              "wo": null
-            },
-            {
-              "id": "id-1785540253189-49",
-              "teamA": "HAITI",
-              "teamB": "FRANÇA",
+              "id": "tabela-1785622372430-w",
+              "teamA": "FRANÇA",
+              "teamB": "HAITI",
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
@@ -487,15 +487,116 @@
       "knockout": [
         {
           "name": "Quartas de Final",
-          "matches": []
+          "matches": [
+            {
+              "id": "tabela-1785622372448-11",
+              "teamA": "1º CH A",
+              "teamB": "2º CH B",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-11",
+              "time": "21:00",
+              "penA": null,
+              "penB": null,
+              "events": [],
+              "wo": null
+            },
+            {
+              "id": "tabela-1785622372448-12",
+              "teamA": "1º CH B",
+              "teamB": "2º CH A",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-11",
+              "time": "22:00",
+              "penA": null,
+              "penB": null,
+              "events": [],
+              "wo": null
+            },
+            {
+              "id": "tabela-1785622372448-15",
+              "teamA": "1º CH C",
+              "teamB": "2º CH D",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-12",
+              "time": "21:00",
+              "penA": null,
+              "penB": null,
+              "events": [],
+              "wo": null
+            },
+            {
+              "id": "tabela-1785622372448-16",
+              "teamA": "1º CH D",
+              "teamB": "2º CH C",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-12",
+              "time": "22:00",
+              "penA": null,
+              "penB": null,
+              "events": [],
+              "wo": null
+            }
+          ]
         },
         {
           "name": "Semifinal",
-          "matches": []
+          "matches": [
+            {
+              "id": "tabela-1785622372448-17",
+              "teamA": "VENC JG 1",
+              "teamB": "VENC JG 2",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-13",
+              "time": "20:00",
+              "penA": null,
+              "penB": null,
+              "events": [],
+              "wo": null
+            },
+            {
+              "id": "tabela-1785622372448-18",
+              "teamA": "VENC JG 3",
+              "teamB": "VENC JG 4",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-13",
+              "time": "21:00",
+              "penA": null,
+              "penB": null,
+              "events": [],
+              "wo": null
+            }
+          ]
         },
         {
           "name": "Final",
-          "matches": []
+          "matches": [
+            {
+              "id": "tabela-1785622372448-1b",
+              "teamA": "",
+              "teamB": "",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-15",
+              "time": "21:00",
+              "penA": null,
+              "penB": null,
+              "events": [],
+              "wo": null
+            }
+          ]
         }
       ],
       "topScorers": [],
@@ -520,17 +621,7 @@
               "pts": 3
             },
             {
-              "name": "ESTADOS UNIDOS",
-              "pj": 0,
-              "v": 0,
-              "e": 0,
-              "d": 0,
-              "gp": 0,
-              "gc": 0,
-              "pts": 0
-            },
-            {
-              "name": "ESCOCIA",
+              "name": "FRANÇA",
               "pj": 0,
               "v": 0,
               "e": 0,
@@ -552,42 +643,6 @@
           ],
           "matches": [
             {
-              "id": "id-1785540412246-19",
-              "teamA": "ESTADOS UNIDOS",
-              "teamB": "GUATEMALA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
-              "date": "",
-              "time": "",
-              "events": [],
-              "wo": null
-            },
-            {
-              "id": "id-1785540416318-21",
-              "teamA": "ESPANHA",
-              "teamB": "ESCOCIA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
-              "date": "",
-              "time": "",
-              "events": [],
-              "wo": null
-            },
-            {
-              "id": "id-1785540419600-23",
-              "teamA": "ESTADOS UNIDOS",
-              "teamB": "ESCOCIA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
-              "date": "",
-              "time": "",
-              "events": [],
-              "wo": null
-            },
-            {
               "id": "id-1785540422670-25",
               "teamA": "ESPANHA",
               "teamB": "GUATEMALA",
@@ -595,7 +650,7 @@
               "scoreB": 2,
               "played": true,
               "date": "2026-07-31",
-              "time": "20:30",
+              "time": "20:00",
               "events": [
                 {
                   "id": "sumula-papel-1785563827335-0",
@@ -715,26 +770,99 @@
               "wo": null
             },
             {
-              "id": "id-1785540429194-27",
-              "teamA": "ESTADOS UNIDOS",
-              "teamB": "ESPANHA",
+              "id": "tabela-1785622372429-a",
+              "teamA": "FRANÇA",
+              "teamB": "GUATEMALA",
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
-              "date": "",
-              "time": "",
+              "date": "2026-08-04",
+              "time": "20:00",
               "events": [],
               "wo": null
             },
             {
-              "id": "id-1785540433757-29",
-              "teamA": "GUATEMALA",
+              "id": "tabela-1785622372430-o",
+              "teamA": "ESPANHA",
+              "teamB": "FRANÇA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-08",
+              "time": "19:00",
+              "events": [],
+              "wo": null
+            }
+          ]
+        },
+        {
+          "name": "Grupo B",
+          "standings": [
+            {
+              "name": "ESCOCIA",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            },
+            {
+              "name": "ESTADOS UNIDOS",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            },
+            {
+              "name": "ALEMANHA",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            }
+          ],
+          "matches": [
+            {
+              "id": "tabela-1785622372429-5",
+              "teamA": "ALEMANHA",
               "teamB": "ESCOCIA",
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
-              "date": "",
-              "time": "",
+              "date": "2026-08-03",
+              "time": "19:00",
+              "events": [],
+              "wo": null
+            },
+            {
+              "id": "tabela-1785622372430-d",
+              "teamA": "ESTADOS UNIDOS",
+              "teamB": "ALEMANHA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-05",
+              "time": "20:00",
+              "events": [],
+              "wo": null
+            },
+            {
+              "id": "tabela-1785622372430-h",
+              "teamA": "ESCOCIA",
+              "teamB": "ESTADOS UNIDOS",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-06",
+              "time": "19:00",
               "events": [],
               "wo": null
             }
@@ -744,11 +872,55 @@
       "knockout": [
         {
           "name": "Semifinal",
-          "matches": []
+          "matches": [
+            {
+              "id": "tabela-1785622372448-10",
+              "teamA": "1º CH A",
+              "teamB": "2º CH B",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-11",
+              "time": "20:00",
+              "penA": null,
+              "penB": null,
+              "events": [],
+              "wo": null
+            },
+            {
+              "id": "tabela-1785622372448-14",
+              "teamA": "1º CH B",
+              "teamB": "2º CH A",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-12",
+              "time": "20:00",
+              "penA": null,
+              "penB": null,
+              "events": [],
+              "wo": null
+            }
+          ]
         },
         {
           "name": "Final",
-          "matches": []
+          "matches": [
+            {
+              "id": "tabela-1785622372448-1a",
+              "teamA": "",
+              "teamB": "",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-15",
+              "time": "20:00",
+              "penA": null,
+              "penB": null,
+              "events": [],
+              "wo": null
+            }
+          ]
         }
       ],
       "topScorers": [
@@ -845,7 +1017,44 @@
               "pts": 0
             }
           ],
-          "matches": []
+          "matches": [
+            {
+              "id": "tabela-1785622372429-b",
+              "teamA": "SUECIA",
+              "teamB": "ESPANHA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-04",
+              "time": "21:00",
+              "events": [],
+              "wo": null
+            },
+            {
+              "id": "tabela-1785622372430-l",
+              "teamA": "ESPANHA",
+              "teamB": "FRANÇA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-07",
+              "time": "20:00",
+              "events": [],
+              "wo": null
+            },
+            {
+              "id": "tabela-1785622372430-p",
+              "teamA": "FRANÇA",
+              "teamB": "SUECIA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-08",
+              "time": "20:00",
+              "events": [],
+              "wo": null
+            }
+          ]
         },
         {
           "name": "Grupo B",
@@ -869,19 +1078,110 @@
               "gp": 0,
               "gc": 0,
               "pts": 0
+            },
+            {
+              "name": "MARROCOS",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
             }
           ],
-          "matches": []
+          "matches": [
+            {
+              "id": "tabela-1785622372430-g",
+              "teamA": "PORTUGAL",
+              "teamB": "HOLANDA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-06",
+              "time": "19:00",
+              "events": [],
+              "wo": null
+            },
+            {
+              "id": "tabela-1785622372448-x",
+              "teamA": "PORTUGAL",
+              "teamB": "MARROCOS",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": [],
+              "wo": null
+            },
+            {
+              "id": "tabela-1785622372448-y",
+              "teamA": "HOLANDA",
+              "teamB": "MARROCOS",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "",
+              "time": "",
+              "events": [],
+              "wo": null
+            }
+          ]
         }
       ],
       "knockout": [
         {
           "name": "Semifinal",
-          "matches": []
+          "matches": [
+            {
+              "id": "tabela-1785622372448-z",
+              "teamA": "1º CH A",
+              "teamB": "2º CH B",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-11",
+              "time": "19:00",
+              "penA": null,
+              "penB": null,
+              "events": [],
+              "wo": null
+            },
+            {
+              "id": "tabela-1785622372448-13",
+              "teamA": "1º CH B",
+              "teamB": "2º CH A",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-12",
+              "time": "19:00",
+              "penA": null,
+              "penB": null,
+              "events": [],
+              "wo": null
+            }
+          ]
         },
         {
           "name": "Final",
-          "matches": []
+          "matches": [
+            {
+              "id": "tabela-1785622372448-19",
+              "teamA": "",
+              "teamB": "",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-15",
+              "time": "19:00",
+              "penA": null,
+              "penB": null,
+              "events": [],
+              "wo": null
+            }
+          ]
         }
       ],
       "topScorers": [],
