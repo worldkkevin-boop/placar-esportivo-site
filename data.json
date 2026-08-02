@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T00:29:12.680Z",
+  "generatedAt": "2026-08-02T02:30:46.776Z",
   "scheduleDate": "2026-08-01",
   "categories": [
     {
@@ -15,23 +15,13 @@
           "standings": [
             {
               "name": "ITÁLIA",
-              "pj": 0,
-              "v": 0,
+              "pj": 1,
+              "v": 1,
               "e": 0,
               "d": 0,
-              "gp": 0,
-              "gc": 0,
-              "pts": 0
-            },
-            {
-              "name": "ARÁBIA SAUDITA",
-              "pj": 0,
-              "v": 0,
-              "e": 0,
-              "d": 0,
-              "gp": 0,
-              "gc": 0,
-              "pts": 0
+              "gp": 7,
+              "gc": 4,
+              "pts": 3
             },
             {
               "name": "VENEZUELA",
@@ -52,6 +42,16 @@
               "gp": 0,
               "gc": 0,
               "pts": 0
+            },
+            {
+              "name": "ARÁBIA SAUDITA",
+              "pj": 1,
+              "v": 0,
+              "e": 0,
+              "d": 1,
+              "gp": 4,
+              "gc": 7,
+              "pts": 0
             }
           ],
           "matches": [
@@ -59,12 +59,122 @@
               "id": "tabela-1785622372429-4",
               "teamA": "ITÁLIA",
               "teamB": "ARÁBIA SAUDITA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
+              "scoreA": 7,
+              "scoreB": 4,
+              "played": true,
               "date": "2026-08-01",
               "time": "22:00",
-              "events": [],
+              "events": [
+                {
+                  "id": "sumula-papel-1785637767833-1k",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "8",
+                  "name": "VITOR RAFAEL FARIAS D. COSTA"
+                },
+                {
+                  "id": "sumula-papel-1785637767833-1l",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "10",
+                  "name": "PAULO HENRIQUE RODRIGUES D. OLIVEIRA"
+                },
+                {
+                  "id": "sumula-papel-1785637767833-1m",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "7",
+                  "name": "FRANCINEY SERRÃO D. SANTOS"
+                },
+                {
+                  "id": "sumula-papel-1785637767833-1n",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "10",
+                  "name": "PAULO HENRIQUE RODRIGUES D. OLIVEIRA"
+                },
+                {
+                  "id": "sumula-papel-1785637767833-1o",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "7",
+                  "name": "FRANCINEY SERRÃO D. SANTOS"
+                },
+                {
+                  "id": "sumula-papel-1785637767833-1p",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "17",
+                  "name": "ANDERSSON GOMES ALBUQUERQUE"
+                },
+                {
+                  "id": "sumula-papel-1785637767833-1q",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "10",
+                  "name": "PAULO HENRIQUE RODRIGUES D. OLIVEIRA"
+                },
+                {
+                  "id": "sumula-papel-1785637767833-1r",
+                  "type": "goal",
+                  "teamName": "ARÁBIA SAUDITA",
+                  "number": "12",
+                  "name": "VANDERCLEY SOARES D. CONCEIÇÃO"
+                },
+                {
+                  "id": "sumula-papel-1785637767833-1s",
+                  "type": "goal",
+                  "teamName": "ARÁBIA SAUDITA",
+                  "number": "12",
+                  "name": "VANDERCLEY SOARES D. CONCEIÇÃO"
+                },
+                {
+                  "id": "sumula-papel-1785637767833-1t",
+                  "type": "goal",
+                  "teamName": "ARÁBIA SAUDITA",
+                  "number": "3",
+                  "name": "JOÃO VITOR PACHECO D. VASCONCELOS"
+                },
+                {
+                  "id": "sumula-papel-1785637767833-1u",
+                  "type": "goal",
+                  "teamName": "ARÁBIA SAUDITA",
+                  "number": "9",
+                  "name": "IZAN DE PINHO VIDAL JUNIOR"
+                },
+                {
+                  "id": "sumula-papel-1785637767833-1v",
+                  "type": "yellow",
+                  "teamName": "ARÁBIA SAUDITA",
+                  "number": "8",
+                  "name": "MATHEUS SOUSA TEIXEIRA",
+                  "paid": false
+                },
+                {
+                  "id": "sumula-papel-1785637767833-1w",
+                  "type": "yellow",
+                  "teamName": "ARÁBIA SAUDITA",
+                  "number": "7",
+                  "name": "HAYRISON D. SILVA PANTOJA",
+                  "paid": false
+                },
+                {
+                  "id": "sumula-papel-1785637767833-1x",
+                  "type": "red",
+                  "teamName": "ARÁBIA SAUDITA",
+                  "number": "8",
+                  "name": "MATHEUS SOUSA TEIXEIRA",
+                  "paid": false
+                },
+                {
+                  "id": "sumula-papel-1785637767833-1y",
+                  "type": "red",
+                  "teamName": "ARÁBIA SAUDITA",
+                  "number": "",
+                  "name": "LEANDRO MACELINO GOMES",
+                  "paid": false
+                }
+              ],
               "wo": null
             },
             {
@@ -134,23 +244,13 @@
           "standings": [
             {
               "name": "INGLATERRA",
-              "pj": 0,
-              "v": 0,
+              "pj": 1,
+              "v": 1,
               "e": 0,
               "d": 0,
-              "gp": 0,
-              "gc": 0,
-              "pts": 0
-            },
-            {
-              "name": "UGANDA",
-              "pj": 0,
-              "v": 0,
-              "e": 0,
-              "d": 0,
-              "gp": 0,
-              "gc": 0,
-              "pts": 0
+              "gp": 6,
+              "gc": 5,
+              "pts": 3
             },
             {
               "name": "SUECIA",
@@ -171,6 +271,16 @@
               "gp": 0,
               "gc": 0,
               "pts": 0
+            },
+            {
+              "name": "UGANDA",
+              "pj": 1,
+              "v": 0,
+              "e": 0,
+              "d": 1,
+              "gp": 5,
+              "gc": 6,
+              "pts": 0
             }
           ],
           "matches": [
@@ -178,12 +288,122 @@
               "id": "tabela-1785622372429-3",
               "teamA": "INGLATERRA",
               "teamB": "UGANDA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
+              "scoreA": 6,
+              "scoreB": 5,
+              "played": true,
               "date": "2026-08-01",
               "time": "21:00",
-              "events": [],
+              "events": [
+                {
+                  "id": "sumula-papel-1785633959990-15",
+                  "type": "goal",
+                  "teamName": "INGLATERRA",
+                  "number": "44",
+                  "name": "LEONARDO O. SANTOS SILVA"
+                },
+                {
+                  "id": "sumula-papel-1785633959990-16",
+                  "type": "goal",
+                  "teamName": "INGLATERRA",
+                  "number": "17",
+                  "name": "HEBESON BRITO PAIVA"
+                },
+                {
+                  "id": "sumula-papel-1785633959990-17",
+                  "type": "goal",
+                  "teamName": "INGLATERRA",
+                  "number": "8",
+                  "name": "JOSE FERNANDO LIMA OLIVEIRA"
+                },
+                {
+                  "id": "sumula-papel-1785633959990-18",
+                  "type": "goal",
+                  "teamName": "INGLATERRA",
+                  "number": "17",
+                  "name": "HEBESON BRITO PAIVA"
+                },
+                {
+                  "id": "sumula-papel-1785633959990-19",
+                  "type": "goal",
+                  "teamName": "INGLATERRA",
+                  "number": "17",
+                  "name": "HEBESON BRITO PAIVA"
+                },
+                {
+                  "id": "sumula-papel-1785633959990-1a",
+                  "type": "goal",
+                  "teamName": "INGLATERRA",
+                  "number": "17",
+                  "name": "HEBESON BRITO PAIVA"
+                },
+                {
+                  "id": "sumula-papel-1785633959990-1b",
+                  "type": "yellow",
+                  "teamName": "INGLATERRA",
+                  "number": "17",
+                  "name": "HEBESON BRITO PAIVA",
+                  "paid": false
+                },
+                {
+                  "id": "sumula-papel-1785633959990-1c",
+                  "type": "goal",
+                  "teamName": "UGANDA",
+                  "number": "4",
+                  "name": "DAVI VITOR DIAS TEIXEIRA"
+                },
+                {
+                  "id": "sumula-papel-1785633959990-1d",
+                  "type": "goal",
+                  "teamName": "UGANDA",
+                  "number": "9",
+                  "name": "FRAN ANTHONY FIGUEREDO D. SANTOS"
+                },
+                {
+                  "id": "sumula-papel-1785633959990-1e",
+                  "type": "goal",
+                  "teamName": "UGANDA",
+                  "number": "6",
+                  "name": "BRYAN MACENO GONÇALVES"
+                },
+                {
+                  "id": "sumula-papel-1785633959990-1f",
+                  "type": "goal",
+                  "teamName": "UGANDA",
+                  "number": "11",
+                  "name": "FABIO SILVA D. CRUZ"
+                },
+                {
+                  "id": "sumula-papel-1785633959990-1g",
+                  "type": "goal",
+                  "teamName": "UGANDA",
+                  "number": "9",
+                  "name": "FRAN ANTHONY FIGUEREDO D. SANTOS"
+                },
+                {
+                  "id": "sumula-papel-1785633959990-1h",
+                  "type": "yellow",
+                  "teamName": "UGANDA",
+                  "number": "4",
+                  "name": "DAVI VITOR DIAS TEIXEIRA",
+                  "paid": false
+                },
+                {
+                  "id": "sumula-papel-1785633959990-1i",
+                  "type": "yellow",
+                  "teamName": "UGANDA",
+                  "number": "13",
+                  "name": "DEIVID KAUÃ D. SOUZA DIAS",
+                  "paid": false
+                },
+                {
+                  "id": "sumula-papel-1785633959990-1j",
+                  "type": "yellow",
+                  "teamName": "UGANDA",
+                  "number": "7",
+                  "name": "RIKELME PINHEIRO D. GAMA",
+                  "paid": false
+                }
+              ],
               "wo": null
             },
             {
@@ -763,6 +983,18 @@
       ],
       "topScorers": [
         {
+          "teamName": "INGLATERRA",
+          "number": "17",
+          "name": "HEBESON BRITO PAIVA",
+          "goals": 4
+        },
+        {
+          "teamName": "ITÁLIA",
+          "number": "10",
+          "name": "PAULO HENRIQUE RODRIGUES D. OLIVEIRA",
+          "goals": 3
+        },
+        {
           "teamName": "ARGENTINA",
           "number": "8",
           "name": "VALTEAN D. COSTA RODRIGUES",
@@ -775,9 +1007,27 @@
           "goals": 2
         },
         {
+          "teamName": "UGANDA",
+          "number": "9",
+          "name": "FRAN ANTHONY FIGUEREDO D. SANTOS",
+          "goals": 2
+        },
+        {
+          "teamName": "ITÁLIA",
+          "number": "7",
+          "name": "FRANCINEY SERRÃO D. SANTOS",
+          "goals": 2
+        },
+        {
           "teamName": "COLÔMBIA",
           "number": "8",
           "name": "ROGEL COSTA D. OLIVEIRA",
+          "goals": 2
+        },
+        {
+          "teamName": "ARÁBIA SAUDITA",
+          "number": "12",
+          "name": "VANDERCLEY SOARES D. CONCEIÇÃO",
           "goals": 2
         },
         {
@@ -791,43 +1041,27 @@
           "number": "7",
           "name": "ANDERSON D. FREITAS SANTOS",
           "goals": 1
-        },
-        {
-          "teamName": "COLÔMBIA",
-          "number": "11",
-          "name": "CHRISTYAN VITOR D. SILVA LIMA",
-          "goals": 1
-        },
-        {
-          "teamName": "ARGENTINA",
-          "number": "5",
-          "name": "EDILSON JUNIOR D. CARMO SANTOS",
-          "goals": 1
-        },
-        {
-          "teamName": "HAITI",
-          "number": "13",
-          "name": "FAGNER D. SANTOS SILVA",
-          "goals": 1
-        },
-        {
-          "teamName": "HAITI",
-          "number": "5",
-          "name": "GUSTAVO D. ARAUJO SOUSA",
-          "goals": 1
-        },
-        {
-          "teamName": "ARGENTINA",
-          "number": "9",
-          "name": "IAGO D. MIRANDA FURTADO",
-          "goals": 1
         }
       ],
       "topCards": [
         {
+          "teamName": "ARÁBIA SAUDITA",
+          "number": "8",
+          "name": "MATHEUS SOUSA TEIXEIRA",
+          "yellow": 1,
+          "red": 1
+        },
+        {
           "teamName": "BRASIL",
           "number": "17",
           "name": "JOARLYSON LUIZ XAVIER SANTOS",
+          "yellow": 0,
+          "red": 1
+        },
+        {
+          "teamName": "ARÁBIA SAUDITA",
+          "number": "",
+          "name": "LEANDRO MACELINO GOMES",
           "yellow": 0,
           "red": 1
         },
@@ -853,16 +1087,16 @@
           "red": 0
         },
         {
-          "teamName": "COLÔMBIA",
-          "number": "2",
-          "name": "LEANDRO D. SILVA DE SOUZA",
+          "teamName": "UGANDA",
+          "number": "4",
+          "name": "DAVI VITOR DIAS TEIXEIRA",
           "yellow": 1,
           "red": 0
         },
         {
-          "teamName": "COLÔMBIA",
-          "number": "7",
-          "name": "SHAIDSON KEISLEN D. SILVA DE SENA",
+          "teamName": "UGANDA",
+          "number": "13",
+          "name": "DEIVID KAUÃ D. SOUZA DIAS",
           "yellow": 1,
           "red": 0
         }
