@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T23:18:42.518Z",
+  "generatedAt": "2026-08-02T00:29:12.680Z",
   "scheduleDate": "2026-08-01",
   "categories": [
     {
@@ -474,6 +474,16 @@
           "name": "Grupo D",
           "standings": [
             {
+              "name": "ARGENTINA",
+              "pj": 1,
+              "v": 1,
+              "e": 0,
+              "d": 0,
+              "gp": 6,
+              "gc": 3,
+              "pts": 3
+            },
+            {
               "name": "GANA",
               "pj": 1,
               "v": 1,
@@ -484,23 +494,13 @@
               "pts": 3
             },
             {
-              "name": "ARGENTINA",
-              "pj": 0,
-              "v": 0,
-              "e": 0,
-              "d": 0,
-              "gp": 0,
-              "gc": 0,
-              "pts": 0
-            },
-            {
               "name": "HAITI",
-              "pj": 0,
+              "pj": 1,
               "v": 0,
               "e": 0,
-              "d": 0,
-              "gp": 0,
-              "gc": 0,
+              "d": 1,
+              "gp": 3,
+              "gc": 6,
               "pts": 0
             },
             {
@@ -531,12 +531,92 @@
               "id": "tabela-1785622372429-2",
               "teamA": "ARGENTINA",
               "teamB": "HAITI",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
+              "scoreA": 6,
+              "scoreB": 3,
+              "played": true,
               "date": "2026-08-01",
               "time": "20:00",
-              "events": [],
+              "events": [
+                {
+                  "id": "sumula-papel-1785630209464-u",
+                  "type": "goal",
+                  "teamName": "ARGENTINA",
+                  "number": "8",
+                  "name": "VALTEAN D. COSTA RODRIGUES"
+                },
+                {
+                  "id": "sumula-papel-1785630209464-v",
+                  "type": "goal",
+                  "teamName": "ARGENTINA",
+                  "number": "8",
+                  "name": "VALTEAN D. COSTA RODRIGUES"
+                },
+                {
+                  "id": "sumula-papel-1785630209464-w",
+                  "type": "goal",
+                  "teamName": "ARGENTINA",
+                  "number": "9",
+                  "name": "IAGO D. MIRANDA FURTADO"
+                },
+                {
+                  "id": "sumula-papel-1785630209464-x",
+                  "type": "goal",
+                  "teamName": "ARGENTINA",
+                  "number": "10",
+                  "name": "PAULO VICTOR LIMA PANTOJA"
+                },
+                {
+                  "id": "sumula-papel-1785630209464-y",
+                  "type": "goal",
+                  "teamName": "ARGENTINA",
+                  "number": "5",
+                  "name": "EDILSON JUNIOR D. CARMO SANTOS"
+                },
+                {
+                  "id": "sumula-papel-1785630209464-z",
+                  "type": "goal",
+                  "teamName": "ARGENTINA",
+                  "number": "8",
+                  "name": "VALTEAN D. COSTA RODRIGUES"
+                },
+                {
+                  "id": "sumula-papel-1785630209464-10",
+                  "type": "yellow",
+                  "teamName": "ARGENTINA",
+                  "number": "7",
+                  "name": "ANDERSON D. SILVA E SILVA",
+                  "paid": false
+                },
+                {
+                  "id": "sumula-papel-1785630209464-11",
+                  "type": "goal",
+                  "teamName": "HAITI",
+                  "number": "13",
+                  "name": "FAGNER D. SANTOS SILVA"
+                },
+                {
+                  "id": "sumula-papel-1785630209464-12",
+                  "type": "goal",
+                  "teamName": "HAITI",
+                  "number": "5",
+                  "name": "GUSTAVO D. ARAUJO SOUSA"
+                },
+                {
+                  "id": "sumula-papel-1785630209464-13",
+                  "type": "goal",
+                  "teamName": "HAITI",
+                  "number": "8",
+                  "name": "MAYCK LIMA FONSECA"
+                },
+                {
+                  "id": "sumula-papel-1785630209464-14",
+                  "type": "yellow",
+                  "teamName": "HAITI",
+                  "number": "7",
+                  "name": "CARLOS ELUAN ROCHA D. SILVA",
+                  "paid": false
+                }
+              ],
               "wo": null
             },
             {
@@ -683,6 +763,12 @@
       ],
       "topScorers": [
         {
+          "teamName": "ARGENTINA",
+          "number": "8",
+          "name": "VALTEAN D. COSTA RODRIGUES",
+          "goals": 3
+        },
+        {
           "teamName": "COLÔMBIA",
           "number": "14",
           "name": "AUGUSTO CESAR D. SILVA D. OLIVEIRA",
@@ -713,15 +799,27 @@
           "goals": 1
         },
         {
-          "teamName": "BRASIL",
-          "number": "10",
-          "name": "RODRIGO OLIVEIRA D. SILVA",
+          "teamName": "ARGENTINA",
+          "number": "5",
+          "name": "EDILSON JUNIOR D. CARMO SANTOS",
           "goals": 1
         },
         {
-          "teamName": "BRASIL",
-          "number": "4",
-          "name": "THIAGO D. OLIVEIRA FREITAS",
+          "teamName": "HAITI",
+          "number": "13",
+          "name": "FAGNER D. SANTOS SILVA",
+          "goals": 1
+        },
+        {
+          "teamName": "HAITI",
+          "number": "5",
+          "name": "GUSTAVO D. ARAUJO SOUSA",
+          "goals": 1
+        },
+        {
+          "teamName": "ARGENTINA",
+          "number": "9",
+          "name": "IAGO D. MIRANDA FURTADO",
           "goals": 1
         }
       ],
@@ -737,6 +835,20 @@
           "teamName": "COLÔMBIA",
           "number": "19",
           "name": "ADRIEL CARVALHO D. COSTA",
+          "yellow": 1,
+          "red": 0
+        },
+        {
+          "teamName": "ARGENTINA",
+          "number": "7",
+          "name": "ANDERSON D. SILVA E SILVA",
+          "yellow": 1,
+          "red": 0
+        },
+        {
+          "teamName": "HAITI",
+          "number": "7",
+          "name": "CARLOS ELUAN ROCHA D. SILVA",
           "yellow": 1,
           "red": 0
         },
