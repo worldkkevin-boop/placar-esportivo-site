@@ -1,14 +1,12 @@
 {
-  "generatedAt": "2026-08-02T02:30:46.776Z",
+  "generatedAt": "2026-08-03T16:47:04.661Z",
   "scheduleDate": "2026-08-01",
   "categories": [
     {
       "id": "principal",
       "name": "Principal (16 Times)",
       "champion": null,
-      "eliminated": [
-        "FRANÇA"
-      ],
+      "eliminated": [],
       "groups": [
         {
           "name": "Grupo A",
@@ -450,7 +448,7 @@
               "scoreB": 0,
               "played": false,
               "date": "2026-08-10",
-              "time": "19:00",
+              "time": "20:00",
               "events": [],
               "wo": null
             },
@@ -462,7 +460,7 @@
               "scoreB": 0,
               "played": false,
               "date": "2026-08-10",
-              "time": "21:00",
+              "time": "22:00",
               "events": [],
               "wo": null
             }
@@ -684,7 +682,7 @@
               "scoreB": 0,
               "played": false,
               "date": "2026-08-10",
-              "time": "20:00",
+              "time": "21:00",
               "events": [],
               "wo": null
             }
@@ -859,6 +857,30 @@
               "scoreB": 0,
               "played": false,
               "date": "2026-08-07",
+              "time": "19:00",
+              "events": [],
+              "wo": null
+            },
+            {
+              "id": "tabela2-1785775527274-0",
+              "teamA": "ARGENTINA",
+              "teamB": "FRANÇA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-08",
+              "time": "20:00",
+              "events": [],
+              "wo": null
+            },
+            {
+              "id": "tabela2-1785775527274-1",
+              "teamA": "FRANÇA",
+              "teamB": "HAITI",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-10",
               "time": "19:00",
               "events": [],
               "wo": null
@@ -1533,6 +1555,18 @@
               "wo": null
             },
             {
+              "id": "tabela-1785622372430-p",
+              "teamA": "FRANÇA",
+              "teamB": "SUECIA",
+              "scoreA": 0,
+              "scoreB": 0,
+              "played": false,
+              "date": "2026-08-05",
+              "time": "19:00",
+              "events": [],
+              "wo": null
+            },
+            {
               "id": "tabela-1785622372430-l",
               "teamA": "ESPANHA",
               "teamB": "FRANÇA",
@@ -1540,18 +1574,6 @@
               "scoreB": 0,
               "played": false,
               "date": "2026-08-07",
-              "time": "20:00",
-              "events": [],
-              "wo": null
-            },
-            {
-              "id": "tabela-1785622372430-p",
-              "teamA": "FRANÇA",
-              "teamB": "SUECIA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
-              "date": "2026-08-08",
               "time": "20:00",
               "events": [],
               "wo": null
