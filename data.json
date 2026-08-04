@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-03T16:47:04.661Z",
-  "scheduleDate": "2026-08-01",
+  "generatedAt": "2026-08-04T02:40:06.035Z",
+  "scheduleDate": "2026-08-03",
   "categories": [
     {
       "id": "principal",
@@ -12,27 +12,17 @@
           "name": "Grupo A",
           "standings": [
             {
-              "name": "ITÁLIA",
+              "name": "VENEZUELA",
               "pj": 1,
               "v": 1,
               "e": 0,
               "d": 0,
-              "gp": 7,
-              "gc": 4,
+              "gp": 4,
+              "gc": 1,
               "pts": 3
             },
             {
-              "name": "VENEZUELA",
-              "pj": 0,
-              "v": 0,
-              "e": 0,
-              "d": 0,
-              "gp": 0,
-              "gc": 0,
-              "pts": 0
-            },
-            {
-              "name": "SENEGAL",
+              "name": "IT��LIA",
               "pj": 0,
               "v": 0,
               "e": 0,
@@ -43,12 +33,22 @@
             },
             {
               "name": "ARÁBIA SAUDITA",
+              "pj": 0,
+              "v": 0,
+              "e": 0,
+              "d": 0,
+              "gp": 0,
+              "gc": 0,
+              "pts": 0
+            },
+            {
+              "name": "SENEGAL",
               "pj": 1,
               "v": 0,
               "e": 0,
               "d": 1,
-              "gp": 4,
-              "gc": 7,
+              "gp": 1,
+              "gc": 4,
               "pts": 0
             }
           ],
@@ -179,12 +179,88 @@
               "id": "tabela-1785622372429-6",
               "teamA": "VENEZUELA",
               "teamB": "SENEGAL",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
+              "scoreA": 4,
+              "scoreB": 1,
+              "played": true,
               "date": "2026-08-03",
               "time": "20:00",
-              "events": [],
+              "events": [
+                {
+                  "id": "id-1785800108006-14",
+                  "type": "goal",
+                  "teamName": "SENEGAL",
+                  "number": "11",
+                  "name": "THIAGO GAMA D. ARAUJO",
+                  "period": 1,
+                  "clockElapsed": 417
+                },
+                {
+                  "id": "id-1785801349122-17",
+                  "type": "yellow",
+                  "teamName": "SENEGAL",
+                  "number": "2",
+                  "name": "MARCELO VITOR SANTOS D. SANTOS",
+                  "period": 2,
+                  "clockElapsed": 0,
+                  "paid": false
+                },
+                {
+                  "id": "id-1785801987023-18",
+                  "type": "goal",
+                  "teamName": "VENEZUELA",
+                  "number": "7",
+                  "name": "ERNANDES BELO FURTADO",
+                  "period": 2,
+                  "clockElapsed": 403
+                },
+                {
+                  "id": "id-1785802161561-21",
+                  "type": "yellow",
+                  "teamName": "SENEGAL",
+                  "number": "10",
+                  "name": "THIAGO OLIVEIRA D. ARAUJO",
+                  "period": 2,
+                  "clockElapsed": 578,
+                  "paid": false
+                },
+                {
+                  "id": "id-1785802177401-22",
+                  "type": "yellow",
+                  "teamName": "VENEZUELA",
+                  "number": "12",
+                  "name": "GABRIEL SILVA CARVALHO",
+                  "period": 2,
+                  "clockElapsed": 593,
+                  "paid": false
+                },
+                {
+                  "id": "id-1785802373167-24",
+                  "type": "goal",
+                  "teamName": "VENEZUELA",
+                  "number": "7",
+                  "name": "ERNANDES BELO FURTADO",
+                  "period": 2,
+                  "clockElapsed": 727
+                },
+                {
+                  "id": "id-1785802734039-27",
+                  "type": "goal",
+                  "teamName": "VENEZUELA",
+                  "number": "19",
+                  "name": "GUILHERME JUNIOR JESUS LOPES",
+                  "period": 2,
+                  "clockElapsed": 1088
+                },
+                {
+                  "id": "id-1785802820163-28",
+                  "type": "goal",
+                  "teamName": "VENEZUELA",
+                  "number": "10",
+                  "name": "SALOMÃO FARIAS FILHO",
+                  "period": 2,
+                  "clockElapsed": 1174
+                }
+              ],
               "wo": null
             },
             {
@@ -252,23 +328,13 @@
             },
             {
               "name": "SUECIA",
-              "pj": 0,
-              "v": 0,
+              "pj": 1,
+              "v": 1,
               "e": 0,
               "d": 0,
-              "gp": 0,
-              "gc": 0,
-              "pts": 0
-            },
-            {
-              "name": "UCRÂNIA",
-              "pj": 0,
-              "v": 0,
-              "e": 0,
-              "d": 0,
-              "gp": 0,
-              "gc": 0,
-              "pts": 0
+              "gp": 3,
+              "gc": 2,
+              "pts": 3
             },
             {
               "name": "UGANDA",
@@ -278,6 +344,16 @@
               "d": 1,
               "gp": 5,
               "gc": 6,
+              "pts": 0
+            },
+            {
+              "name": "UCRÂNIA",
+              "pj": 1,
+              "v": 0,
+              "e": 0,
+              "d": 1,
+              "gp": 2,
+              "gc": 3,
               "pts": 0
             }
           ],
@@ -408,12 +484,78 @@
               "id": "tabela-1785622372429-7",
               "teamA": "SUECIA",
               "teamB": "UCRÂNIA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
+              "scoreA": 3,
+              "scoreB": 2,
+              "played": true,
               "date": "2026-08-03",
               "time": "21:00",
-              "events": [],
+              "events": [
+                {
+                  "id": "id-1785804386029-16",
+                  "type": "goal",
+                  "teamName": "UCRÂNIA",
+                  "number": "5",
+                  "name": "PAULO MATHEUS SILVA D. SANTOS",
+                  "period": 1,
+                  "clockElapsed": 665
+                },
+                {
+                  "id": "id-1785804486424-19",
+                  "type": "goal",
+                  "teamName": "SUECIA",
+                  "number": "8",
+                  "name": "RAFAEL D. SILVA SANTOS",
+                  "period": 1,
+                  "clockElapsed": 766
+                },
+                {
+                  "id": "id-1785804894724-20",
+                  "type": "goal",
+                  "teamName": "SUECIA",
+                  "number": "11",
+                  "name": "ALEXSANDRO RAYRAN D. SILVA OLIVEIRA",
+                  "period": 1,
+                  "clockElapsed": 1174
+                },
+                {
+                  "id": "id-1785805339482-23",
+                  "type": "goal",
+                  "teamName": "SUECIA",
+                  "number": "11",
+                  "name": "ALEXSANDRO RAYRAN D. SILVA OLIVEIRA",
+                  "period": 2,
+                  "clockElapsed": 74
+                },
+                {
+                  "id": "id-1785805533831-24",
+                  "type": "yellow",
+                  "teamName": "SUECIA",
+                  "number": "11",
+                  "name": "ALEXSANDRO RAYRAN D. SILVA OLIVEIRA",
+                  "period": 2,
+                  "clockElapsed": 268,
+                  "paid": false
+                },
+                {
+                  "id": "id-1785806208460-26",
+                  "type": "goal",
+                  "teamName": "UCRÂNIA",
+                  "number": "10",
+                  "name": "GLEANDSON CALDEIRA D. OLIVEIRA",
+                  "period": 2,
+                  "clockElapsed": 880
+                },
+                {
+                  "id": "id-1785806374683-28",
+                  "type": "yellow",
+                  "teamName": "UCRÂNIA",
+                  "number": "21",
+                  "name": "ROBERTO ROMARIO RIBEIRO D. COSTA",
+                  "period": 2,
+                  "clockElapsed": 1046,
+                  "paid": false
+                }
+              ],
               "wo": null
             },
             {
@@ -481,22 +623,22 @@
             },
             {
               "name": "PORTUGAL",
-              "pj": 0,
-              "v": 0,
+              "pj": 1,
+              "v": 1,
               "e": 0,
               "d": 0,
-              "gp": 0,
-              "gc": 0,
-              "pts": 0
+              "gp": 3,
+              "gc": 2,
+              "pts": 3
             },
             {
               "name": "GRÉCIA",
-              "pj": 0,
+              "pj": 1,
               "v": 0,
               "e": 0,
-              "d": 0,
-              "gp": 0,
-              "gc": 0,
+              "d": 1,
+              "gp": 2,
+              "gc": 3,
               "pts": 0
             },
             {
@@ -630,12 +772,68 @@
               "id": "tabela-1785622372429-8",
               "teamA": "GRÉCIA",
               "teamB": "PORTUGAL",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
+              "scoreA": 2,
+              "scoreB": 3,
+              "played": true,
               "date": "2026-08-03",
               "time": "22:00",
-              "events": [],
+              "events": [
+                {
+                  "id": "id-1785808279621-14",
+                  "type": "goal",
+                  "teamName": "GRÉCIA",
+                  "number": "7",
+                  "name": "JOÃO VITOR SOUSA LOPES",
+                  "period": 1,
+                  "clockElapsed": 744
+                },
+                {
+                  "id": "id-1785808614137-16",
+                  "type": "goal",
+                  "teamName": "GRÉCIA",
+                  "number": "77",
+                  "name": "DARLAN MONTEIRO D. SANTOS",
+                  "period": 1,
+                  "clockElapsed": 1079
+                },
+                {
+                  "id": "id-1785808732138-18",
+                  "type": "goal",
+                  "teamName": "PORTUGAL",
+                  "number": "8",
+                  "name": "LUIS FERNANDO GAMA FRANCA",
+                  "period": 1,
+                  "clockElapsed": 1197
+                },
+                {
+                  "id": "id-1785809748287-20",
+                  "type": "goal",
+                  "teamName": "PORTUGAL",
+                  "number": "10",
+                  "name": "DAVI D. SANTOS CASTELO",
+                  "period": 2,
+                  "clockElapsed": 559
+                },
+                {
+                  "id": "id-1785810436199-22",
+                  "type": "yellow",
+                  "teamName": "PORTUGAL",
+                  "number": "14",
+                  "name": "ITALO JORDAN COSTA FERRAZ",
+                  "period": 2,
+                  "clockElapsed": 1081,
+                  "paid": false
+                },
+                {
+                  "id": "id-1785810504011-25",
+                  "type": "goal",
+                  "teamName": "PORTUGAL",
+                  "number": "9",
+                  "name": "GIVANILDO D. COSTA GAMA",
+                  "period": 2,
+                  "clockElapsed": 1149
+                }
+              ],
               "wo": null
             },
             {
@@ -1023,9 +1221,21 @@
           "goals": 3
         },
         {
+          "teamName": "SUECIA",
+          "number": "11",
+          "name": "ALEXSANDRO RAYRAN D. SILVA OLIVEIRA",
+          "goals": 2
+        },
+        {
           "teamName": "COLÔMBIA",
           "number": "14",
           "name": "AUGUSTO CESAR D. SILVA D. OLIVEIRA",
+          "goals": 2
+        },
+        {
+          "teamName": "VENEZUELA",
+          "number": "7",
+          "name": "ERNANDES BELO FURTADO",
           "goals": 2
         },
         {
@@ -1051,18 +1261,6 @@
           "number": "12",
           "name": "VANDERCLEY SOARES D. CONCEIÇÃO",
           "goals": 2
-        },
-        {
-          "teamName": "BRASIL",
-          "number": "9",
-          "name": "ALEFF JUNIOR FURTADO D. SILVA",
-          "goals": 1
-        },
-        {
-          "teamName": "BRASIL",
-          "number": "7",
-          "name": "ANDERSON D. FREITAS SANTOS",
-          "goals": 1
         }
       ],
       "topCards": [
@@ -1095,6 +1293,13 @@
           "red": 0
         },
         {
+          "teamName": "SUECIA",
+          "number": "11",
+          "name": "ALEXSANDRO RAYRAN D. SILVA OLIVEIRA",
+          "yellow": 1,
+          "red": 0
+        },
+        {
           "teamName": "ARGENTINA",
           "number": "7",
           "name": "ANDERSON D. SILVA E SILVA",
@@ -1112,13 +1317,6 @@
           "teamName": "UGANDA",
           "number": "4",
           "name": "DAVI VITOR DIAS TEIXEIRA",
-          "yellow": 1,
-          "red": 0
-        },
-        {
-          "teamName": "UGANDA",
-          "number": "13",
-          "name": "DEIVID KAUÃ D. SOUZA DIAS",
           "yellow": 1,
           "red": 0
         }
@@ -1323,13 +1521,13 @@
           "standings": [
             {
               "name": "ESCOCIA",
-              "pj": 0,
-              "v": 0,
+              "pj": 1,
+              "v": 1,
               "e": 0,
               "d": 0,
-              "gp": 0,
+              "gp": 4,
               "gc": 0,
-              "pts": 0
+              "pts": 3
             },
             {
               "name": "ESTADOS UNIDOS",
@@ -1343,12 +1541,12 @@
             },
             {
               "name": "ALEMANHA",
-              "pj": 0,
+              "pj": 1,
               "v": 0,
               "e": 0,
-              "d": 0,
+              "d": 1,
               "gp": 0,
-              "gc": 0,
+              "gc": 4,
               "pts": 0
             }
           ],
@@ -1358,11 +1556,78 @@
               "teamA": "ALEMANHA",
               "teamB": "ESCOCIA",
               "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
+              "scoreB": 4,
+              "played": true,
               "date": "2026-08-03",
               "time": "19:00",
-              "events": [],
+              "events": [
+                {
+                  "id": "id-1785796131850-14",
+                  "type": "goal",
+                  "teamName": "ESCOCIA",
+                  "number": "16",
+                  "name": "RAMON SOUZA SANTOS AMERICO",
+                  "period": 1,
+                  "clockElapsed": 826
+                },
+                {
+                  "id": "id-1785797133075-14",
+                  "type": "yellow",
+                  "teamName": "ESCOCIA",
+                  "number": "11",
+                  "name": "RENAN PABLO SANTOS CARVALHO",
+                  "period": 2,
+                  "clockElapsed": 239,
+                  "paid": false
+                },
+                {
+                  "id": "id-1785797348537-17",
+                  "type": "yellow",
+                  "teamName": "ESCOCIA",
+                  "number": "16",
+                  "name": "RAMON SOUZA SANTOS AMERICO",
+                  "period": 2,
+                  "clockElapsed": 402,
+                  "paid": false
+                },
+                {
+                  "id": "id-1785797515176-19",
+                  "type": "goal",
+                  "teamName": "ESCOCIA",
+                  "number": "16",
+                  "name": "RAMON SOUZA SANTOS AMERICO",
+                  "period": 2,
+                  "clockElapsed": 491
+                },
+                {
+                  "id": "id-1785797584519-20",
+                  "type": "goal",
+                  "teamName": "ESCOCIA",
+                  "number": "3",
+                  "name": "IVONEI PEREIRA D. CARVALHO",
+                  "period": 2,
+                  "clockElapsed": 560
+                },
+                {
+                  "id": "id-1785797821224-22",
+                  "type": "yellow",
+                  "teamName": "ESCOCIA",
+                  "number": "20",
+                  "name": "ELBERNEY SANTOS DA SILVA",
+                  "period": 2,
+                  "clockElapsed": 779,
+                  "paid": false
+                },
+                {
+                  "id": "id-1785798181127-25",
+                  "type": "goal",
+                  "teamName": "ESCOCIA",
+                  "number": "14",
+                  "name": "WILSON ANDRADE FERREIRA",
+                  "period": 2,
+                  "clockElapsed": 1080
+                }
+              ],
               "wo": null
             },
             {
@@ -1472,6 +1737,12 @@
           "goals": 2
         },
         {
+          "teamName": "ESCOCIA",
+          "number": "16",
+          "name": "RAMON SOUZA SANTOS AMERICO",
+          "goals": 2
+        },
+        {
           "teamName": "ESPANHA",
           "number": "9",
           "name": "BRUNO BORGES D. SILVA",
@@ -1481,6 +1752,18 @@
           "teamName": "ESPANHA",
           "number": "11",
           "name": "EDILSON COSTA D. SILVA",
+          "goals": 1
+        },
+        {
+          "teamName": "ESCOCIA",
+          "number": "3",
+          "name": "IVONEI PEREIRA D. CARVALHO",
+          "goals": 1
+        },
+        {
+          "teamName": "ESCOCIA",
+          "number": "14",
+          "name": "WILSON ANDRADE FERREIRA",
           "goals": 1
         }
       ],
@@ -1493,9 +1776,30 @@
           "red": 0
         },
         {
+          "teamName": "ESCOCIA",
+          "number": "20",
+          "name": "ELBERNEY SANTOS DA SILVA",
+          "yellow": 1,
+          "red": 0
+        },
+        {
           "teamName": "GUATEMALA",
           "number": "11",
           "name": "FRANCISCO LAMEIRA SALES",
+          "yellow": 1,
+          "red": 0
+        },
+        {
+          "teamName": "ESCOCIA",
+          "number": "16",
+          "name": "RAMON SOUZA SANTOS AMERICO",
+          "yellow": 1,
+          "red": 0
+        },
+        {
+          "teamName": "ESCOCIA",
+          "number": "11",
+          "name": "RENAN PABLO SANTOS CARVALHO",
           "yellow": 1,
           "red": 0
         }
