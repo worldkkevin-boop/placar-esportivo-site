@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T23:09:22.573Z",
+  "generatedAt": "2026-08-05T02:19:09.427Z",
   "scheduleDate": "2026-08-04",
   "categories": [
     {
@@ -267,12 +267,178 @@
               "id": "tabela-1785622372430-c",
               "teamA": "SENEGAL",
               "teamB": "ITÁLIA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
+              "scoreA": 2,
+              "scoreB": 13,
+              "played": true,
               "date": "2026-08-04",
               "time": "22:00",
-              "events": [],
+              "events": [
+                {
+                  "id": "id-1785893176807-15",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "10",
+                  "name": "PAULO HENRIQUE RODRIGUES D. OLIVEIRA",
+                  "period": 1,
+                  "clockElapsed": 54
+                },
+                {
+                  "id": "id-1785893239683-17",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "9",
+                  "name": "FRANCINEY SERRÃO D. SANTOS",
+                  "period": 1,
+                  "clockElapsed": 117
+                },
+                {
+                  "id": "id-1785893274075-18",
+                  "type": "yellow",
+                  "teamName": "SENEGAL",
+                  "number": "10",
+                  "name": "THIAGO OLIVEIRA D. ARAUJO",
+                  "period": 1,
+                  "clockElapsed": 151,
+                  "paid": false
+                },
+                {
+                  "id": "id-1785893676587-20",
+                  "type": "goal",
+                  "teamName": "SENEGAL",
+                  "number": "8",
+                  "name": "THALYSSON LUIAN PEREIRA D. LIMA",
+                  "period": 1,
+                  "clockElapsed": 553
+                },
+                {
+                  "id": "id-1785893772971-22",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "9",
+                  "name": "FRANCINEY SERRÃO D. SANTOS",
+                  "period": 1,
+                  "clockElapsed": 650
+                },
+                {
+                  "id": "id-1785894116389-24",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "10",
+                  "name": "PAULO HENRIQUE RODRIGUES D. OLIVEIRA",
+                  "period": 1,
+                  "clockElapsed": 993
+                },
+                {
+                  "id": "id-1785894190809-27",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "5",
+                  "name": "VICTOR D. SOUSA D. SANTOS",
+                  "period": 1,
+                  "clockElapsed": 1068
+                },
+                {
+                  "id": "id-1785894860054-28",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "9",
+                  "name": "FRANCINEY SERRÃO D. SANTOS",
+                  "period": 2,
+                  "clockElapsed": 232
+                },
+                {
+                  "id": "id-1785894887918-30",
+                  "type": "yellow",
+                  "teamName": "SENEGAL",
+                  "number": "13",
+                  "name": "RIQUELMY D. JESUS OLIVEIRA MARTINS",
+                  "period": 2,
+                  "clockElapsed": 260,
+                  "paid": false
+                },
+                {
+                  "id": "id-1785894900453-33",
+                  "type": "yellow",
+                  "teamName": "SENEGAL",
+                  "number": "5",
+                  "name": "LOURIVAL NETO D. SILVA MORAES",
+                  "period": 2,
+                  "clockElapsed": 273,
+                  "paid": false
+                },
+                {
+                  "id": "id-1785895070641-34",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "20",
+                  "name": "JOSE VICTOR MENDONÇA D. SILVA",
+                  "period": 2,
+                  "clockElapsed": 443
+                },
+                {
+                  "id": "id-1785895236979-36",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "12",
+                  "name": "CLEIDISON DUARTE D. SOUZA",
+                  "period": 2,
+                  "clockElapsed": 609
+                },
+                {
+                  "id": "id-1785895308174-38",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "8",
+                  "name": "SALOMÃO GONCALVES D. CRUZ COUTINHO",
+                  "period": 2,
+                  "clockElapsed": 680
+                },
+                {
+                  "id": "id-1785895402823-40",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "10",
+                  "name": "PAULO HENRIQUE RODRIGUES D. OLIVEIRA",
+                  "period": 2,
+                  "clockElapsed": 775
+                },
+                {
+                  "id": "id-1785895435159-42",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "10",
+                  "name": "PAULO HENRIQUE RODRIGUES D. OLIVEIRA",
+                  "period": 2,
+                  "clockElapsed": 807
+                },
+                {
+                  "id": "id-1785895521876-44",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "77",
+                  "name": "ANDERSSON GOMES ALBUQUERQUE",
+                  "period": 2,
+                  "clockElapsed": 894
+                },
+                {
+                  "id": "id-1785895694247-46",
+                  "type": "goal",
+                  "teamName": "SENEGAL",
+                  "number": "8",
+                  "name": "THALYSSON LUIAN PEREIRA D. LIMA",
+                  "period": 2,
+                  "clockElapsed": 1066
+                },
+                {
+                  "id": "id-1785895745101-48",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "20",
+                  "name": "JOSE VICTOR MENDONÇA D. SILVA",
+                  "period": 2,
+                  "clockElapsed": 1117
+                }
+              ],
               "wo": null
             },
             {
@@ -1342,6 +1508,12 @@
       ],
       "topScorers": [
         {
+          "teamName": "ITÁLIA",
+          "number": "10",
+          "name": "PAULO HENRIQUE RODRIGUES D. OLIVEIRA",
+          "goals": 7
+        },
+        {
           "teamName": "INGLATERRA",
           "number": "17",
           "name": "HEBESON BRITO PAIVA",
@@ -1354,15 +1526,15 @@
           "goals": 4
         },
         {
-          "teamName": "HAITI",
-          "number": "17",
-          "name": "KEVIN D. SILVA AMANAJAS",
+          "teamName": "ITÁLIA",
+          "number": "9",
+          "name": "FRANCINEY SERRÃO D. SANTOS",
           "goals": 3
         },
         {
-          "teamName": "ITÁLIA",
-          "number": "10",
-          "name": "PAULO HENRIQUE RODRIGUES D. OLIVEIRA",
+          "teamName": "HAITI",
+          "number": "17",
+          "name": "KEVIN D. SILVA AMANAJAS",
           "goals": 3
         },
         {
@@ -1394,12 +1566,6 @@
           "number": "9",
           "name": "FRAN ANTHONY FIGUEREDO D. SANTOS",
           "goals": 2
-        },
-        {
-          "teamName": "ITÁLIA",
-          "number": "7",
-          "name": "FRANCINEY SERRÃO D. SANTOS",
-          "goals": 2
         }
       ],
       "topCards": [
@@ -1423,6 +1589,13 @@
           "name": "LEANDRO MACELINO GOMES",
           "yellow": 0,
           "red": 1
+        },
+        {
+          "teamName": "SENEGAL",
+          "number": "10",
+          "name": "THIAGO OLIVEIRA D. ARAUJO",
+          "yellow": 2,
+          "red": 0
         },
         {
           "teamName": "COLÔMBIA",
@@ -1451,13 +1624,6 @@
           "name": "CARLOS ELUAN ROCHA D. SILVA",
           "yellow": 1,
           "red": 0
-        },
-        {
-          "teamName": "UGANDA",
-          "number": "4",
-          "name": "DAVI VITOR DIAS TEIXEIRA",
-          "yellow": 1,
-          "red": 0
         }
       ]
     },
@@ -1482,22 +1648,22 @@
             },
             {
               "name": "FRANÇA",
-              "pj": 0,
-              "v": 0,
+              "pj": 1,
+              "v": 1,
               "e": 0,
               "d": 0,
-              "gp": 0,
-              "gc": 0,
-              "pts": 0
+              "gp": 6,
+              "gc": 1,
+              "pts": 3
             },
             {
               "name": "GUATEMALA",
-              "pj": 1,
+              "pj": 2,
               "v": 0,
               "e": 0,
-              "d": 1,
-              "gp": 2,
-              "gc": 12,
+              "d": 2,
+              "gp": 3,
+              "gc": 18,
               "pts": 0
             }
           ],
@@ -1633,12 +1799,76 @@
               "id": "tabela-1785622372429-a",
               "teamA": "FRANÇA",
               "teamB": "GUATEMALA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
+              "scoreA": 6,
+              "scoreB": 1,
+              "played": true,
               "date": "2026-08-04",
               "time": "20:00",
-              "events": [],
+              "events": [
+                {
+                  "id": "id-1785885528880-44",
+                  "type": "goal",
+                  "teamName": "FRANÇA",
+                  "number": "6",
+                  "name": "JOSE LUIZ MENDES PIMENTEL",
+                  "period": 1,
+                  "clockElapsed": 128
+                },
+                {
+                  "id": "id-1785887072391-14",
+                  "type": "goal",
+                  "teamName": "FRANÇA",
+                  "number": "11",
+                  "name": "BENEDITO PIRES D. CONCEIÇÃO",
+                  "period": 2,
+                  "clockElapsed": 101
+                },
+                {
+                  "id": "id-1785887355064-16",
+                  "type": "goal",
+                  "teamName": "FRANÇA",
+                  "number": "11",
+                  "name": "BENEDITO PIRES D. CONCEIÇÃO",
+                  "period": 2,
+                  "clockElapsed": 384
+                },
+                {
+                  "id": "id-1785887491513-18",
+                  "type": "goal",
+                  "teamName": "FRANÇA",
+                  "number": "10",
+                  "name": "MARCOS ANTONIO SOARES D. SILVA",
+                  "period": 2,
+                  "clockElapsed": 520
+                },
+                {
+                  "id": "id-1785887576049-20",
+                  "type": "goal",
+                  "teamName": "FRANÇA",
+                  "number": "13",
+                  "name": "JACKSON SILVA D. SANTOS",
+                  "period": 2,
+                  "clockElapsed": 605
+                },
+                {
+                  "id": "id-1785887596154-22",
+                  "type": "goal",
+                  "teamName": "GUATEMALA",
+                  "number": "19",
+                  "name": "DANIELSON PIMENTA COSTA",
+                  "period": 2,
+                  "clockElapsed": 625
+                },
+                {
+                  "id": "id-1785887872806-25",
+                  "type": "goal",
+                  "teamName": "FRANÇA",
+                  "number": "85",
+                  "name": "EVANDRO MACIEL D. MORAES",
+                  "period": 2,
+                  "clockElapsed": 902
+                }
+              ],
               "wo": null
             },
             {
@@ -1870,6 +2100,12 @@
           "goals": 3
         },
         {
+          "teamName": "FRANÇA",
+          "number": "11",
+          "name": "BENEDITO PIRES D. CONCEIÇÃO",
+          "goals": 2
+        },
+        {
           "teamName": "GUATEMALA",
           "number": "3",
           "name": "FABIO PINHEIRO D. SILVA",
@@ -1888,21 +2124,21 @@
           "goals": 1
         },
         {
+          "teamName": "GUATEMALA",
+          "number": "19",
+          "name": "DANIELSON PIMENTA COSTA",
+          "goals": 1
+        },
+        {
           "teamName": "ESPANHA",
           "number": "11",
           "name": "EDILSON COSTA D. SILVA",
           "goals": 1
         },
         {
-          "teamName": "ESCOCIA",
-          "number": "3",
-          "name": "IVONEI PEREIRA D. CARVALHO",
-          "goals": 1
-        },
-        {
-          "teamName": "ESCOCIA",
-          "number": "14",
-          "name": "WILSON ANDRADE FERREIRA",
+          "teamName": "FRANÇA",
+          "number": "85",
+          "name": "EVANDRO MACIEL D. MORAES",
           "goals": 1
         }
       ],
@@ -1954,14 +2190,14 @@
           "name": "Grupo A",
           "standings": [
             {
-              "name": "SUECIA",
-              "pj": 0,
-              "v": 0,
+              "name": "ESPANHA",
+              "pj": 1,
+              "v": 1,
               "e": 0,
               "d": 0,
-              "gp": 0,
-              "gc": 0,
-              "pts": 0
+              "gp": 2,
+              "gc": 1,
+              "pts": 3
             },
             {
               "name": "FRANÇA",
@@ -1974,13 +2210,13 @@
               "pts": 0
             },
             {
-              "name": "ESPANHA",
-              "pj": 0,
+              "name": "SUECIA",
+              "pj": 1,
               "v": 0,
               "e": 0,
-              "d": 0,
-              "gp": 0,
-              "gc": 0,
+              "d": 1,
+              "gp": 1,
+              "gc": 2,
               "pts": 0
             }
           ],
@@ -1989,12 +2225,50 @@
               "id": "tabela-1785622372429-b",
               "teamA": "SUECIA",
               "teamB": "ESPANHA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
+              "scoreA": 1,
+              "scoreB": 2,
+              "played": true,
               "date": "2026-08-04",
               "time": "21:00",
-              "events": [],
+              "events": [
+                {
+                  "id": "id-1785890172995-14",
+                  "type": "goal",
+                  "teamName": "SUECIA",
+                  "number": "4",
+                  "name": "ELIANI D. SILVA NASCIMENTO",
+                  "period": 1,
+                  "clockElapsed": 909
+                },
+                {
+                  "id": "id-1785891526204-14",
+                  "type": "goal",
+                  "teamName": "ESPANHA",
+                  "number": "27",
+                  "name": "DANYELLE SERRA D. SILVA",
+                  "period": 2,
+                  "clockElapsed": 580
+                },
+                {
+                  "id": "id-1785891649798-17",
+                  "type": "goal",
+                  "teamName": "ESPANHA",
+                  "number": "",
+                  "name": "",
+                  "period": 2,
+                  "clockElapsed": 637
+                },
+                {
+                  "id": "id-1785891936773-18",
+                  "type": "yellow",
+                  "teamName": "ESPANHA",
+                  "number": "10",
+                  "name": "PAULIANA SOARES D. CUNHA D. SILVA",
+                  "period": 2,
+                  "clockElapsed": 859,
+                  "paid": false
+                }
+              ],
               "wo": null
             },
             {
@@ -2117,8 +2391,29 @@
           ]
         }
       ],
-      "topScorers": [],
-      "topCards": []
+      "topScorers": [
+        {
+          "teamName": "ESPANHA",
+          "number": "27",
+          "name": "DANYELLE SERRA D. SILVA",
+          "goals": 1
+        },
+        {
+          "teamName": "SUECIA",
+          "number": "4",
+          "name": "ELIANI D. SILVA NASCIMENTO",
+          "goals": 1
+        }
+      ],
+      "topCards": [
+        {
+          "teamName": "ESPANHA",
+          "number": "10",
+          "name": "PAULIANA SOARES D. CUNHA D. SILVA",
+          "yellow": 1,
+          "red": 0
+        }
+      ]
     }
   ]
 }
