@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T02:19:09.427Z",
+  "generatedAt": "2026-08-05T02:33:13.975Z",
   "scheduleDate": "2026-08-04",
   "categories": [
     {
@@ -12,6 +12,16 @@
           "name": "Grupo A",
           "standings": [
             {
+              "name": "ITÁLIA",
+              "pj": 2,
+              "v": 2,
+              "e": 0,
+              "d": 0,
+              "gp": 20,
+              "gc": 6,
+              "pts": 6
+            },
+            {
               "name": "VENEZUELA",
               "pj": 1,
               "v": 1,
@@ -22,33 +32,23 @@
               "pts": 3
             },
             {
-              "name": "ITALIA",
-              "pj": 0,
-              "v": 0,
-              "e": 0,
-              "d": 0,
-              "gp": 0,
-              "gc": 0,
-              "pts": 0
-            },
-            {
               "name": "ARÁBIA SAUDITA",
-              "pj": 0,
-              "v": 0,
-              "e": 0,
-              "d": 0,
-              "gp": 0,
-              "gc": 0,
-              "pts": 0
-            },
-            {
-              "name": "SENEGAL",
               "pj": 1,
               "v": 0,
               "e": 0,
               "d": 1,
-              "gp": 1,
-              "gc": 4,
+              "gp": 4,
+              "gc": 7,
+              "pts": 0
+            },
+            {
+              "name": "SENEGAL",
+              "pj": 2,
+              "v": 0,
+              "e": 0,
+              "d": 2,
+              "gp": 3,
+              "gc": 17,
               "pts": 0
             }
           ],
