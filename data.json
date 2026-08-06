@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T17:57:19.882Z",
+  "generatedAt": "2026-08-06T19:32:03.107Z",
   "scheduleDate": "2026-08-06",
   "categories": [
     {
@@ -1455,7 +1455,7 @@
                   "type": "goal",
                   "teamName": "GANA",
                   "number": "8",
-                  "name": "JHONATA BARBOSA PUREZA",
+                  "name": "LUCAS MATHEUS QUEIROZ ARAUJO",
                   "period": 2,
                   "clockElapsed": 1171
                 }
@@ -1633,7 +1633,7 @@
           "teamName": "GANA",
           "number": "8",
           "name": "LUCAS MATHEUS QUEIROZ ARAUJO",
-          "goals": 4
+          "goals": 5
         },
         {
           "teamName": "ITÁLIA",
