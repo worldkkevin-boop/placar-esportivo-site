@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-05T02:33:13.975Z",
-  "scheduleDate": "2026-08-04",
+  "generatedAt": "2026-08-06T00:26:25.037Z",
+  "scheduleDate": "2026-08-05",
   "categories": [
     {
       "id": "principal",
@@ -33,22 +33,22 @@
             },
             {
               "name": "ARÁBIA SAUDITA",
-              "pj": 1,
-              "v": 0,
+              "pj": 2,
+              "v": 1,
               "e": 0,
               "d": 1,
-              "gp": 4,
+              "gp": 7,
               "gc": 7,
-              "pts": 0
+              "pts": 3
             },
             {
               "name": "SENEGAL",
-              "pj": 2,
+              "pj": 3,
               "v": 0,
               "e": 0,
-              "d": 2,
+              "d": 3,
               "gp": 3,
-              "gc": 17,
+              "gc": 20,
               "pts": 0
             }
           ],
@@ -445,13 +445,41 @@
               "id": "tabela-1785622372430-e",
               "teamA": "ARÁBIA SAUDITA",
               "teamB": "SENEGAL",
-              "scoreA": 0,
+              "scoreA": 3,
               "scoreB": 0,
-              "played": false,
+              "played": true,
               "date": "2026-08-05",
               "time": "21:00",
-              "events": [],
-              "wo": null
+              "events": [
+                {
+                  "id": "id-1785975951153-15",
+                  "type": "goal",
+                  "teamName": "ARÁBIA SAUDITA",
+                  "number": "",
+                  "name": "",
+                  "period": 1,
+                  "clockElapsed": 0
+                },
+                {
+                  "id": "id-1785975951480-17",
+                  "type": "goal",
+                  "teamName": "ARÁBIA SAUDITA",
+                  "number": "",
+                  "name": "",
+                  "period": 1,
+                  "clockElapsed": 0
+                },
+                {
+                  "id": "id-1785975951830-19",
+                  "type": "goal",
+                  "teamName": "ARÁBIA SAUDITA",
+                  "number": "",
+                  "name": "",
+                  "period": 1,
+                  "clockElapsed": 0
+                }
+              ],
+              "wo": "B"
             },
             {
               "id": "tabela-1785622372430-m",
@@ -1844,7 +1872,7 @@
                 {
                   "id": "id-1785887576049-20",
                   "type": "goal",
-                  "teamName": "FRANÇA",
+                  "teamName": "FRAN��A",
                   "number": "13",
                   "name": "JACKSON SILVA D. SANTOS",
                   "period": 2,
@@ -1900,22 +1928,22 @@
             },
             {
               "name": "ESTADOS UNIDOS",
-              "pj": 0,
-              "v": 0,
+              "pj": 1,
+              "v": 1,
               "e": 0,
               "d": 0,
-              "gp": 0,
-              "gc": 0,
-              "pts": 0
+              "gp": 4,
+              "gc": 2,
+              "pts": 3
             },
             {
               "name": "ALEMANHA",
-              "pj": 1,
+              "pj": 2,
               "v": 0,
               "e": 0,
-              "d": 1,
-              "gp": 0,
-              "gc": 4,
+              "d": 2,
+              "gp": 2,
+              "gc": 8,
               "pts": 0
             }
           ],
@@ -2003,12 +2031,87 @@
               "id": "tabela-1785622372430-d",
               "teamA": "ESTADOS UNIDOS",
               "teamB": "ALEMANHA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
+              "scoreA": 4,
+              "scoreB": 2,
+              "played": true,
               "date": "2026-08-05",
               "time": "20:00",
-              "events": [],
+              "events": [
+                {
+                  "id": "id-1785972310319-14",
+                  "type": "goal",
+                  "teamName": "ESTADOS UNIDOS",
+                  "number": "99",
+                  "name": "MARCOS ANTONIO D. NASCIMENTO LIMA",
+                  "period": 1,
+                  "clockElapsed": 337
+                },
+                {
+                  "id": "id-1785972554004-17",
+                  "type": "goal",
+                  "teamName": "ESTADOS UNIDOS",
+                  "number": "99",
+                  "name": "MARCOS ANTONIO D. NASCIMENTO LIMA",
+                  "period": 1,
+                  "clockElapsed": 581
+                },
+                {
+                  "id": "id-1785973095219-18",
+                  "type": "goal",
+                  "teamName": "ALEMANHA",
+                  "number": "21",
+                  "name": "GEONE CARMO D. ALMEIDA",
+                  "period": 1,
+                  "clockElapsed": 1035
+                },
+                {
+                  "id": "id-1785973646355-20",
+                  "type": "goal",
+                  "teamName": "ESTADOS UNIDOS",
+                  "number": "99",
+                  "name": "MARCOS ANTONIO D. NASCIMENTO LIMA",
+                  "period": 2,
+                  "clockElapsed": 13
+                },
+                {
+                  "id": "id-1785974299708-22",
+                  "type": "goal",
+                  "teamName": "ALEMANHA",
+                  "number": "21",
+                  "name": "GEONE CARMO D. ALMEIDA",
+                  "period": 2,
+                  "clockElapsed": 667
+                },
+                {
+                  "id": "id-1785974320029-25",
+                  "type": "goal",
+                  "teamName": "ESTADOS UNIDOS",
+                  "number": "6",
+                  "name": "EDSON MARCOS COSTA PANTOJA",
+                  "period": 2,
+                  "clockElapsed": 687
+                },
+                {
+                  "id": "id-1785974975683-26",
+                  "type": "yellow",
+                  "teamName": "ESTADOS UNIDOS",
+                  "number": "6",
+                  "name": "EDSON MARCOS COSTA PANTOJA",
+                  "period": 2,
+                  "clockElapsed": 1138,
+                  "paid": false
+                },
+                {
+                  "id": "id-1785975078953-29",
+                  "type": "yellow",
+                  "teamName": "ALEMANHA",
+                  "number": "19",
+                  "name": "DIEGO FURTADO D. COSTA",
+                  "period": 2,
+                  "clockElapsed": 1200,
+                  "paid": false
+                }
+              ],
               "wo": null
             },
             {
@@ -2100,6 +2203,12 @@
           "goals": 3
         },
         {
+          "teamName": "ESTADOS UNIDOS",
+          "number": "99",
+          "name": "MARCOS ANTONIO D. NASCIMENTO LIMA",
+          "goals": 3
+        },
+        {
           "teamName": "FRANÇA",
           "number": "11",
           "name": "BENEDITO PIRES D. CONCEIÇÃO",
@@ -2109,6 +2218,12 @@
           "teamName": "GUATEMALA",
           "number": "3",
           "name": "FABIO PINHEIRO D. SILVA",
+          "goals": 2
+        },
+        {
+          "teamName": "ALEMANHA",
+          "number": "21",
+          "name": "GEONE CARMO D. ALMEIDA",
           "goals": 2
         },
         {
@@ -2128,18 +2243,6 @@
           "number": "19",
           "name": "DANIELSON PIMENTA COSTA",
           "goals": 1
-        },
-        {
-          "teamName": "ESPANHA",
-          "number": "11",
-          "name": "EDILSON COSTA D. SILVA",
-          "goals": 1
-        },
-        {
-          "teamName": "FRANÇA",
-          "number": "85",
-          "name": "EVANDRO MACIEL D. MORAES",
-          "goals": 1
         }
       ],
       "topCards": [
@@ -2147,6 +2250,20 @@
           "teamName": "GUATEMALA",
           "number": "14",
           "name": "DANIELSON PIMENTA COSTA",
+          "yellow": 1,
+          "red": 0
+        },
+        {
+          "teamName": "ALEMANHA",
+          "number": "19",
+          "name": "DIEGO FURTADO D. COSTA",
+          "yellow": 1,
+          "red": 0
+        },
+        {
+          "teamName": "ESTADOS UNIDOS",
+          "number": "6",
+          "name": "EDSON MARCOS COSTA PANTOJA",
           "yellow": 1,
           "red": 0
         },
@@ -2190,6 +2307,16 @@
           "name": "Grupo A",
           "standings": [
             {
+              "name": "FRANÇA",
+              "pj": 1,
+              "v": 1,
+              "e": 0,
+              "d": 0,
+              "gp": 2,
+              "gc": 1,
+              "pts": 3
+            },
+            {
               "name": "ESPANHA",
               "pj": 1,
               "v": 1,
@@ -2200,23 +2327,13 @@
               "pts": 3
             },
             {
-              "name": "FRANÇA",
-              "pj": 0,
-              "v": 0,
-              "e": 0,
-              "d": 0,
-              "gp": 0,
-              "gc": 0,
-              "pts": 0
-            },
-            {
               "name": "SUECIA",
-              "pj": 1,
+              "pj": 2,
               "v": 0,
               "e": 0,
-              "d": 1,
-              "gp": 1,
-              "gc": 2,
+              "d": 2,
+              "gp": 2,
+              "gc": 4,
               "pts": 0
             }
           ],
@@ -2275,12 +2392,40 @@
               "id": "tabela-1785622372430-p",
               "teamA": "FRANÇA",
               "teamB": "SUECIA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
+              "scoreA": 2,
+              "scoreB": 1,
+              "played": true,
               "date": "2026-08-05",
               "time": "19:00",
-              "events": [],
+              "events": [
+                {
+                  "id": "id-1785968220784-14",
+                  "type": "goal",
+                  "teamName": "FRANÇA",
+                  "number": "9",
+                  "name": "RAYLA D. COSTA DOS SANTOS",
+                  "period": 1,
+                  "clockElapsed": 189
+                },
+                {
+                  "id": "id-1785970025292-14",
+                  "type": "goal",
+                  "teamName": "SUECIA",
+                  "number": "13",
+                  "name": "RAISSA BELO D. COSTA",
+                  "period": 2,
+                  "clockElapsed": 120
+                },
+                {
+                  "id": "id-1785970550298-16",
+                  "type": "goal",
+                  "teamName": "FRANÇA",
+                  "number": "7",
+                  "name": "THAINA D. SILVA LIMA",
+                  "period": 2,
+                  "clockElapsed": 582
+                }
+              ],
               "wo": null
             },
             {
@@ -2402,6 +2547,24 @@
           "teamName": "SUECIA",
           "number": "4",
           "name": "ELIANI D. SILVA NASCIMENTO",
+          "goals": 1
+        },
+        {
+          "teamName": "SUECIA",
+          "number": "13",
+          "name": "RAISSA BELO D. COSTA",
+          "goals": 1
+        },
+        {
+          "teamName": "FRANÇA",
+          "number": "9",
+          "name": "RAYLA D. COSTA DOS SANTOS",
+          "goals": 1
+        },
+        {
+          "teamName": "FRANÇA",
+          "number": "7",
+          "name": "THAINA D. SILVA LIMA",
           "goals": 1
         }
       ],
