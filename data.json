@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T19:32:03.107Z",
+  "generatedAt": "2026-08-06T19:42:19.154Z",
   "scheduleDate": "2026-08-06",
   "categories": [
     {
@@ -1326,7 +1326,7 @@
                   "type": "goal",
                   "teamName": "GANA",
                   "number": "8",
-                  "name": "LUCAS MATHEUS QUEIROZ ARAUJO",
+                  "name": "JHONATA BARBOSA PUREZA",
                   "period": 1,
                   "clockElapsed": 199
                 },
@@ -1335,7 +1335,7 @@
                   "type": "goal",
                   "teamName": "GANA",
                   "number": "8",
-                  "name": "LUCAS MATHEUS QUEIROZ ARAUJO",
+                  "name": "JHONATA BARBOSA PUREZA",
                   "period": 1,
                   "clockElapsed": 304
                 },
@@ -1354,7 +1354,7 @@
                   "type": "goal",
                   "teamName": "GANA",
                   "number": "8",
-                  "name": "LUCAS MATHEUS QUEIROZ ARAUJO",
+                  "name": "JHONATA BARBOSA PUREZA",
                   "period": 1,
                   "clockElapsed": 501
                 },
@@ -1381,8 +1381,8 @@
                   "id": "id-1785883576813-26",
                   "type": "goal",
                   "teamName": "GANA",
-                  "number": "8",
-                  "name": "JHONATA BARBOSA PUREZA",
+                  "number": "0",
+                  "name": "LUCAS MATHEUS QUEIROZ ARAUJO",
                   "period": 2,
                   "clockElapsed": 336
                 },
@@ -1400,7 +1400,7 @@
                   "type": "goal",
                   "teamName": "GANA",
                   "number": "8",
-                  "name": "LUCAS MATHEUS QUEIROZ ARAUJO",
+                  "name": "JHONATA BARBOSA PUREZA",
                   "period": 2,
                   "clockElapsed": 514
                 },
@@ -1455,7 +1455,7 @@
                   "type": "goal",
                   "teamName": "GANA",
                   "number": "8",
-                  "name": "LUCAS MATHEUS QUEIROZ ARAUJO",
+                  "name": "JHONATA BARBOSA PUREZA",
                   "period": 2,
                   "clockElapsed": 1171
                 }
@@ -1632,7 +1632,7 @@
         {
           "teamName": "GANA",
           "number": "8",
-          "name": "LUCAS MATHEUS QUEIROZ ARAUJO",
+          "name": "JHONATA BARBOSA PUREZA",
           "goals": 5
         },
         {
