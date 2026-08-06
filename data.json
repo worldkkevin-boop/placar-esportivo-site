@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T00:26:25.037Z",
+  "generatedAt": "2026-08-06T02:00:50.669Z",
   "scheduleDate": "2026-08-05",
   "categories": [
     {
@@ -146,7 +146,7 @@
                   "teamName": "ARÁBIA SAUDITA",
                   "number": "8",
                   "name": "MATHEUS SOUSA TEIXEIRA",
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "sumula-papel-1785637767833-1w",
@@ -154,7 +154,7 @@
                   "teamName": "ARÁBIA SAUDITA",
                   "number": "7",
                   "name": "HAYRISON D. SILVA PANTOJA",
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "sumula-papel-1785637767833-1x",
@@ -162,7 +162,7 @@
                   "teamName": "ARÁBIA SAUDITA",
                   "number": "8",
                   "name": "MATHEUS SOUSA TEIXEIRA",
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "sumula-papel-1785637767833-1y",
@@ -170,7 +170,7 @@
                   "teamName": "ARÁBIA SAUDITA",
                   "number": "",
                   "name": "LEANDRO MACELINO GOMES",
-                  "paid": false
+                  "paid": true
                 }
               ],
               "wo": null
@@ -299,7 +299,7 @@
                   "name": "THIAGO OLIVEIRA D. ARAUJO",
                   "period": 1,
                   "clockElapsed": 151,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1785893676587-20",
@@ -354,7 +354,7 @@
                   "name": "RIQUELMY D. JESUS OLIVEIRA MARTINS",
                   "period": 2,
                   "clockElapsed": 260,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1785894900453-33",
@@ -512,13 +512,13 @@
           "standings": [
             {
               "name": "INGLATERRA",
-              "pj": 1,
-              "v": 1,
+              "pj": 2,
+              "v": 2,
               "e": 0,
               "d": 0,
-              "gp": 6,
-              "gc": 5,
-              "pts": 3
+              "gp": 13,
+              "gc": 7,
+              "pts": 6
             },
             {
               "name": "SUECIA",
@@ -542,12 +542,12 @@
             },
             {
               "name": "UCRÂNIA",
-              "pj": 1,
+              "pj": 2,
               "v": 0,
               "e": 0,
-              "d": 1,
-              "gp": 2,
-              "gc": 3,
+              "d": 2,
+              "gp": 4,
+              "gc": 10,
               "pts": 0
             }
           ],
@@ -747,7 +747,7 @@
                   "name": "ROBERTO ROMARIO RIBEIRO D. COSTA",
                   "period": 2,
                   "clockElapsed": 1046,
-                  "paid": false
+                  "paid": true
                 }
               ],
               "wo": null
@@ -756,12 +756,94 @@
               "id": "tabela-1785622372430-f",
               "teamA": "UCRÂNIA",
               "teamB": "INGLATERRA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
+              "scoreA": 2,
+              "scoreB": 7,
+              "played": true,
               "date": "2026-08-05",
               "time": "22:00",
-              "events": [],
+              "events": [
+                {
+                  "id": "id-1785978659413-17",
+                  "type": "goal",
+                  "teamName": "INGLATERRA",
+                  "number": "17",
+                  "name": "HEBESON BRITO PAIVA",
+                  "period": 1,
+                  "clockElapsed": 346
+                },
+                {
+                  "id": "id-1785978821071-18",
+                  "type": "goal",
+                  "teamName": "INGLATERRA",
+                  "number": "17",
+                  "name": "HEBESON BRITO PAIVA",
+                  "period": 1,
+                  "clockElapsed": 507
+                },
+                {
+                  "id": "id-1785978944125-20",
+                  "type": "goal",
+                  "teamName": "INGLATERRA",
+                  "number": "31",
+                  "name": "KALLYL RODRIGUES BATISTA",
+                  "period": 1,
+                  "clockElapsed": 630
+                },
+                {
+                  "id": "id-1785979069097-22",
+                  "type": "goal",
+                  "teamName": "INGLATERRA",
+                  "number": "17",
+                  "name": "HEBESON BRITO PAIVA",
+                  "period": 1,
+                  "clockElapsed": 755
+                },
+                {
+                  "id": "id-1785980661847-24",
+                  "type": "goal",
+                  "teamName": "INGLATERRA",
+                  "number": "17",
+                  "name": "HEBESON BRITO PAIVA",
+                  "period": 2,
+                  "clockElapsed": 871
+                },
+                {
+                  "id": "id-1785980805468-27",
+                  "type": "goal",
+                  "teamName": "INGLATERRA",
+                  "number": "5",
+                  "name": "DARLON LUCAS D. SANTOS CORREA",
+                  "period": 2,
+                  "clockElapsed": 1015
+                },
+                {
+                  "id": "id-1785980850017-28",
+                  "type": "goal",
+                  "teamName": "UCRÂNIA",
+                  "number": "22",
+                  "name": "JAIME SERRÃO D. MOURA",
+                  "period": 2,
+                  "clockElapsed": 1059
+                },
+                {
+                  "id": "id-1785980949563-30",
+                  "type": "goal",
+                  "teamName": "UCRÂNIA",
+                  "number": "7",
+                  "name": "JOÃO VICTOR VIEIRA FONTES",
+                  "period": 2,
+                  "clockElapsed": 1159
+                },
+                {
+                  "id": "id-1785980982586-32",
+                  "type": "goal",
+                  "teamName": "INGLATERRA",
+                  "number": "44",
+                  "name": "LEONARDO O. SANTOS SILVA",
+                  "period": 2,
+                  "clockElapsed": 1192
+                }
+              ],
               "wo": null
             },
             {
@@ -1536,16 +1618,16 @@
       ],
       "topScorers": [
         {
+          "teamName": "INGLATERRA",
+          "number": "17",
+          "name": "HEBESON BRITO PAIVA",
+          "goals": 8
+        },
+        {
           "teamName": "ITÁLIA",
           "number": "10",
           "name": "PAULO HENRIQUE RODRIGUES D. OLIVEIRA",
           "goals": 7
-        },
-        {
-          "teamName": "INGLATERRA",
-          "number": "17",
-          "name": "HEBESON BRITO PAIVA",
-          "goals": 4
         },
         {
           "teamName": "GANA",
@@ -2149,7 +2231,7 @@
             },
             {
               "id": "tabela-1785622372448-14",
-              "teamA": "1º CH B",
+              "teamA": "1�� CH B",
               "teamB": "2º CH A",
               "scoreA": 0,
               "scoreB": 0,
