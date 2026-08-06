@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T16:42:04.235Z",
+  "generatedAt": "2026-08-06T16:50:07.325Z",
   "scheduleDate": "2026-08-06",
   "categories": [
     {
@@ -811,8 +811,8 @@
                   "id": "id-1785980805468-27",
                   "type": "goal",
                   "teamName": "INGLATERRA",
-                  "number": "5",
-                  "name": "DARLON LUCAS D. SANTOS CORREA",
+                  "number": "17",
+                  "name": "HEBESON BRITO PAIVA",
                   "period": 2,
                   "clockElapsed": 1015
                 },
@@ -1621,7 +1621,7 @@
           "teamName": "INGLATERRA",
           "number": "17",
           "name": "HEBESON BRITO PAIVA",
-          "goals": 7
+          "goals": 8
         },
         {
           "teamName": "ITÁLIA",
@@ -1666,15 +1666,15 @@
           "goals": 2
         },
         {
-          "teamName": "INGLATERRA",
-          "number": "5",
-          "name": "DARLON LUCAS D. SANTOS CORREA",
-          "goals": 2
-        },
-        {
           "teamName": "VENEZUELA",
           "number": "7",
           "name": "ERNANDES BELO FURTADO",
+          "goals": 2
+        },
+        {
+          "teamName": "UGANDA",
+          "number": "9",
+          "name": "FRAN ANTHONY FIGUEREDO D. SANTOS",
           "goals": 2
         }
       ],
