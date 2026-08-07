@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-07T05:14:56.997Z",
-  "scheduleDate": "2026-08-06",
+  "generatedAt": "2026-08-07T23:08:06.019Z",
+  "scheduleDate": "2026-08-07",
   "suspensions": [
     {
       "teamName": "SENEGAL",
@@ -1433,24 +1433,24 @@
           "standings": [
             {
               "name": "GANA",
-              "pj": 2,
-              "v": 2,
+              "pj": 3,
+              "v": 3,
               "e": 0,
               "d": 0,
-              "gp": 11,
-              "gc": 4,
-              "pts": 6,
+              "gp": 16,
+              "gc": 7,
+              "pts": 9,
               "semChance": false,
               "fora": false
             },
             {
               "name": "ARGENTINA",
-              "pj": 1,
+              "pj": 2,
               "v": 1,
               "e": 0,
-              "d": 0,
-              "gp": 6,
-              "gc": 3,
+              "d": 1,
+              "gp": 9,
+              "gc": 8,
               "pts": 3,
               "semChance": false,
               "fora": false
@@ -1551,7 +1551,7 @@
                   "teamName": "ARGENTINA",
                   "number": "7",
                   "name": "ANDERSON D. SILVA E SILVA",
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "sumula-papel-1785630209464-11",
@@ -1740,12 +1740,105 @@
               "id": "tabela-1785622372430-k",
               "teamA": "ARGENTINA",
               "teamB": "GANA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
+              "scoreA": 3,
+              "scoreB": 5,
+              "played": true,
               "date": "2026-08-07",
               "time": "19:00",
-              "events": [],
+              "events": [
+                {
+                  "id": "id-1786140992120-14",
+                  "type": "goal",
+                  "teamName": "ARGENTINA",
+                  "number": "9",
+                  "name": "IAGO D. MIRANDA FURTADO",
+                  "period": 1,
+                  "clockElapsed": 415
+                },
+                {
+                  "id": "id-1786141282148-16",
+                  "type": "goal",
+                  "teamName": "GANA",
+                  "number": "8",
+                  "name": "JOSE OTAVIO D. SILVA D. OLIVEIRA",
+                  "period": 1,
+                  "clockElapsed": 697
+                },
+                {
+                  "id": "id-1786141413867-18",
+                  "type": "goal",
+                  "teamName": "GANA",
+                  "number": "",
+                  "name": "",
+                  "period": 1,
+                  "clockElapsed": 829
+                },
+                {
+                  "id": "id-1786141746050-21",
+                  "type": "goal",
+                  "teamName": "GANA",
+                  "number": "8",
+                  "name": "JOSE OTAVIO D. SILVA D. OLIVEIRA",
+                  "period": 1,
+                  "clockElapsed": 1097
+                },
+                {
+                  "id": "id-1786142357276-14",
+                  "type": "goal",
+                  "teamName": "ARGENTINA",
+                  "number": "7",
+                  "name": "ANDERSON D. SILVA E SILVA",
+                  "period": 2,
+                  "clockElapsed": 154
+                },
+                {
+                  "id": "id-1786142397853-17",
+                  "type": "goal",
+                  "teamName": "GANA",
+                  "number": "79",
+                  "name": "MARCOS D. JESUS D. SANTOS",
+                  "period": 2,
+                  "clockElapsed": 195
+                },
+                {
+                  "id": "id-1786142623068-18",
+                  "type": "yellow",
+                  "teamName": "ARGENTINA",
+                  "number": "5",
+                  "name": "EDILSON JR. CARMO SANTOS",
+                  "period": 2,
+                  "clockElapsed": 420,
+                  "paid": false
+                },
+                {
+                  "id": "id-1786142689751-20",
+                  "type": "yellow",
+                  "teamName": "GANA",
+                  "number": "14",
+                  "name": "LEONAN X. SILVA",
+                  "period": 2,
+                  "clockElapsed": 486,
+                  "paid": false
+                },
+                {
+                  "id": "id-1786142839908-23",
+                  "type": "goal",
+                  "teamName": "ARGENTINA",
+                  "number": "5",
+                  "name": "EDILSON JR. CARMO SANTOS",
+                  "period": 2,
+                  "clockElapsed": 637
+                },
+                {
+                  "id": "id-1786143226848-24",
+                  "type": "goal",
+                  "teamName": "GANA",
+                  "number": "14",
+                  "name": "LEONAN X. SILVA",
+                  "period": 2,
+                  "clockElapsed": 954
+                }
+              ],
               "wo": null
             },
             {
@@ -2749,6 +2842,7 @@
               "gp": 2,
               "gc": 1,
               "pts": 3,
+              "jogoExtra": true,
               "semChance": false,
               "fora": false
             },
@@ -2761,6 +2855,7 @@
               "gp": 2,
               "gc": 1,
               "pts": 3,
+              "jogoExtra": true,
               "semChance": false,
               "fora": false
             },
@@ -2978,7 +3073,7 @@
           "matches": [
             {
               "id": "tabela-1785622372448-z",
-              "teamA": "1º CH A",
+              "teamA": "1���� CH A",
               "teamB": "2º CH B",
               "scoreA": 0,
               "scoreB": 0,
