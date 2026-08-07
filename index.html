@@ -261,6 +261,58 @@
     transition: opacity 0.25s ease;
   }
   #topBtn.show { opacity: 1; pointer-events: auto; }
+  /* --- Marcas de situação do time na tabela ---
+     Três estados diferentes, e a diferença importa pro torcedor: SUSPENSO é punição que vale pras
+     próximas edições, FORA é decisão da organização nesta, SEM CHANCE é só a matemática. */
+  .tag-out {
+    display: inline-block;
+    margin-left: 0.35rem;
+    padding: 0.05rem 0.35rem;
+    border-radius: 999px;
+    font-size: 0.58rem;
+    font-weight: 800;
+    letter-spacing: 0.03rem;
+    vertical-align: 1px;
+    background: var(--red);
+    color: #fff;
+    white-space: nowrap;
+  }
+  .tag-out.calc { background: transparent; border: 1px solid var(--muted); color: var(--muted); }
+  .tag-out.susp { background: #7c2d12; }
+  /* Linha do time fora fica esmaecida, mas continua legível: os jogos dele valeram pontos pros
+     outros, então apagá-la esconderia informação que explica a tabela. */
+  tr.out td { opacity: 0.55; }
+  tr.out td:first-child { border-left: 3px solid var(--red); }
+
+  /* --- Suspensões --- */
+  .card.susp { border-color: rgba(239,68,68,0.4); }
+  .card.susp.cumprida { opacity: 0.6; border-color: var(--border); }
+  .susp-motivo { font-size: 0.8rem; }
+  .susp-periodo { font-size: 0.72rem; color: var(--muted); margin-top: 0.15rem; }
+  .susp-fim { margin-top: 0.5rem; font-size: 0.78rem; font-weight: 800; color: var(--green); }
+  .susp-conta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    margin-top: 0.6rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--border);
+  }
+  .susp-conta-rotulo {
+    font-size: 0.6rem;
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  /* Números em fonte tabular: sem isso o contador "pula" de largura a cada segundo. */
+  .susp-conta-valor {
+    font-size: 1.15rem;
+    font-weight: 800;
+    color: var(--red);
+    font-variant-numeric: tabular-nums;
+  }
+  .susp-conta-valor b { font-variant-numeric: tabular-nums; }
   .match-row {
     display: flex;
     align-items: center;
@@ -602,7 +654,9 @@ const COUNTRY_CODES = {
   'COSTA DO MARFIM': 'CI', 'AFRICA DO SUL': 'ZA', CHINA: 'CN', INDIA: 'IN', 'NOVA ZELANDIA': 'NZ',
   JAMAICA: 'JM', 'COSTA RICA': 'CR', PANAMA: 'PA', HONDURAS: 'HN', CUBA: 'CU', GUATEMALA: 'GT',
 };
-const SPECIAL_FLAGS = { ESCOCIA: 'GB-SCT' };
+// Países do Reino Unido têm bandeira própria. 'GB' mostrava a Union Jack pra Inglaterra, que
+// representa os quatro juntos — a torcida reparou e reclamou, com razão.
+const SPECIAL_FLAGS = { ESCOCIA: 'GB-SCT', INGLATERRA: 'GB-ENG', 'PAIS DE GALES': 'GB-WLS' };
 
 function stripAccents(s) { return (s || '').normalize('NFD').replace(/[̀-ͯ]/g, ''); }
 
@@ -618,6 +672,45 @@ function teamFlag(name) {
 function teamLabel(name) {
   return teamFlag(name) + (name || '');
 }
+
+function dataBR(iso) {
+  if (!iso) return '';
+  const [a, m, d] = iso.split('-');
+  return d + '/' + m + '/' + a;
+}
+
+// Punição ATIVA do time (a data de fim ainda não passou). Time com punição cumprida volta a ser um
+// time normal na tabela — o histórico fica no sistema da Secretaria, não na tabela do torcedor.
+function suspensaoDoTime(nome) {
+  const alvo = (nome || '').trim().toUpperCase();
+  const hoje = new Date();
+  return (snapshot.suspensions || []).find(
+    (s) => (s.teamName || '').trim().toUpperCase() === alvo && new Date(s.fim) >= hoje
+  ) || null;
+}
+
+// Contagem regressiva das suspensões: dias, horas, minutos e segundos, andando de verdade.
+// Um relógio só pra todos os contadores da página, em vez de um por card.
+function tickSuspensoes() {
+  const agora = Date.now();
+  document.querySelectorAll('.susp-conta[data-fim]').forEach((el) => {
+    // A punição vale até o FIM do dia marcado — quem cumpre pena até 05/08/2028 só volta no dia 06.
+    const fim = new Date(el.dataset.fim + 'T23:59:59').getTime();
+    const alvo = el.querySelector('.susp-conta-valor');
+    let resta = fim - agora;
+    if (resta <= 0) { alvo.textContent = 'cumprida'; return; }
+    const dia = 86400000;
+    const d = Math.floor(resta / dia);
+    resta -= d * dia;
+    const h = Math.floor(resta / 3600000);
+    resta -= h * 3600000;
+    const m = Math.floor(resta / 60000);
+    const seg = Math.floor((resta - m * 60000) / 1000);
+    const pad = (n) => String(n).padStart(2, '0');
+    alvo.innerHTML = '<b>' + d + '</b> dias <b>' + pad(h) + '</b>:<b>' + pad(m) + '</b>:<b>' + pad(seg) + '</b>';
+  });
+}
+setInterval(tickSuspensoes, 1000);
 
 function fmtUpdated(iso) {
   if (!iso) return 'Ainda não publicado';
@@ -715,6 +808,7 @@ function renderTeamView(cat, teamName) {
   }
 
   document.getElementById('main').innerHTML = html;
+  tickSuspensoes();
   document.getElementById('backBtn').addEventListener('click', () => {
     selectedTeam = null;
     renderCategory(cat);
@@ -761,14 +855,47 @@ function renderCategory(cat) {
       html += '<div class="empty">Sem times ainda.</div>';
     } else {
       html += '<table><thead><tr><th>Time</th><th>PJ</th><th>V</th><th>E</th><th>D</th><th>SG</th><th>Pts</th></tr></thead><tbody>';
+      let temMarca = false;
       g.standings.forEach((t, idx) => {
-        html += '<tr' + (idx < 2 ? ' class="q"' : '') + '><td>' + teamLabel(t.name) + '</td><td>' + t.pj + '</td><td>' + t.v + '</td><td>' + t.e + '</td><td>' + t.d + '</td><td>' + (t.gp - t.gc) + '</td><td>' + t.pts + '</td></tr>';
+        // Três situações diferentes, três marcas. "Suspenso" vem da lista de punições e vale pras
+        // próximas edições; "fora" é decisão da organização nesta; "sem chance" é só matemática.
+        const susp = suspensaoDoTime(t.name);
+        const marca = susp
+          ? '<span class="tag-out susp">SUSPENSO</span>'
+          : t.fora
+            ? '<span class="tag-out">FORA</span>'
+            : t.semChance
+              ? '<span class="tag-out calc">SEM CHANCE</span>'
+              : '';
+        if (marca) temMarca = true;
+        const classes = [idx < 2 && !marca ? 'q' : '', marca ? 'out' : ''].filter(Boolean).join(' ');
+        html += '<tr' + (classes ? ' class="' + classes + '"' : '') + '><td>' + teamLabel(t.name) + marca + '</td><td>' + t.pj + '</td><td>' + t.v + '</td><td>' + t.e + '</td><td>' + t.d + '</td><td>' + (t.gp - t.gc) + '</td><td>' + t.pts + '</td></tr>';
       });
       html += '</tbody></table>';
-      html += '<div class="table-legend">▎Os 2 primeiros se classificam</div>';
+      html += '<div class="table-legend">▎Os 2 primeiros se classificam'
+        + (temMarca ? ' · <b class="tag-out calc">SEM CHANCE</b> já não alcança a classificação' : '')
+        + '</div>';
     }
     html += '</div>';
   });
+
+  // Suspensões da categoria. O tempo restante é desenhado com data-fim e um relógio atualiza a cada
+  // segundo (ver tickSuspensoes) — assim o contador anda sem precisar recarregar a página.
+  const suspCat = (snapshot.suspensions || []).filter((s) => !s.categoryName || !cat.name || s.categoryName === cat.name);
+  if (suspCat.length) {
+    html += '<div class="section-title" id="sec-susp">⚖️ Suspensões</div>';
+    suspCat.forEach((s) => {
+      const cumprida = new Date(s.fim) < new Date();
+      html += '<div class="card susp' + (cumprida ? ' cumprida' : '') + '">'
+        + '<h3>' + teamLabel(s.teamName) + '</h3>'
+        + '<div class="susp-motivo">' + s.motivo + ' · <b>' + s.anos + ' ano' + (s.anos > 1 ? 's' : '') + '</b></div>'
+        + '<div class="susp-periodo">de ' + dataBR(s.inicio) + ' até ' + dataBR(s.fim) + '</div>'
+        + (cumprida
+            ? '<div class="susp-fim">Punição cumprida</div>'
+            : '<div class="susp-conta" data-fim="' + s.fim + '"><span class="susp-conta-rotulo">Tempo restante</span><span class="susp-conta-valor">—</span></div>')
+        + '</div>';
+    });
+  }
 
   html += '<div class="section-title" id="sec-conf">Confrontos</div>';
   cat.groups.forEach((g) => {
@@ -811,6 +938,7 @@ function renderCategory(cat) {
   }
 
   document.getElementById('main').innerHTML = html;
+  tickSuspensoes();
   document.getElementById('teamSelect').addEventListener('change', (e) => {
     if (e.target.value) {
       selectedTeam = e.target.value;
