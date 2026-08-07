@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-07T04:54:17.941Z",
+  "generatedAt": "2026-08-07T05:12:14.852Z",
   "scheduleDate": "2026-08-06",
+  "suspensions": [
+    {
+      "teamName": "SENEGAL",
+      "categoryName": "Principal (16 Times)",
+      "motivo": "W.O. — não comparecimento",
+      "anos": 2,
+      "inicio": "2026-08-07",
+      "fim": "2028-08-07",
+      "pessoas": 6
+    }
+  ],
   "categories": [
     {
       "id": "principal",
@@ -19,7 +30,9 @@
               "d": 0,
               "gp": 20,
               "gc": 6,
-              "pts": 6
+              "pts": 6,
+              "semChance": false,
+              "fora": false
             },
             {
               "name": "VENEZUELA",
@@ -29,7 +42,9 @@
               "d": 0,
               "gp": 4,
               "gc": 1,
-              "pts": 3
+              "pts": 3,
+              "semChance": false,
+              "fora": false
             },
             {
               "name": "ARÁBIA SAUDITA",
@@ -39,7 +54,9 @@
               "d": 1,
               "gp": 7,
               "gc": 7,
-              "pts": 3
+              "pts": 3,
+              "semChance": false,
+              "fora": false
             },
             {
               "name": "SENEGAL",
@@ -49,7 +66,9 @@
               "d": 3,
               "gp": 3,
               "gc": 20,
-              "pts": 0
+              "pts": 0,
+              "semChance": true,
+              "fora": false
             }
           ],
           "matches": [
@@ -285,7 +304,7 @@
                 {
                   "id": "id-1785893239683-17",
                   "type": "goal",
-                  "teamName": "IT����������������������������������������������������������������������������LIA",
+                  "teamName": "ITÁLIA",
                   "number": "9",
                   "name": "FRANCINEY SERRÃO D. SANTOS",
                   "period": 1,
@@ -371,7 +390,7 @@
                   "type": "goal",
                   "teamName": "ITÁLIA",
                   "number": "20",
-                  "name": "JOSE VICTOR MENDON���������������������������������������A D. SILVA",
+                  "name": "JOSE VICTOR MENDONÇA D. SILVA",
                   "period": 2,
                   "clockElapsed": 443
                 },
@@ -518,7 +537,9 @@
               "d": 0,
               "gp": 13,
               "gc": 7,
-              "pts": 6
+              "pts": 6,
+              "semChance": false,
+              "fora": false
             },
             {
               "name": "SUECIA",
@@ -528,7 +549,9 @@
               "d": 0,
               "gp": 8,
               "gc": 3,
-              "pts": 6
+              "pts": 6,
+              "semChance": false,
+              "fora": false
             },
             {
               "name": "UGANDA",
@@ -538,7 +561,9 @@
               "d": 2,
               "gp": 6,
               "gc": 11,
-              "pts": 0
+              "pts": 0,
+              "semChance": true,
+              "fora": false
             },
             {
               "name": "UCRÂNIA",
@@ -548,7 +573,9 @@
               "d": 2,
               "gp": 4,
               "gc": 10,
-              "pts": 0
+              "pts": 0,
+              "semChance": true,
+              "fora": false
             }
           ],
           "matches": [
@@ -990,7 +1017,9 @@
               "d": 0,
               "gp": 9,
               "gc": 6,
-              "pts": 6
+              "pts": 6,
+              "semChance": false,
+              "fora": false
             },
             {
               "name": "PORTUGAL",
@@ -1000,7 +1029,9 @@
               "d": 1,
               "gp": 5,
               "gc": 5,
-              "pts": 3
+              "pts": 3,
+              "semChance": false,
+              "fora": false
             },
             {
               "name": "GRÉCIA",
@@ -1010,7 +1041,9 @@
               "d": 1,
               "gp": 2,
               "gc": 3,
-              "pts": 0
+              "pts": 0,
+              "semChance": false,
+              "fora": false
             },
             {
               "name": "BRASIL",
@@ -1020,7 +1053,9 @@
               "d": 1,
               "gp": 4,
               "gc": 6,
-              "pts": 0
+              "pts": 0,
+              "semChance": false,
+              "fora": false
             }
           ],
           "matches": [
@@ -1250,8 +1285,8 @@
                   "id": "id-1786066347742-62",
                   "type": "red",
                   "teamName": "COLÔMBIA",
-                  "number": "",
-                  "name": "",
+                  "number": "21",
+                  "name": "THIAGO D. SILVA FRANÇA",
                   "period": 1,
                   "clockElapsed": 1045,
                   "paid": false
@@ -1404,7 +1439,9 @@
               "d": 0,
               "gp": 11,
               "gc": 4,
-              "pts": 6
+              "pts": 6,
+              "semChance": false,
+              "fora": false
             },
             {
               "name": "ARGENTINA",
@@ -1414,7 +1451,9 @@
               "d": 0,
               "gp": 6,
               "gc": 3,
-              "pts": 3
+              "pts": 3,
+              "semChance": false,
+              "fora": false
             },
             {
               "name": "FRANÇA",
@@ -1424,7 +1463,9 @@
               "d": 1,
               "gp": 0,
               "gc": 3,
-              "pts": 0
+              "pts": 0,
+              "semChance": false,
+              "fora": false
             },
             {
               "name": "HAITI",
@@ -1434,7 +1475,9 @@
               "d": 2,
               "gp": 7,
               "gc": 14,
-              "pts": 0
+              "pts": 0,
+              "semChance": false,
+              "fora": false
             }
           ],
           "matches": [
@@ -1873,6 +1916,12 @@
           "goals": 3
         },
         {
+          "teamName": "ITÁLIA",
+          "number": "9",
+          "name": "FRANCINEY SERRÃO D. SANTOS",
+          "goals": 3
+        },
+        {
           "teamName": "HAITI",
           "number": "17",
           "name": "KEVIN D. SILVA AMANAJAS",
@@ -1900,12 +1949,6 @@
           "teamName": "COLÔMBIA",
           "number": "11",
           "name": "CHRISTYAN VITOR D. SILVA LIMA",
-          "goals": 2
-        },
-        {
-          "teamName": "VENEZUELA",
-          "number": "7",
-          "name": "ERNANDES BELO FURTADO",
           "goals": 2
         }
       ],
@@ -1939,6 +1982,13 @@
           "red": 1
         },
         {
+          "teamName": "COLÔMBIA",
+          "number": "21",
+          "name": "THIAGO D. SILVA FRANÇA",
+          "yellow": 0,
+          "red": 1
+        },
+        {
           "teamName": "SENEGAL",
           "number": "10",
           "name": "THIAGO OLIVEIRA D. ARAUJO",
@@ -1956,13 +2006,6 @@
           "teamName": "SUECIA",
           "number": "11",
           "name": "ALEXSANDRO RAYRAN D. SILVA OLIVEIRA",
-          "yellow": 1,
-          "red": 0
-        },
-        {
-          "teamName": "ARGENTINA",
-          "number": "7",
-          "name": "ANDERSON D. SILVA E SILVA",
           "yellow": 1,
           "red": 0
         }
@@ -1985,7 +2028,9 @@
               "d": 0,
               "gp": 12,
               "gc": 2,
-              "pts": 3
+              "pts": 3,
+              "semChance": false,
+              "fora": false
             },
             {
               "name": "FRANÇA",
@@ -1995,7 +2040,9 @@
               "d": 0,
               "gp": 6,
               "gc": 1,
-              "pts": 3
+              "pts": 3,
+              "semChance": false,
+              "fora": false
             },
             {
               "name": "GUATEMALA",
@@ -2005,7 +2052,9 @@
               "d": 2,
               "gp": 3,
               "gc": 18,
-              "pts": 0
+              "pts": 0,
+              "semChance": true,
+              "fora": false
             }
           ],
           "matches": [
@@ -2185,7 +2234,7 @@
                 {
                   "id": "id-1785887576049-20",
                   "type": "goal",
-                  "teamName": "FRAN���A",
+                  "teamName": "FRANÇA",
                   "number": "13",
                   "name": "JACKSON SILVA D. SANTOS",
                   "period": 2,
@@ -2237,7 +2286,9 @@
               "d": 0,
               "gp": 5,
               "gc": 1,
-              "pts": 4
+              "pts": 4,
+              "semChance": false,
+              "fora": false
             },
             {
               "name": "ESTADOS UNIDOS",
@@ -2247,7 +2298,9 @@
               "d": 0,
               "gp": 5,
               "gc": 3,
-              "pts": 4
+              "pts": 4,
+              "semChance": false,
+              "fora": false
             },
             {
               "name": "ALEMANHA",
@@ -2257,7 +2310,9 @@
               "d": 2,
               "gp": 2,
               "gc": 8,
-              "pts": 0
+              "pts": 0,
+              "semChance": true,
+              "fora": false
             }
           ],
           "matches": [
@@ -2521,7 +2576,7 @@
             },
             {
               "id": "tabela-1785622372448-14",
-              "teamA": "1�� CH B",
+              "teamA": "1º CH B",
               "teamB": "2º CH A",
               "scoreA": 0,
               "scoreB": 0,
@@ -2693,7 +2748,9 @@
               "d": 0,
               "gp": 2,
               "gc": 1,
-              "pts": 3
+              "pts": 3,
+              "semChance": false,
+              "fora": false
             },
             {
               "name": "ESPANHA",
@@ -2703,7 +2760,9 @@
               "d": 0,
               "gp": 2,
               "gc": 1,
-              "pts": 3
+              "pts": 3,
+              "semChance": false,
+              "fora": false
             },
             {
               "name": "SUECIA",
@@ -2713,7 +2772,9 @@
               "d": 2,
               "gp": 2,
               "gc": 4,
-              "pts": 0
+              "pts": 0,
+              "semChance": true,
+              "fora": false
             }
           ],
           "matches": [
@@ -2810,7 +2871,7 @@
             {
               "id": "tabela-1785622372430-l",
               "teamA": "ESPANHA",
-              "teamB": "FRAN����A",
+              "teamB": "FRANÇA",
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
@@ -2832,7 +2893,9 @@
               "d": 0,
               "gp": 4,
               "gc": 1,
-              "pts": 3
+              "pts": 3,
+              "semChance": false,
+              "fora": false
             },
             {
               "name": "HOLANDA",
@@ -2842,7 +2905,9 @@
               "d": 1,
               "gp": 1,
               "gc": 4,
-              "pts": 0
+              "pts": 0,
+              "semChance": false,
+              "fora": false
             }
           ],
           "matches": [
