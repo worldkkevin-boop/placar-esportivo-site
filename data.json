@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T02:35:33.439Z",
+  "generatedAt": "2026-08-08T15:34:54.140Z",
   "scheduleDate": "2026-08-07",
   "suspensions": [
     {
@@ -1122,7 +1122,7 @@
               "gp": 6,
               "gc": 8,
               "pts": 0,
-              "semChance": false,
+              "semChance": true,
               "fora": false
             }
           ],
@@ -2019,7 +2019,7 @@
               "scoreB": 0,
               "played": false,
               "date": "2026-08-08",
-              "time": "20:00",
+              "time": "19:00",
               "events": [],
               "wo": null
             },
@@ -2532,7 +2532,7 @@
               "scoreB": 0,
               "played": false,
               "date": "2026-08-08",
-              "time": "19:00",
+              "time": "20:00",
               "events": [],
               "wo": null
             }
