@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T15:34:54.140Z",
+  "generatedAt": "2026-08-08T15:42:58.675Z",
   "scheduleDate": "2026-08-07",
   "suspensions": [
     {
@@ -3259,9 +3259,9 @@
           "name": "Semifinal",
           "matches": [
             {
-              "id": "tabela-1785622372448-z",
-              "teamA": "1���� CH A",
-              "teamB": "2º CH B",
+              "id": "id-1786203343098-14",
+              "teamA": "ESPANHA",
+              "teamB": "HOLANDA",
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
@@ -3273,9 +3273,9 @@
               "wo": null
             },
             {
-              "id": "tabela-1785622372448-13",
-              "teamA": "1º CH B",
-              "teamB": "2º CH A",
+              "id": "id-1786203343098-15",
+              "teamA": "PORTUGAL",
+              "teamB": "FRANÇA",
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
