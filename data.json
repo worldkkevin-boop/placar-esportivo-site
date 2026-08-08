@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-08T15:42:58.675Z",
-  "scheduleDate": "2026-08-07",
+  "generatedAt": "2026-08-08T22:59:10.735Z",
+  "scheduleDate": "2026-08-08",
   "suspensions": [
     {
       "teamName": "SENEGAL",
@@ -1615,25 +1615,13 @@
             },
             {
               "name": "ARGENTINA",
-              "pj": 2,
-              "v": 1,
+              "pj": 3,
+              "v": 2,
               "e": 0,
               "d": 1,
-              "gp": 9,
-              "gc": 8,
-              "pts": 3,
-              "semChance": false,
-              "fora": false
-            },
-            {
-              "name": "FRANÇA",
-              "pj": 1,
-              "v": 0,
-              "e": 0,
-              "d": 1,
-              "gp": 0,
-              "gc": 3,
-              "pts": 0,
+              "gp": 15,
+              "gc": 9,
+              "pts": 6,
               "semChance": false,
               "fora": false
             },
@@ -1646,7 +1634,19 @@
               "gp": 7,
               "gc": 14,
               "pts": 0,
-              "semChance": false,
+              "semChance": true,
+              "fora": false
+            },
+            {
+              "name": "FRANÇA",
+              "pj": 2,
+              "v": 0,
+              "e": 0,
+              "d": 2,
+              "gp": 1,
+              "gc": 9,
+              "pts": 0,
+              "semChance": true,
               "fora": false
             }
           ],
@@ -1978,7 +1978,7 @@
                   "name": "EDILSON JR. CARMO SANTOS",
                   "period": 2,
                   "clockElapsed": 420,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786142689751-20",
@@ -2015,12 +2015,106 @@
               "id": "tabela2-1785775527274-0",
               "teamA": "ARGENTINA",
               "teamB": "FRANÇA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
+              "scoreA": 6,
+              "scoreB": 1,
+              "played": true,
               "date": "2026-08-08",
               "time": "19:00",
-              "events": [],
+              "events": [
+                {
+                  "id": "id-1786226677285-21",
+                  "type": "goal",
+                  "teamName": "ARGENTINA",
+                  "number": "8",
+                  "name": "VALTEAN D. COSTA RODRIGUES",
+                  "period": 1,
+                  "clockElapsed": 56
+                },
+                {
+                  "id": "id-1786226736760-23",
+                  "type": "yellow",
+                  "teamName": "FRANÇA",
+                  "number": "7",
+                  "name": "KAUÃ MATHEUS D. ANJOS D. SILVA",
+                  "period": 1,
+                  "clockElapsed": 56,
+                  "paid": false
+                },
+                {
+                  "id": "id-1786227460087-24",
+                  "type": "goal",
+                  "teamName": "FRANÇA",
+                  "number": "9",
+                  "name": "GABRIEL DIAS ALVES",
+                  "period": 1,
+                  "clockElapsed": 765
+                },
+                {
+                  "id": "id-1786227702383-27",
+                  "type": "yellow",
+                  "teamName": "ARGENTINA",
+                  "number": "3",
+                  "name": "ADRIANO BEZERRA SILVA",
+                  "period": 1,
+                  "clockElapsed": 999,
+                  "paid": false
+                },
+                {
+                  "id": "id-1786227854945-28",
+                  "type": "goal",
+                  "teamName": "ARGENTINA",
+                  "number": "7",
+                  "name": "ANDERSON D. SILVA E SILVA",
+                  "period": 1,
+                  "clockElapsed": 1088
+                },
+                {
+                  "id": "id-1786228327142-30",
+                  "type": "yellow",
+                  "teamName": "ARGENTINA",
+                  "number": "8",
+                  "name": "VALTEAN D. COSTA RODRIGUES",
+                  "period": 2,
+                  "clockElapsed": 86,
+                  "paid": false
+                },
+                {
+                  "id": "id-1786228496365-32",
+                  "type": "goal",
+                  "teamName": "ARGENTINA",
+                  "number": "5",
+                  "name": "EDILSON JR. CARMO SANTOS",
+                  "period": 2,
+                  "clockElapsed": 255
+                },
+                {
+                  "id": "id-1786228671020-34",
+                  "type": "goal",
+                  "teamName": "ARGENTINA",
+                  "number": "7",
+                  "name": "ANDERSON D. SILVA E SILVA",
+                  "period": 2,
+                  "clockElapsed": 407
+                },
+                {
+                  "id": "id-1786228754688-36",
+                  "type": "goal",
+                  "teamName": "ARGENTINA",
+                  "number": "7",
+                  "name": "ANDERSON D. SILVA E SILVA",
+                  "period": 2,
+                  "clockElapsed": 491
+                },
+                {
+                  "id": "id-1786229183706-38",
+                  "type": "goal",
+                  "teamName": "ARGENTINA",
+                  "number": "3",
+                  "name": "ADRIANO BEZERRA SILVA",
+                  "period": 2,
+                  "clockElapsed": 854
+                }
+              ],
               "wo": null
             },
             {
@@ -2173,6 +2267,18 @@
           "goals": 5
         },
         {
+          "teamName": "ARGENTINA",
+          "number": "7",
+          "name": "ANDERSON D. SILVA E SILVA",
+          "goals": 4
+        },
+        {
+          "teamName": "ARGENTINA",
+          "number": "8",
+          "name": "VALTEAN D. COSTA RODRIGUES",
+          "goals": 4
+        },
+        {
           "teamName": "BRASIL",
           "number": "9",
           "name": "ALEFF JUNIOR FURTADO D. SILVA",
@@ -2201,18 +2307,6 @@
           "number": "8",
           "name": "ROGEL COSTA D. OLIVEIRA",
           "goals": 3
-        },
-        {
-          "teamName": "ARGENTINA",
-          "number": "8",
-          "name": "VALTEAN D. COSTA RODRIGUES",
-          "goals": 3
-        },
-        {
-          "teamName": "COLÔMBIA",
-          "number": "14",
-          "name": "AUGUSTO CESAR D. SILVA D. OLIVEIRA",
-          "goals": 2
         }
       ],
       "topCards": [
@@ -2266,9 +2360,9 @@
           "red": 0
         },
         {
-          "teamName": "ARÁBIA SAUDITA",
-          "number": "4",
-          "name": "ADRIANO SANTOS D. SANTOS",
+          "teamName": "ARGENTINA",
+          "number": "3",
+          "name": "ADRIANO BEZERRA SILVA",
           "yellow": 1,
           "red": 0
         }
@@ -3122,7 +3216,7 @@
                 {
                   "id": "id-1785970550298-16",
                   "type": "goal",
-                  "teamName": "FRANÇA",
+                  "teamName": "FRAN����A",
                   "number": "7",
                   "name": "THAINA D. SILVA LIMA",
                   "period": 2,
@@ -3358,7 +3452,7 @@
           "goals": 1
         },
         {
-          "teamName": "FRANÇA",
+          "teamName": "FRAN����A",
           "number": "7",
           "name": "THAINA D. SILVA LIMA",
           "goals": 1
