@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T22:59:32.217Z",
+  "generatedAt": "2026-08-09T01:27:11.973Z",
   "scheduleDate": "2026-08-08",
   "suspensions": [
     {
@@ -250,7 +250,7 @@
                   "name": "GABRIEL SILVA CARVALHO",
                   "period": 2,
                   "clockElapsed": 593,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1785802373167-24",
@@ -536,7 +536,7 @@
                   "name": "JACKSON VINICIUS SANTOS ALVES",
                   "period": 1,
                   "clockElapsed": 1165,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786150068181-36",
@@ -546,7 +546,7 @@
                   "name": "DAIVYD RIBEIRO COSTA",
                   "period": 2,
                   "clockElapsed": 564,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786150100314-38",
@@ -1079,25 +1079,13 @@
           "standings": [
             {
               "name": "COLÔMBIA",
-              "pj": 2,
+              "pj": 3,
               "v": 2,
               "e": 0,
-              "d": 0,
-              "gp": 9,
-              "gc": 6,
-              "pts": 6,
-              "semChance": false,
-              "fora": false
-            },
-            {
-              "name": "PORTUGAL",
-              "pj": 2,
-              "v": 1,
-              "e": 0,
               "d": 1,
-              "gp": 5,
-              "gc": 5,
-              "pts": 3,
+              "gp": 11,
+              "gc": 12,
+              "pts": 6,
               "semChance": false,
               "fora": false
             },
@@ -1114,14 +1102,26 @@
               "fora": false
             },
             {
-              "name": "GRÉCIA",
+              "name": "PORTUGAL",
               "pj": 2,
-              "v": 0,
+              "v": 1,
+              "e": 0,
+              "d": 1,
+              "gp": 5,
+              "gc": 5,
+              "pts": 3,
+              "semChance": false,
+              "fora": false
+            },
+            {
+              "name": "GRÉCIA",
+              "pj": 3,
+              "v": 1,
               "e": 0,
               "d": 2,
-              "gp": 6,
-              "gc": 8,
-              "pts": 0,
+              "gp": 12,
+              "gc": 10,
+              "pts": 3,
               "semChance": true,
               "fora": false
             }
@@ -1357,7 +1357,7 @@
                   "name": "THIAGO D. SILVA FRANÇA",
                   "period": 1,
                   "clockElapsed": 1045,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786067259517-67",
@@ -1386,7 +1386,7 @@
                   "name": "ROGEL COSTA D. OLIVEIRA",
                   "period": 2,
                   "clockElapsed": 608,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786067915346-73",
@@ -1423,7 +1423,7 @@
                   "name": "SHAIDSON KEISLEN D. SILVA DE SENA",
                   "period": 2,
                   "clockElapsed": 921,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786068404138-85",
@@ -1453,7 +1453,7 @@
                   "name": "",
                   "period": 2,
                   "clockElapsed": 1200,
-                  "paid": false
+                  "paid": true
                 }
               ],
               "wo": null
@@ -1576,12 +1576,125 @@
               "id": "tabela-1785622372430-q",
               "teamA": "GRÉCIA",
               "teamB": "COLÔMBIA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
+              "scoreA": 6,
+              "scoreB": 2,
+              "played": true,
               "date": "2026-08-08",
               "time": "21:00",
-              "events": [],
+              "events": [
+                {
+                  "id": "id-1786234749888-16",
+                  "type": "goal",
+                  "teamName": "COLÔMBIA",
+                  "number": "4",
+                  "name": "WABSON ARIEL  VALERA DA SILVA",
+                  "period": 1,
+                  "clockElapsed": 384
+                },
+                {
+                  "id": "id-1786234989077-18",
+                  "type": "goal",
+                  "teamName": "COLÔMBIA",
+                  "number": "21",
+                  "name": "JOÃO PEDRO BANEIRO PIRES",
+                  "period": 1,
+                  "clockElapsed": 623
+                },
+                {
+                  "id": "id-1786235198996-20",
+                  "type": "goal",
+                  "teamName": "GRÉCIA",
+                  "number": "7",
+                  "name": "JOÃO VITOR SOUSA LOPES",
+                  "period": 1,
+                  "clockElapsed": 833
+                },
+                {
+                  "id": "id-1786235252341-22",
+                  "type": "goal",
+                  "teamName": "GRÉCIA",
+                  "number": "77",
+                  "name": "DARLAN MONTEIRO D. SANTOS",
+                  "period": 1,
+                  "clockElapsed": 887
+                },
+                {
+                  "id": "id-1786235531072-24",
+                  "type": "yellow",
+                  "teamName": "GRÉCIA",
+                  "number": "77",
+                  "name": "DARLAN MONTEIRO D. SANTOS",
+                  "period": 1,
+                  "clockElapsed": 1132,
+                  "paid": false
+                },
+                {
+                  "id": "id-1786235978718-27",
+                  "type": "yellow",
+                  "teamName": "GRÉCIA",
+                  "number": "12",
+                  "name": "JOADSON D. SANTOS NASCIMENTO",
+                  "period": 2,
+                  "clockElapsed": 0,
+                  "paid": false
+                },
+                {
+                  "id": "id-1786236113290-29",
+                  "type": "yellow",
+                  "teamName": "COLÔMBIA",
+                  "number": "9",
+                  "name": "PEDRO LUCAS TRINDADE D. SILVA",
+                  "period": 2,
+                  "clockElapsed": 127,
+                  "paid": false
+                },
+                {
+                  "id": "id-1786236295953-30",
+                  "type": "goal",
+                  "teamName": "GRÉCIA",
+                  "number": "7",
+                  "name": "JOÃO VITOR SOUSA LOPES",
+                  "period": 2,
+                  "clockElapsed": 309
+                },
+                {
+                  "id": "id-1786236909863-33",
+                  "type": "goal",
+                  "teamName": "GRÉCIA",
+                  "number": "23",
+                  "name": "JONAS DIAS PEREIRA",
+                  "period": 2,
+                  "clockElapsed": 863
+                },
+                {
+                  "id": "id-1786236975699-34",
+                  "type": "yellow",
+                  "teamName": "GRÉCIA",
+                  "number": "23",
+                  "name": "JONAS DIAS PEREIRA",
+                  "period": 2,
+                  "clockElapsed": 929,
+                  "paid": false
+                },
+                {
+                  "id": "id-1786237035674-37",
+                  "type": "goal",
+                  "teamName": "GRÉCIA",
+                  "number": "77",
+                  "name": "DARLAN MONTEIRO D. SANTOS",
+                  "period": 2,
+                  "clockElapsed": 989
+                },
+                {
+                  "id": "id-1786237146914-38",
+                  "type": "goal",
+                  "teamName": "GRÉCIA",
+                  "number": "77",
+                  "name": "DARLAN MONTEIRO D. SANTOS",
+                  "period": 2,
+                  "clockElapsed": 1100
+                }
+              ],
               "wo": null
             },
             {
@@ -2273,6 +2386,18 @@
           "goals": 4
         },
         {
+          "teamName": "GRÉCIA",
+          "number": "77",
+          "name": "DARLAN MONTEIRO D. SANTOS",
+          "goals": 4
+        },
+        {
+          "teamName": "GRÉCIA",
+          "number": "7",
+          "name": "JOÃO VITOR SOUSA LOPES",
+          "goals": 4
+        },
+        {
           "teamName": "ARGENTINA",
           "number": "8",
           "name": "VALTEAN D. COSTA RODRIGUES",
@@ -2294,18 +2419,6 @@
           "teamName": "ITÁLIA",
           "number": "9",
           "name": "FRANCINEY SERRÃO D. SANTOS",
-          "goals": 3
-        },
-        {
-          "teamName": "HAITI",
-          "number": "17",
-          "name": "KEVIN D. SILVA AMANAJAS",
-          "goals": 3
-        },
-        {
-          "teamName": "COLÔMBIA",
-          "number": "8",
-          "name": "ROGEL COSTA D. OLIVEIRA",
           "goals": 3
         }
       ],
@@ -2379,24 +2492,24 @@
           "standings": [
             {
               "name": "ESPANHA",
-              "pj": 1,
-              "v": 1,
+              "pj": 2,
+              "v": 2,
               "e": 0,
               "d": 0,
-              "gp": 12,
-              "gc": 2,
-              "pts": 3,
+              "gp": 17,
+              "gc": 5,
+              "pts": 6,
               "semChance": false,
               "fora": false
             },
             {
               "name": "FRANÇA",
-              "pj": 1,
+              "pj": 2,
               "v": 1,
               "e": 0,
-              "d": 0,
-              "gp": 6,
-              "gc": 1,
+              "d": 1,
+              "gp": 9,
+              "gc": 6,
               "pts": 3,
               "semChance": false,
               "fora": false
@@ -2622,12 +2735,95 @@
               "id": "tabela-1785622372430-o",
               "teamA": "ESPANHA",
               "teamB": "FRANÇA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
+              "scoreA": 5,
+              "scoreB": 3,
+              "played": true,
               "date": "2026-08-08",
               "time": "20:00",
-              "events": [],
+              "events": [
+                {
+                  "id": "id-1786230403024-41",
+                  "type": "yellow",
+                  "teamName": "ESPANHA",
+                  "number": "6",
+                  "name": "CARLOS ALBERTO MACHADO D. SILVA",
+                  "period": 1,
+                  "clockElapsed": 99,
+                  "paid": false
+                },
+                {
+                  "id": "id-1786230472250-42",
+                  "type": "goal",
+                  "teamName": "ESPANHA",
+                  "number": "6",
+                  "name": "CARLOS ALBERTO MACHADO D. SILVA",
+                  "period": 1,
+                  "clockElapsed": 168
+                },
+                {
+                  "id": "id-1786230732737-45",
+                  "type": "goal",
+                  "teamName": "FRANÇA",
+                  "number": "11",
+                  "name": "BENEDITO PIRES D. CONCEIÇÃO",
+                  "period": 1,
+                  "clockElapsed": 429
+                },
+                {
+                  "id": "id-1786231566471-47",
+                  "type": "goal",
+                  "teamName": "ESPANHA",
+                  "number": "6",
+                  "name": "CARLOS ALBERTO MACHADO D. SILVA",
+                  "period": 1,
+                  "clockElapsed": 1140
+                },
+                {
+                  "id": "id-1786232233673-15",
+                  "type": "goal",
+                  "teamName": "FRANÇA",
+                  "number": "75",
+                  "name": "MAYKON ANDRADE NOGUEIRA",
+                  "period": 2,
+                  "clockElapsed": 266
+                },
+                {
+                  "id": "id-1786232502849-16",
+                  "type": "goal",
+                  "teamName": "FRANÇA",
+                  "number": "11",
+                  "name": "BENEDITO PIRES D. CONCEIÇÃO",
+                  "period": 2,
+                  "clockElapsed": 535
+                },
+                {
+                  "id": "id-1786232668793-19",
+                  "type": "goal",
+                  "teamName": "ESPANHA",
+                  "number": "4",
+                  "name": "FRANCISCO D. ASSIS CARVALHO",
+                  "period": 2,
+                  "clockElapsed": 701
+                },
+                {
+                  "id": "id-1786233051818-22",
+                  "type": "goal",
+                  "teamName": "ESPANHA",
+                  "number": "6",
+                  "name": "CARLOS ALBERTO MACHADO D. SILVA",
+                  "period": 2,
+                  "clockElapsed": 1018
+                },
+                {
+                  "id": "id-1786233160120-24",
+                  "type": "goal",
+                  "teamName": "ESPANHA",
+                  "number": "9",
+                  "name": "BRUNO BORGES D. SILVA",
+                  "period": 2,
+                  "clockElapsed": 1127
+                }
+              ],
               "wo": null
             }
           ]
@@ -2969,6 +3165,12 @@
       ],
       "topScorers": [
         {
+          "teamName": "FRANÇA",
+          "number": "11",
+          "name": "BENEDITO PIRES D. CONCEIÇÃO",
+          "goals": 4
+        },
+        {
           "teamName": "ESPANHA",
           "number": "7",
           "name": "ROBSON DA COSTA FERREIRA",
@@ -2978,6 +3180,12 @@
           "teamName": "ESPANHA",
           "number": "3",
           "name": "ALBERTO FRIAZ CARDOSO",
+          "goals": 3
+        },
+        {
+          "teamName": "ESPANHA",
+          "number": "6",
+          "name": "CARLOS ALBERTO MACHADO D. SILVA",
           "goals": 3
         },
         {
@@ -2999,9 +3207,9 @@
           "goals": 3
         },
         {
-          "teamName": "FRANÇA",
-          "number": "11",
-          "name": "BENEDITO PIRES D. CONCEIÇÃO",
+          "teamName": "ESPANHA",
+          "number": "9",
+          "name": "BRUNO BORGES D. SILVA",
           "goals": 2
         },
         {
@@ -3015,18 +3223,6 @@
           "number": "21",
           "name": "GEONE CARMO D. ALMEIDA",
           "goals": 2
-        },
-        {
-          "teamName": "ESPANHA",
-          "number": "9",
-          "name": "BRUNO BORGES D. SILVA",
-          "goals": 1
-        },
-        {
-          "teamName": "GUATEMALA",
-          "number": "19",
-          "name": "DANIELSON PIMENTA COSTA",
-          "goals": 1
         }
       ],
       "topCards": [
@@ -3035,6 +3231,13 @@
           "number": "16",
           "name": "RAMON SOUZA SANTOS AMERICO",
           "yellow": 2,
+          "red": 0
+        },
+        {
+          "teamName": "ESPANHA",
+          "number": "6",
+          "name": "CARLOS ALBERTO MACHADO D. SILVA",
+          "yellow": 1,
           "red": 0
         },
         {
@@ -3076,13 +3279,6 @@
           "teamName": "ESCOCIA",
           "number": "13",
           "name": "JAIME FERREIRA D. MOURA",
-          "yellow": 1,
-          "red": 0
-        },
-        {
-          "teamName": "ESCOCIA",
-          "number": "11",
-          "name": "RENAN PABLO SANTOS CARVALHO",
           "yellow": 1,
           "red": 0
         }
@@ -3216,7 +3412,7 @@
                 {
                   "id": "id-1785970550298-16",
                   "type": "goal",
-                  "teamName": "FRAN����A",
+                  "teamName": "FRAN�������A",
                   "number": "7",
                   "name": "THAINA D. SILVA LIMA",
                   "period": 2,
@@ -3452,7 +3648,7 @@
           "goals": 1
         },
         {
-          "teamName": "FRAN����A",
+          "teamName": "FRAN�������A",
           "number": "7",
           "name": "THAINA D. SILVA LIMA",
           "goals": 1
