@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T16:52:01.456Z",
+  "generatedAt": "2026-08-09T17:02:40.049Z",
   "scheduleDate": "2026-08-08",
   "suspensions": [
     {
@@ -2306,7 +2306,7 @@
           "matches": [
             {
               "id": "tabela-1785622372448-11",
-              "teamA": "1º CH A",
+              "teamA": "ITÁLIA",
               "teamB": "2º CH B",
               "scoreA": 0,
               "scoreB": 0,
@@ -2321,7 +2321,7 @@
             {
               "id": "tabela-1785622372448-12",
               "teamA": "1º CH B",
-              "teamB": "2º CH A",
+              "teamB": "ARÁBIA SAUDITA",
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
@@ -2334,8 +2334,8 @@
             },
             {
               "id": "tabela-1785622372448-15",
-              "teamA": "1º CH C",
-              "teamB": "2º CH D",
+              "teamA": "COLÔMBIA",
+              "teamB": "ARGENTINA",
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
@@ -2348,7 +2348,7 @@
             },
             {
               "id": "tabela-1785622372448-16",
-              "teamA": "1º CH D",
+              "teamA": "GANA",
               "teamB": "2º CH C",
               "scoreA": 0,
               "scoreB": 0,
