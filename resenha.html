@@ -135,6 +135,24 @@
   .aposta-resultado.ganhou  { background: rgba(16,185,129,0.2); color: var(--green); }
   .aposta-resultado.perdeu  { background: rgba(239,68,68,0.2); color: #ef4444; }
   .aposta-resultado.anulada { background: rgba(100,116,139,0.2); color: var(--muted); }
+  /* VENCER x PASSAR: cores diferentes porque a REGRA e diferente — em "vencer" o empate anula, em
+     "passar" o empate vai pros penaltis. E a distincao que mais gera discussao. */
+  .aposta-tipo {
+    display: inline-block;
+    margin-top: 0.3rem;
+    padding: 0.1rem 0.4rem;
+    border-radius: 4px;
+    background: rgba(100,116,139,0.2);
+    color: var(--muted);
+    font-size: 0.7rem;
+    font-weight: 800;
+  }
+  .aposta-tipo.passa { background: rgba(250,204,21,0.18); color: var(--gold); }
+  .aposta-jogo {
+    margin-top: 0.25rem;
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
   .vazio {
     padding: 2rem 1rem;
     text-align: center;
@@ -215,12 +233,27 @@ function desenhar(dados) {
     else if (res === 'perdeu') selo = '<span class="aposta-resultado perdeu">' + escapar(pegou || 'quem pegou') + ' ganhou</span>';
     else if (res === 'anulada') selo = '<span class="aposta-resultado anulada">anulada</span>';
 
+    // VENCER ou PASSAR: sem isto ninguem sabe se o empate anula a aposta ou vai pros penaltis, e e
+    // exatamente ai que da discussao. `tipo` vem como DADO no data.json; o rotulo e escrito aqui.
+    const passa = a.tipo === 'passa';
+    const tipo = a.jogo
+      ? '<div><span class="aposta-tipo' + (passa ? ' passa' : '') + '">' +
+        (passa ? 'pra PASSAR de fase (conta pênaltis)' : 'pra VENCER o jogo (empate anula)') +
+        '</span></div>'
+      : '';
+    const jogo = a.jogo
+      ? '<div class="aposta-jogo">' + (a.jogo.hora ? escapar(a.jogo.hora) + ' · ' : '') +
+        escapar(a.jogo.teamA) + ' x ' + escapar(a.jogo.teamB) +
+        (a.jogo.fase ? ' · ' + escapar(a.jogo.fase) : '') + '</div>'
+      : '';
+
     return '<div class="aposta' + (pegou ? ' fechada' : '') + '">' +
       '<div class="aposta-frase">' +
         '<b class="nick">' + escapar(a.nick) + '</b> ' +
         (a.valor > 0 ? 'vai <b class="valor">' + fmtValor(a.valor) + '</b> na ' : 'aposta na ') +
         '<b class="time">' + escapar(a.time) + '</b>' +
       '</div>' +
+      tipo + jogo +
       '<div class="aposta-status">' +
         (pegou ? '🤝 ' + escapar(pegou) + ' pegou' : 'quem pega?') + selo +
       '</div>' +
