@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-11T02:15:43.286Z",
-  "scheduleDate": "2026-08-10",
+  "generatedAt": "2026-08-11T02:31:47.148Z",
+  "scheduleDate": "2026-08-11",
   "suspensions": [
     {
       "teamName": "SENEGAL",
@@ -192,7 +192,8 @@
                   "paid": true
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             },
             {
               "id": "tabela-1785622372429-6",
@@ -280,7 +281,8 @@
                   "clockElapsed": 1174
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             },
             {
               "id": "tabela-1785622372430-c",
@@ -458,7 +460,8 @@
                   "clockElapsed": 1117
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             },
             {
               "id": "tabela-1785622372430-e",
@@ -498,7 +501,8 @@
                   "clockElapsed": 0
                 }
               ],
-              "wo": "B"
+              "wo": "B",
+              "anulado": false
             },
             {
               "id": "tabela-1785622372430-m",
@@ -578,7 +582,8 @@
                   "paid": false
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             },
             {
               "id": "tabela-1785622372430-r",
@@ -645,7 +650,8 @@
                   "clockElapsed": 602
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             }
           ]
         },
@@ -822,7 +828,8 @@
                   "paid": true
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             },
             {
               "id": "tabela-1785622372429-7",
@@ -900,7 +907,8 @@
                   "paid": true
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             },
             {
               "id": "tabela-1785622372430-f",
@@ -994,7 +1002,8 @@
                   "clockElapsed": 1192
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             },
             {
               "id": "tabela-1785622372430-i",
@@ -1101,7 +1110,8 @@
                   "clockElapsed": 999
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             },
             {
               "id": "tabela-1785622372430-s",
@@ -1113,7 +1123,8 @@
               "date": "2026-08-10",
               "time": "20:00",
               "events": [],
-              "wo": null
+              "wo": null,
+              "anulado": true
             },
             {
               "id": "tabela-1785622372430-u",
@@ -1190,7 +1201,8 @@
                   "clockElapsed": 1158
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             }
           ]
         },
@@ -1360,7 +1372,8 @@
                   "paid": true
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             },
             {
               "id": "tabela-1785622372429-8",
@@ -1428,7 +1441,8 @@
                   "clockElapsed": 1149
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             },
             {
               "id": "tabela-1785622372430-j",
@@ -1576,7 +1590,8 @@
                   "paid": true
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             },
             {
               "id": "tabela-1785622372430-n",
@@ -1690,7 +1705,8 @@
                   "clockElapsed": 1146
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             },
             {
               "id": "tabela-1785622372430-q",
@@ -1815,7 +1831,8 @@
                   "clockElapsed": 1100
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             },
             {
               "id": "tabela-1785622372430-t",
@@ -1891,7 +1908,8 @@
                   "clockElapsed": 1008
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             }
           ]
         },
@@ -1958,7 +1976,8 @@
               "date": "2026-07-31",
               "time": "21:00",
               "events": [],
-              "wo": "B"
+              "wo": "B",
+              "anulado": false
             },
             {
               "id": "tabela-1785622372429-2",
@@ -2050,7 +2069,8 @@
                   "paid": true
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             },
             {
               "id": "tabela-1785622372429-9",
@@ -2201,7 +2221,8 @@
                   "clockElapsed": 1171
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             },
             {
               "id": "tabela-1785622372430-k",
@@ -2306,7 +2327,8 @@
                   "clockElapsed": 954
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             },
             {
               "id": "tabela2-1785775527274-0",
@@ -2412,7 +2434,8 @@
                   "clockElapsed": 854
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             },
             {
               "id": "tabela2-1785775527274-1",
@@ -2501,7 +2524,8 @@
                   "clockElapsed": 1105
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             }
           ]
         }
@@ -2522,7 +2546,8 @@
               "penA": null,
               "penB": null,
               "events": [],
-              "wo": null
+              "wo": null,
+              "anulado": false
             },
             {
               "id": "id-1786414535537-15",
@@ -2536,7 +2561,8 @@
               "penA": null,
               "penB": null,
               "events": [],
-              "wo": null
+              "wo": null,
+              "anulado": false
             },
             {
               "id": "id-1786414535537-16",
@@ -2550,7 +2576,8 @@
               "penA": null,
               "penB": null,
               "events": [],
-              "wo": null
+              "wo": null,
+              "anulado": false
             },
             {
               "id": "id-1786414535537-17",
@@ -2564,7 +2591,8 @@
               "penA": null,
               "penB": null,
               "events": [],
-              "wo": null
+              "wo": null,
+              "anulado": false
             }
           ]
         },
@@ -2583,7 +2611,8 @@
               "penA": null,
               "penB": null,
               "events": [],
-              "wo": null
+              "wo": null,
+              "anulado": false
             },
             {
               "id": "tabela-1785622372448-18",
@@ -2597,7 +2626,8 @@
               "penA": null,
               "penB": null,
               "events": [],
-              "wo": null
+              "wo": null,
+              "anulado": false
             }
           ]
         },
@@ -2616,7 +2646,8 @@
               "penA": null,
               "penB": null,
               "events": [],
-              "wo": null
+              "wo": null,
+              "anulado": false
             }
           ]
         }
@@ -2914,7 +2945,8 @@
                   "paid": true
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             },
             {
               "id": "tabela-1785622372429-a",
@@ -2990,7 +3022,8 @@
                   "clockElapsed": 902
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             },
             {
               "id": "tabela-1785622372430-o",
@@ -3085,7 +3118,8 @@
                   "clockElapsed": 1127
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             }
           ]
         },
@@ -3207,7 +3241,8 @@
                   "clockElapsed": 1080
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             },
             {
               "id": "tabela-1785622372430-d",
@@ -3294,7 +3329,8 @@
                   "paid": false
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             },
             {
               "id": "tabela-1785622372430-h",
@@ -3365,7 +3401,8 @@
                   "paid": false
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             }
           ]
         }
@@ -3386,7 +3423,8 @@
               "penA": null,
               "penB": null,
               "events": [],
-              "wo": null
+              "wo": null,
+              "anulado": false
             },
             {
               "id": "id-1786241102283-15",
@@ -3400,7 +3438,8 @@
               "penA": null,
               "penB": null,
               "events": [],
-              "wo": null
+              "wo": null,
+              "anulado": false
             }
           ]
         },
@@ -3419,7 +3458,8 @@
               "penA": null,
               "penB": null,
               "events": [],
-              "wo": null
+              "wo": null,
+              "anulado": false
             }
           ]
         }
@@ -3640,7 +3680,8 @@
                   "paid": true
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             },
             {
               "id": "tabela-1785622372430-p",
@@ -3680,7 +3721,8 @@
                   "clockElapsed": 582
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             },
             {
               "id": "tabela-1785622372430-l",
@@ -3711,7 +3753,8 @@
                   "clockElapsed": 390
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             }
           ]
         },
@@ -3800,7 +3843,8 @@
                   "clockElapsed": 1048
                 }
               ],
-              "wo": null
+              "wo": null,
+              "anulado": false
             }
           ]
         }
@@ -3821,7 +3865,8 @@
               "penA": null,
               "penB": null,
               "events": [],
-              "wo": null
+              "wo": null,
+              "anulado": false
             },
             {
               "id": "id-1786203343098-15",
@@ -3835,7 +3880,8 @@
               "penA": null,
               "penB": null,
               "events": [],
-              "wo": null
+              "wo": null,
+              "anulado": false
             }
           ]
         },
@@ -3854,7 +3900,8 @@
               "penA": null,
               "penB": null,
               "events": [],
-              "wo": null
+              "wo": null,
+              "anulado": false
             }
           ]
         }
