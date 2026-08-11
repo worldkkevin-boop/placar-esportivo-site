@@ -338,6 +338,11 @@
     font-size: 0.75rem;
     white-space: nowrap;
   }
+  /* Jogo anulado: esmaecido e com os nomes riscados, pra ficar claro num relance que aquele
+     confronto nao vai acontecer — sem precisar ler a etiqueta. */
+  .match-row.anulado { opacity: 0.6; }
+  .match-row.anulado .match-team { text-decoration: line-through; }
+  .match-row.anulado .match-pending { font-weight: 800; letter-spacing: 0.04em; }
   .match-score-wrap {
     display: flex;
     flex-direction: column;
@@ -721,6 +726,16 @@ function fmtUpdated(iso) {
 function matchLine(m) {
   const pending = !m.played;
   const dateLabel = m.date ? (formatDate(m.date) + (m.time ? ' ' + m.time : '')) : '';
+
+  // Jogo anulado: aparece na tabela, mas sem placar e sem vencedor. Some da lista seria pior — a
+  // galera ficaria esperando um confronto que foi divulgado e nao vai acontecer.
+  if (m.anulado) {
+    return '<div class="match-row anulado">' +
+      '<span class="match-team">' + teamLabel(m.teamA) + '</span>' +
+      '<span class="match-pending">ANULADO</span>' +
+      '<span class="match-team right">' + teamLabel(m.teamB) + '</span>' +
+      '</div>';
+  }
   // Quem venceu fica em negrito e o perdedor esmaece (considerando pênaltis no empate).
   let clsA = 'match-team', clsB = 'match-team right';
   if (!pending) {
