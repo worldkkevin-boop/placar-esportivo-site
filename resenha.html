@@ -153,6 +153,25 @@
     font-size: 0.75rem;
     color: var(--muted);
   }
+  /* Botao de pegar a aposta. So aparece na aposta EM ABERTO: numa que ja tem os dois lados ele levaria
+     o cara a mandar mensagem pra nada. */
+  .pegar-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.8rem;
+    background: #25d366;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-family: inherit;
+    font-size: 0.82rem;
+    font-weight: 800;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .pegar-btn:active { transform: scale(0.97); }
   .vazio {
     padding: 2rem 1rem;
     text-align: center;
@@ -177,6 +196,9 @@
     As apostas de boca da galera que foram pro ar na transmissão. Pra entrar na brincadeira, manda no
     <b>chat da live</b>: <code>!aposta 50 espanha</code>
     <br><br>
+    Quer <b>pegar</b> uma aposta? Aperta o botão verde na que você quiser — abre o WhatsApp da
+    transmissão com a mensagem já escrita.
+    <br><br>
     É <b>só resenha entre a galera</b>. A transmissão não guarda, não cobra e não paga nada disso.
   </div>
 
@@ -185,6 +207,22 @@
 </div>
 
 <script>
+// WhatsApp da transmissao, no formato do wa.me (55 + DDD + numero, sem sinal nem espaco).
+const WHATS = '5596991767788';
+
+// Monta a mensagem JA ESCRITA pra quem vai pegar a aposta. Pre-escrever importa: o cara aperta, o
+// WhatsApp abre com o texto pronto e ele so envia. Se abrisse vazio, metade nao saberia o que dizer e
+// chegaria "oi" sem contexto — e a transmissao nao teria como saber de qual aposta se trata.
+function linkPegar(a) {
+  const partes = ['Quero PEGAR a aposta do ' + a.nick];
+  if (a.valor > 0) partes.push('de R$ ' + Number(a.valor).toLocaleString('pt-BR', { minimumFractionDigits: 2 }));
+  partes.push('no ' + a.time);
+  if (a.tipo === 'passa') partes.push('(pra passar de fase, contando penaltis)');
+  else partes.push('(pra vencer o jogo)');
+  if (a.jogo) partes.push('- jogo: ' + a.jogo.teamA + ' x ' + a.jogo.teamB);
+  return 'https://wa.me/' + WHATS + '?text=' + encodeURIComponent(partes.join(' ') + '.');
+}
+
 // Le o MESMO data.json do campeonato: e o retrato que o operador publica com o botao do dia. Uma
 // pagina separada com fonte de dados propria ficaria desencontrada da outra na hora errada.
 function fmtValor(v) {
@@ -257,6 +295,11 @@ function desenhar(dados) {
       '<div class="aposta-status">' +
         (pegou ? '🤝 ' + escapar(pegou) + ' pegou' : 'quem pega?') + selo +
       '</div>' +
+      // So na aposta EM ABERTO e que ainda nao foi resolvida: pegar uma aposta cujo jogo ja acabou nao
+      // faz sentido, e o botao ali so levaria o cara a mandar mensagem pra nada.
+      (!pegou && res === 'aberta'
+        ? '<a class="pegar-btn" target="_blank" rel="noopener" href="' + linkPegar(a) + '">🤝 EU PEGO ESSA</a>'
+        : '') +
     '</div>';
   }).join('');
 }
