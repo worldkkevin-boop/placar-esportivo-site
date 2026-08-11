@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Resenha da Galera — Campeonato</title>
+<style>
+  /* Mesmas variaveis do index.html, incluindo tema claro/escuro pelo sistema e pela escolha manual.
+     Repetidas aqui (e nao num .css compartilhado) porque o site sao dois arquivos estaticos servidos
+     pelo GitHub Pages e um terceiro arquivo e uma requisicao a mais no 3G do ginasio. */
+  :root {
+    --bg: #0b1120;
+    --card: #0f172a;
+    --border: rgba(255,255,255,0.08);
+    --text: #e2e8f0;
+    --muted: #64748b;
+    --gold: #facc15;
+    --green: #10b981;
+  }
+  @media (prefers-color-scheme: light) {
+    :root { --bg: #f1f5f9; --card: #ffffff; --border: rgba(15,23,42,0.1); --text: #0f172a; --muted: #64748b; }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0b1120; --card: #0f172a; --border: rgba(255,255,255,0.08); --text: #e2e8f0; --muted: #64748b;
+  }
+  :root[data-theme="light"] {
+    --bg: #f1f5f9; --card: #ffffff; --border: rgba(15,23,42,0.1); --text: #0f172a; --muted: #64748b;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    padding-bottom: 2rem;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--card);
+    border-bottom: 1px solid var(--border);
+    padding: 0.9rem 1rem 0.7rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+  h1 { margin: 0 0 0.15rem; font-size: 1.15rem; }
+  .updated { font-size: 0.72rem; color: var(--muted); }
+  .theme-toggle {
+    flex-shrink: 0;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .wrap { max-width: 640px; margin: 0 auto; padding: 0 1rem; }
+  .voltar {
+    display: inline-block;
+    margin: 0.9rem 0 0.2rem;
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 700;
+  }
+  .explica {
+    margin: 0.8rem 0;
+    padding: 0.8rem 0.9rem;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: var(--muted);
+  }
+  .explica b { color: var(--text); }
+  .explica code {
+    padding: 0.1rem 0.35rem;
+    border-radius: 4px;
+    background: rgba(250,204,21,0.15);
+    color: var(--gold);
+    font-weight: 700;
+  }
+  .contadores { display: flex; gap: 0.5rem; margin: 0.8rem 0; }
+  .contador {
+    flex: 1;
+    padding: 0.7rem;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    text-align: center;
+  }
+  .contador b { display: block; font-size: 1.5rem; color: var(--gold); }
+  .contador span { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+
+  .aposta {
+    padding: 0.7rem 0.85rem;
+    margin-bottom: 0.5rem;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--gold);
+    border-radius: 10px;
+  }
+  /* Fechada em verde: quem le de relance sabe na hora se ainda da pra pegar. Mesma linguagem de cor
+     da tarja na live. */
+  .aposta.fechada { border-left-color: var(--green); }
+  .aposta-frase { font-size: 0.95rem; }
+  .aposta-frase b.nick { color: var(--gold); text-transform: uppercase; }
+  .aposta.fechada .aposta-frase b.nick { color: var(--green); }
+  .aposta-frase b.valor { color: var(--green); }
+  .aposta-frase b.time { text-transform: uppercase; }
+  .aposta-status {
+    margin-top: 0.3rem;
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+  }
+  .aposta.fechada .aposta-status { color: var(--green); }
+  .vazio {
+    padding: 2rem 1rem;
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>🔥 Resenha da Galera</h1>
+    <div class="updated" id="updated">Carregando...</div>
+  </div>
+  <button class="theme-toggle" id="themeToggle" title="Alternar tema claro/escuro">🌙</button>
+</header>
+
+<div class="wrap">
+  <a class="voltar" href="./index.html">← Campeonato</a>
+
+  <div class="explica">
+    As apostas de boca da galera que foram pro ar na transmissão. Pra entrar na brincadeira, manda no
+    <b>chat da live</b>: <code>!aposta 50 espanha</code>
+    <br><br>
+    É <b>só resenha entre a galera</b>. A transmissão não guarda, não cobra e não paga nada disso.
+  </div>
+
+  <div class="contadores" id="contadores"></div>
+  <div id="lista"></div>
+</div>
+
+<script>
+// Le o MESMO data.json do campeonato: e o retrato que o operador publica com o botao do dia. Uma
+// pagina separada com fonte de dados propria ficaria desencontrada da outra na hora errada.
+function fmtValor(v) {
+  return 'R$ ' + Number(v || 0).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+
+function fmtUpdated(iso) {
+  if (!iso) return 'Ainda não publicado';
+  const d = new Date(iso);
+  return 'Atualizado em ' + d.toLocaleDateString('pt-BR') + ' às ' + d.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
+}
+
+function escapar(s) {
+  return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+    return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+  });
+}
+
+function desenhar(dados) {
+  document.getElementById('updated').textContent = fmtUpdated(dados && dados.generatedAt);
+  const r = (dados && dados.resenha) || null;
+  const apostas = (r && r.apostas) || [];
+
+  document.getElementById('contadores').innerHTML = !r ? '' :
+    '<div class="contador"><b>' + (r.total || 0) + '</b><span>apostas</span></div>' +
+    '<div class="contador"><b>' + (r.fechadas || 0) + '</b><span>fechadas</span></div>';
+
+  if (apostas.length === 0) {
+    document.getElementById('lista').innerHTML =
+      '<div class="vazio">Nenhuma aposta ainda.<br>Manda a tua no chat da live!</div>';
+    return;
+  }
+
+  // Mais recente primeiro: e a que a galera esta comentando agora.
+  apostas.sort(function (a, b) { return (b.ts || 0) - (a.ts || 0); });
+
+  // Todo texto vem do chat de estranhos: escapado sempre, senao alguem manda HTML no nome e a pagina
+  // vira o que ele quiser.
+  document.getElementById('lista').innerHTML = apostas.map(function (a) {
+    const pegou = (a.pegou || '').trim();
+    return '<div class="aposta' + (pegou ? ' fechada' : '') + '">' +
+      '<div class="aposta-frase">' +
+        '<b class="nick">' + escapar(a.nick) + '</b> ' +
+        (a.valor > 0 ? 'vai <b class="valor">' + fmtValor(a.valor) + '</b> na ' : 'aposta na ') +
+        '<b class="time">' + escapar(a.time) + '</b>' +
+      '</div>' +
+      '<div class="aposta-status">' + (pegou ? '🤝 ' + escapar(pegou) + ' pegou' : 'quem pega?') + '</div>' +
+    '</div>';
+  }).join('');
+}
+
+fetch('./data.json?t=' + Date.now(), { cache: 'no-store' })
+  .then(function (r) { return r.json(); })
+  .then(desenhar)
+  .catch(function () {
+    document.getElementById('updated').textContent = 'Não consegui carregar';
+    document.getElementById('lista').innerHTML = '<div class="vazio">Sem conexão com os dados.</div>';
+  });
+
+// Tema: mesma regra do index — escolha manual vence o padrao do sistema, nos dois sentidos.
+const salvo = localStorage.getItem('tema');
+if (salvo) {
+  document.documentElement.setAttribute('data-theme', salvo);
+  document.getElementById('themeToggle').textContent = salvo === 'light' ? '🌙' : '☀️';
+} else {
+  document.getElementById('themeToggle').textContent =
+    window.matchMedia('(prefers-color-scheme: light)').matches ? '🌙' : '☀️';
+}
+document.getElementById('themeToggle').addEventListener('click', function () {
+  const atual = document.documentElement.getAttribute('data-theme')
+    || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+  const novo = atual === 'light' ? 'dark' : 'light';
+  document.documentElement.setAttribute('data-theme', novo);
+  localStorage.setItem('tema', novo);
+  document.getElementById('themeToggle').textContent = novo === 'light' ? '🌙' : '☀️';
+});
+</script>
+</body>
+</html>
