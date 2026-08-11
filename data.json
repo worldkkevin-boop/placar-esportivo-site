@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-08-11T21:31:22.254Z",
+  "generatedAt": "2026-08-11T22:26:34.998Z",
   "scheduleDate": "2026-08-11",
   "resenha": {
     "total": 1,
     "fechadas": 0,
     "apostas": [
       {
-        "nick": "kevinho",
+        "nick": "@TVkevinho",
         "valor": 100,
         "time": "ITÁLIA",
         "pegou": "",
-        "ts": 1786483408873,
+        "ts": 1786487186218,
         "resultado": "aberta",
         "tipo": "passa",
         "jogo": {
@@ -297,7 +297,7 @@
                   "type": "goal",
                   "teamName": "VENEZUELA",
                   "number": "10",
-                  "name": "SALOMÃO FARIAS FILHO",
+                  "name": "SALOM����O FARIAS FILHO",
                   "period": 2,
                   "clockElapsed": 1174
                 }
@@ -476,7 +476,7 @@
                   "type": "goal",
                   "teamName": "ITÁLIA",
                   "number": "20",
-                  "name": "JOSE VICTOR MENDONÇA D. SILVA",
+                  "name": "JOSE VICTOR MENDON����A D. SILVA",
                   "period": 2,
                   "clockElapsed": 1117
                 }
@@ -920,7 +920,7 @@
                 {
                   "id": "id-1785806374683-28",
                   "type": "yellow",
-                  "teamName": "UCRÂNIA",
+                  "teamName": "UCR��NIA",
                   "number": "21",
                   "name": "ROBERTO ROMARIO RIBEIRO D. COSTA",
                   "period": 2,
@@ -1136,7 +1136,7 @@
             },
             {
               "id": "tabela-1785622372430-s",
-              "teamA": "UCRÂNIA",
+              "teamA": "UCR����NIA",
               "teamB": "UGANDA",
               "scoreA": 0,
               "scoreB": 0,
@@ -1564,7 +1564,7 @@
                 {
                   "id": "id-1786068028517-76",
                   "type": "goal",
-                  "teamName": "COLÔMBIA",
+                  "teamName": "COL����MBIA",
                   "number": "9",
                   "name": "JOÃO PEDRO BANEIRO PIRES",
                   "period": 2,
@@ -1769,7 +1769,7 @@
                 {
                   "id": "id-1786235252341-22",
                   "type": "goal",
-                  "teamName": "GRÉCIA",
+                  "teamName": "GR��CIA",
                   "number": "77",
                   "name": "DARLAN MONTEIRO D. SANTOS",
                   "period": 1,
@@ -2712,12 +2712,6 @@
         },
         {
           "teamName": "GRÉCIA",
-          "number": "77",
-          "name": "DARLAN MONTEIRO D. SANTOS",
-          "goals": 4
-        },
-        {
-          "teamName": "GRÉCIA",
           "number": "7",
           "name": "JOÃO VITOR SOUSA LOPES",
           "goals": 4
@@ -2732,6 +2726,12 @@
           "teamName": "BRASIL",
           "number": "9",
           "name": "ALEFF JUNIOR FURTADO D. SILVA",
+          "goals": 3
+        },
+        {
+          "teamName": "BRASIL",
+          "number": "6",
+          "name": "ANDERSON D. FREITAS SANTOS",
           "goals": 3
         }
       ],
