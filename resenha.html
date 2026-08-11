@@ -123,6 +123,18 @@
     color: var(--muted);
   }
   .aposta.fechada .aposta-status { color: var(--green); }
+  /* Resultado julgado pelo placar, no proprio placar do campeonato — o site so exibe. */
+  .aposta-resultado {
+    display: inline-block;
+    margin-left: 0.4rem;
+    padding: 0.1rem 0.4rem;
+    border-radius: 4px;
+    font-size: 0.68rem;
+    font-weight: 900;
+  }
+  .aposta-resultado.ganhou  { background: rgba(16,185,129,0.2); color: var(--green); }
+  .aposta-resultado.perdeu  { background: rgba(239,68,68,0.2); color: #ef4444; }
+  .aposta-resultado.anulada { background: rgba(100,116,139,0.2); color: var(--muted); }
   .vazio {
     padding: 2rem 1rem;
     text-align: center;
@@ -195,13 +207,23 @@ function desenhar(dados) {
   // vira o que ele quiser.
   document.getElementById('lista').innerHTML = apostas.map(function (a) {
     const pegou = (a.pegou || '').trim();
+    // `resultado` ja vem julgado do placar (ganhou/perdeu/anulada/aberta). Nao recalculo aqui de
+    // proposito: duas copias da regra de empate e penaltis discordariam no dia em que uma mudasse.
+    const res = a.resultado || 'aberta';
+    let selo = '';
+    if (res === 'ganhou') selo = '<span class="aposta-resultado ganhou">' + escapar(a.nick) + ' ganhou</span>';
+    else if (res === 'perdeu') selo = '<span class="aposta-resultado perdeu">' + escapar(pegou || 'quem pegou') + ' ganhou</span>';
+    else if (res === 'anulada') selo = '<span class="aposta-resultado anulada">anulada</span>';
+
     return '<div class="aposta' + (pegou ? ' fechada' : '') + '">' +
       '<div class="aposta-frase">' +
         '<b class="nick">' + escapar(a.nick) + '</b> ' +
         (a.valor > 0 ? 'vai <b class="valor">' + fmtValor(a.valor) + '</b> na ' : 'aposta na ') +
         '<b class="time">' + escapar(a.time) + '</b>' +
       '</div>' +
-      '<div class="aposta-status">' + (pegou ? '🤝 ' + escapar(pegou) + ' pegou' : 'quem pega?') + '</div>' +
+      '<div class="aposta-status">' +
+        (pegou ? '🤝 ' + escapar(pegou) + ' pegou' : 'quem pega?') + selo +
+      '</div>' +
     '</div>';
   }).join('');
 }
