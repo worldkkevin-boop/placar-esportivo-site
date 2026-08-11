@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-08-11T02:31:47.148Z",
+  "generatedAt": "2026-08-11T21:18:23.221Z",
   "scheduleDate": "2026-08-11",
+  "resenha": {
+    "total": 1,
+    "fechadas": 0,
+    "apostas": [
+      {
+        "nick": "kevinho",
+        "valor": 100,
+        "time": "ITÁLIA",
+        "pegou": "",
+        "ts": 1786483098195,
+        "resultado": "aberta"
+      }
+    ]
+  },
   "suspensions": [
     {
       "teamName": "SENEGAL",
