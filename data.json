@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T22:27:26.565Z",
+  "generatedAt": "2026-08-12T02:54:47.570Z",
   "scheduleDate": "2026-08-11",
   "resenha": {
     "total": 1,
@@ -11,7 +11,7 @@
         "time": "ITÁLIA",
         "pegou": "",
         "ts": 1786487186218,
-        "resultado": "aberta",
+        "resultado": "ganhou",
         "tipo": "passa",
         "jogo": {
           "teamA": "ITÁLIA",
@@ -45,24 +45,24 @@
           "standings": [
             {
               "name": "ITÁLIA",
-              "pj": 3,
-              "v": 3,
+              "pj": 2,
+              "v": 2,
               "e": 0,
               "d": 0,
-              "gp": 25,
-              "gc": 7,
-              "pts": 9,
+              "gp": 18,
+              "gc": 3,
+              "pts": 6,
               "semChance": false,
               "fora": false
             },
             {
               "name": "ARÁBIA SAUDITA",
-              "pj": 3,
+              "pj": 2,
               "v": 2,
               "e": 0,
-              "d": 1,
-              "gp": 9,
-              "gc": 8,
+              "d": 0,
+              "gp": 5,
+              "gc": 1,
               "pts": 6,
               "semChance": false,
               "fora": false
@@ -95,7 +95,7 @@
           "matches": [
             {
               "id": "tabela-1785622372429-4",
-              "teamA": "ITÁLIA",
+              "teamA": "IT��������LIA",
               "teamB": "ARÁBIA SAUDITA",
               "scoreA": 7,
               "scoreB": 4,
@@ -113,7 +113,7 @@
                 {
                   "id": "sumula-papel-1785637767833-1l",
                   "type": "goal",
-                  "teamName": "ITÁLIA",
+                  "teamName": "IT�����������������������������������LIA",
                   "number": "10",
                   "name": "PAULO HENRIQUE RODRIGUES D. OLIVEIRA"
                 },
@@ -183,7 +183,7 @@
                 {
                   "id": "sumula-papel-1785637767833-1v",
                   "type": "yellow",
-                  "teamName": "ARÁBIA SAUDITA",
+                  "teamName": "AR������������BIA SAUDITA",
                   "number": "8",
                   "name": "MATHEUS SOUSA TEIXEIRA",
                   "paid": true
@@ -199,7 +199,7 @@
                 {
                   "id": "sumula-papel-1785637767833-1x",
                   "type": "red",
-                  "teamName": "ARÁBIA SAUDITA",
+                  "teamName": "AR��������������������������BIA SAUDITA",
                   "number": "8",
                   "name": "MATHEUS SOUSA TEIXEIRA",
                   "paid": true
@@ -431,14 +431,14 @@
                   "type": "goal",
                   "teamName": "ITÁLIA",
                   "number": "8",
-                  "name": "SALOMÃO GONCALVES D. CRUZ COUTINHO",
+                  "name": "SALOM��������������O GONCALVES D. CRUZ COUTINHO",
                   "period": 2,
                   "clockElapsed": 680
                 },
                 {
                   "id": "id-1785895402823-40",
                   "type": "goal",
-                  "teamName": "ITÁLIA",
+                  "teamName": "IT���LIA",
                   "number": "10",
                   "name": "PAULO HENRIQUE RODRIGUES D. OLIVEIRA",
                   "period": 2,
@@ -590,17 +590,17 @@
                   "name": "ADRIANO SANTOS D. SANTOS",
                   "period": 2,
                   "clockElapsed": 977,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786150616618-42",
                   "type": "yellow",
-                  "teamName": "ARÁBIA SAUDITA",
+                  "teamName": "AR����BIA SAUDITA",
                   "number": "8",
                   "name": "MATHEUS SOUSA TEIXEIRA",
                   "period": 2,
                   "clockElapsed": 1039,
-                  "paid": false
+                  "paid": true
                 }
               ],
               "wo": null,
@@ -787,7 +787,7 @@
                   "teamName": "INGLATERRA",
                   "number": "17",
                   "name": "HEBESON BRITO PAIVA",
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "sumula-papel-1785633959990-1c",
@@ -1009,7 +1009,7 @@
                   "type": "goal",
                   "teamName": "UCRÂNIA",
                   "number": "7",
-                  "name": "JOÃO VICTOR VIEIRA FONTES",
+                  "name": "JO���������O VICTOR VIEIRA FONTES",
                   "period": 2,
                   "clockElapsed": 1159
                 },
@@ -1097,7 +1097,7 @@
                   "type": "yellow",
                   "teamName": "SUECIA",
                   "number": "23",
-                  "name": "JOÃO PAULO GAMA D. SILVA",
+                  "name": "JO�����O PAULO GAMA D. SILVA",
                   "period": 2,
                   "clockElapsed": 491,
                   "paid": true
@@ -1183,7 +1183,7 @@
                   "name": "ROBERIO RUAN D. CARVALHO PELAES",
                   "period": 1,
                   "clockElapsed": 295,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786409694357-60",
@@ -1603,7 +1603,7 @@
                 {
                   "id": "id-1786069034411-93",
                   "type": "yellow",
-                  "teamName": "COLÔMBIA",
+                  "teamName": "COL�����������������������������MBIA",
                   "number": "",
                   "name": "",
                   "period": 2,
@@ -1769,7 +1769,7 @@
                 {
                   "id": "id-1786235252341-22",
                   "type": "goal",
-                  "teamName": "GR��CIA",
+                  "teamName": "GR���CIA",
                   "number": "77",
                   "name": "DARLAN MONTEIRO D. SANTOS",
                   "period": 1,
@@ -1798,7 +1798,7 @@
                 {
                   "id": "id-1786236113290-29",
                   "type": "yellow",
-                  "teamName": "COLÔMBIA",
+                  "teamName": "COL��MBIA",
                   "number": "9",
                   "name": "PEDRO LUCAS TRINDADE D. SILVA",
                   "period": 2,
@@ -2375,7 +2375,7 @@
                   "type": "yellow",
                   "teamName": "FRANÇA",
                   "number": "7",
-                  "name": "KAUÃ MATHEUS D. ANJOS D. SILVA",
+                  "name": "KAU���� MATHEUS D. ANJOS D. SILVA",
                   "period": 1,
                   "clockElapsed": 56,
                   "paid": true
@@ -2559,14 +2559,98 @@
               "id": "id-1786414535537-14",
               "teamA": "ITÁLIA",
               "teamB": "SUECIA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
+              "scoreA": 4,
+              "scoreB": 3,
+              "played": true,
               "date": "2026-08-11",
               "time": "21:00",
               "penA": null,
               "penB": null,
-              "events": [],
+              "events": [
+                {
+                  "id": "id-1786494881517-32",
+                  "type": "goal",
+                  "teamName": "IT��LIA",
+                  "number": "7",
+                  "name": "FRANCINEY SERRÃO D. SANTOS",
+                  "period": 1,
+                  "clockElapsed": 398
+                },
+                {
+                  "id": "id-1786495419840-34",
+                  "type": "goal",
+                  "teamName": "SUECIA",
+                  "number": "11",
+                  "name": "ALEXSANDRO RAYRAN D. SILVA OLIVEIRA",
+                  "period": 1,
+                  "clockElapsed": 907
+                },
+                {
+                  "id": "id-1786495582947-36",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "77",
+                  "name": "SALOMÃO GONCALVES D. CRUZ COUTINHO",
+                  "period": 1,
+                  "clockElapsed": 1061
+                },
+                {
+                  "id": "id-1786495753389-39",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "23",
+                  "name": "JONAS D. SANTOS MIRANDA",
+                  "period": 1,
+                  "clockElapsed": 1107
+                },
+                {
+                  "id": "id-1786496343542-40",
+                  "type": "goal",
+                  "teamName": "SUECIA",
+                  "number": "14",
+                  "name": "JOÃO PAULO GAMA D. SILVA",
+                  "period": 2,
+                  "clockElapsed": 242
+                },
+                {
+                  "id": "id-1786496504359-42",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "12",
+                  "name": "CLEIDISON DUARTE D. SOUZA",
+                  "period": 2,
+                  "clockElapsed": 402
+                },
+                {
+                  "id": "id-1786496763031-44",
+                  "type": "goal",
+                  "teamName": "SUECIA",
+                  "number": "15",
+                  "name": "DERLON S��O PEDRO DOS SANTOS",
+                  "period": 2,
+                  "clockElapsed": 638
+                },
+                {
+                  "id": "id-1786496919452-47",
+                  "type": "yellow",
+                  "teamName": "SUECIA",
+                  "number": "15",
+                  "name": "DERLON SÃO PEDRO DOS SANTOS",
+                  "period": 2,
+                  "clockElapsed": 795,
+                  "paid": false
+                },
+                {
+                  "id": "id-1786497164358-49",
+                  "type": "yellow",
+                  "teamName": "ITÁLIA",
+                  "number": "9",
+                  "name": "ALDAIR FERNANDO S.SOUSA",
+                  "period": 2,
+                  "clockElapsed": 967,
+                  "paid": false
+                }
+              ],
               "wo": null,
               "anulado": false
             },
@@ -2574,14 +2658,101 @@
               "id": "id-1786414535537-15",
               "teamA": "INGLATERRA",
               "teamB": "ARÁBIA SAUDITA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
+              "scoreA": 2,
+              "scoreB": 2,
+              "played": true,
               "date": "2026-08-11",
               "time": "22:00",
-              "penA": null,
-              "penB": null,
-              "events": [],
+              "penA": 2,
+              "penB": 4,
+              "events": [
+                {
+                  "id": "id-1786499272621-51",
+                  "type": "yellow",
+                  "teamName": "INGLATERRA",
+                  "number": "11",
+                  "name": "ANDRE QUARESMA PANTOJA",
+                  "period": 1,
+                  "clockElapsed": 733,
+                  "paid": false
+                },
+                {
+                  "id": "id-1786499443463-52",
+                  "type": "yellow",
+                  "teamName": "ARÁBIA SAUDITA",
+                  "number": "3",
+                  "name": "JOÃO VITOR PACHECO D. VASCONCELOS",
+                  "period": 1,
+                  "clockElapsed": 903,
+                  "paid": false
+                },
+                {
+                  "id": "id-1786499510239-54",
+                  "type": "yellow",
+                  "teamName": "ARÁBIA SAUDITA",
+                  "number": "8",
+                  "name": "MATHEUS SOUSA TEIXEIRA",
+                  "period": 1,
+                  "clockElapsed": 970,
+                  "paid": false
+                },
+                {
+                  "id": "id-1786500242484-56",
+                  "type": "goal",
+                  "teamName": "INGLATERRA",
+                  "number": "9",
+                  "name": "JEFFERSON PINHEIRO D. SANTOS",
+                  "period": 2,
+                  "clockElapsed": 186
+                },
+                {
+                  "id": "id-1786500843909-58",
+                  "type": "goal",
+                  "teamName": "ARÁBIA SAUDITA",
+                  "number": "3",
+                  "name": "JOÃO VITOR PACHECO D. VASCONCELOS",
+                  "period": 2,
+                  "clockElapsed": 662
+                },
+                {
+                  "id": "id-1786500907811-60",
+                  "type": "yellow",
+                  "teamName": "ARÁBIA SAUDITA",
+                  "number": "4",
+                  "name": "ADRIANO SANTOS D. SANTOS",
+                  "period": 2,
+                  "clockElapsed": 726,
+                  "paid": false
+                },
+                {
+                  "id": "id-1786500974005-62",
+                  "type": "goal",
+                  "teamName": "ARÁBIA SAUDITA",
+                  "number": "6",
+                  "name": "ROBSON SILVA MARTINS",
+                  "period": 2,
+                  "clockElapsed": 792
+                },
+                {
+                  "id": "id-1786501085241-64",
+                  "type": "goal",
+                  "teamName": "INGLATERRA",
+                  "number": "7",
+                  "name": "RAINSON SOUZA SANTOS",
+                  "period": 2,
+                  "clockElapsed": 903
+                },
+                {
+                  "id": "id-1786501283862-67",
+                  "type": "yellow",
+                  "teamName": "ARÁBIA SAUDITA",
+                  "number": "5",
+                  "name": "ADSON FERREIRA SILVA",
+                  "period": 2,
+                  "clockElapsed": 1045,
+                  "paid": false
+                }
+              ],
               "wo": null,
               "anulado": false
             },
@@ -2681,10 +2852,10 @@
           "goals": 8
         },
         {
-          "teamName": "ITÁLIA",
-          "number": "10",
-          "name": "PAULO HENRIQUE RODRIGUES D. OLIVEIRA",
-          "goals": 7
+          "teamName": "SUECIA",
+          "number": "11",
+          "name": "ALEXSANDRO RAYRAN D. SILVA OLIVEIRA",
+          "goals": 5
         },
         {
           "teamName": "ITÁLIA",
@@ -2699,10 +2870,10 @@
           "goals": 5
         },
         {
-          "teamName": "SUECIA",
-          "number": "11",
-          "name": "ALEXSANDRO RAYRAN D. SILVA OLIVEIRA",
-          "goals": 4
+          "teamName": "ITÁLIA",
+          "number": "10",
+          "name": "PAULO HENRIQUE RODRIGUES D. OLIVEIRA",
+          "goals": 5
         },
         {
           "teamName": "ARGENTINA",
@@ -2744,13 +2915,6 @@
           "red": 1
         },
         {
-          "teamName": "ARÁBIA SAUDITA",
-          "number": "8",
-          "name": "MATHEUS SOUSA TEIXEIRA",
-          "yellow": 2,
-          "red": 1
-        },
-        {
           "teamName": "PORTUGAL",
           "number": "14",
           "name": "ITALO JORDAN COSTA FERRAZ",
@@ -2779,6 +2943,13 @@
           "red": 1
         },
         {
+          "teamName": "AR��������������������������BIA SAUDITA",
+          "number": "8",
+          "name": "MATHEUS SOUSA TEIXEIRA",
+          "yellow": 0,
+          "red": 1
+        },
+        {
           "teamName": "COLÔMBIA",
           "number": "21",
           "name": "THIAGO D. SILVA FRANÇA",
@@ -2786,9 +2957,9 @@
           "red": 1
         },
         {
-          "teamName": "SUECIA",
-          "number": "9",
-          "name": "ROBERIO RUAN D. CARVALHO PELAES",
+          "teamName": "ARÁBIA SAUDITA",
+          "number": "4",
+          "name": "ADRIANO SANTOS D. SANTOS",
           "yellow": 2,
           "red": 0
         }
@@ -3078,9 +3249,9 @@
                 {
                   "id": "id-1786230732737-45",
                   "type": "goal",
-                  "teamName": "FRANÇA",
+                  "teamName": "FRAN��������������A",
                   "number": "11",
-                  "name": "BENEDITO PIRES D. CONCEIÇÃO",
+                  "name": "BENEDITO PIRES D. CONCEIÇ������O",
                   "period": 1,
                   "clockElapsed": 429
                 },
@@ -3436,14 +3607,99 @@
               "id": "id-1786241102283-14",
               "teamA": "ESPANHA",
               "teamB": "ESTADOS UNIDOS",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
+              "scoreA": 3,
+              "scoreB": 3,
+              "played": true,
               "date": "2026-08-11",
               "time": "20:00",
-              "penA": null,
-              "penB": null,
-              "events": [],
+              "penA": 3,
+              "penB": 4,
+              "events": [
+                {
+                  "id": "id-1786489809600-15",
+                  "type": "goal",
+                  "teamName": "ESPANHA",
+                  "number": "4",
+                  "name": "FRANCISCO D. ASSIS CARVALHO",
+                  "period": 1,
+                  "clockElapsed": 121
+                },
+                {
+                  "id": "id-1786490604633-16",
+                  "type": "goal",
+                  "teamName": "ESTADOS UNIDOS",
+                  "number": "20",
+                  "name": "WALDEMIR AUGUSTO F. LOURENÇO",
+                  "period": 1,
+                  "clockElapsed": 846
+                },
+                {
+                  "id": "id-1786491302142-18",
+                  "type": "goal",
+                  "teamName": "ESPANHA",
+                  "number": "22",
+                  "name": "ITALO RAFAEL VIANA D. CARVALHO",
+                  "period": 2,
+                  "clockElapsed": 6
+                },
+                {
+                  "id": "id-1786491333357-21",
+                  "type": "goal",
+                  "teamName": "ESTADOS UNIDOS",
+                  "number": "20",
+                  "name": "WALDEMIR AUGUSTO F. LOURENÇO",
+                  "period": 2,
+                  "clockElapsed": 38
+                },
+                {
+                  "id": "id-1786491451768-22",
+                  "type": "goal",
+                  "teamName": "ESTADOS UNIDOS",
+                  "number": "10",
+                  "name": "DENILTON GAMA D. SOUZA",
+                  "period": 2,
+                  "clockElapsed": 122
+                },
+                {
+                  "id": "id-1786492213365-25",
+                  "type": "red",
+                  "teamName": "ESTADOS UNIDOS",
+                  "number": "",
+                  "name": "",
+                  "period": 2,
+                  "clockElapsed": 724,
+                  "paid": false
+                },
+                {
+                  "id": "id-1786492322018-27",
+                  "type": "yellow",
+                  "teamName": "ESTADOS UNIDOS",
+                  "number": "10",
+                  "name": "DENILTON GAMA D. SOUZA",
+                  "period": 2,
+                  "clockElapsed": 789,
+                  "paid": false
+                },
+                {
+                  "id": "id-1786492509390-28",
+                  "type": "goal",
+                  "teamName": "ESPANHA",
+                  "number": "10",
+                  "name": "MARCEL JANDSON MENESE",
+                  "period": 2,
+                  "clockElapsed": 976
+                },
+                {
+                  "id": "id-1786492788441-30",
+                  "type": "yellow",
+                  "teamName": "ESPANHA",
+                  "number": "3",
+                  "name": "CARLOS ALBERTO MACHADO D. SILVA",
+                  "period": 2,
+                  "clockElapsed": 1124,
+                  "paid": false
+                }
+              ],
               "wo": null,
               "anulado": false
             },
@@ -3487,12 +3743,6 @@
       ],
       "topScorers": [
         {
-          "teamName": "FRANÇA",
-          "number": "11",
-          "name": "BENEDITO PIRES D. CONCEIÇÃO",
-          "goals": 4
-        },
-        {
           "teamName": "ESPANHA",
           "number": "7",
           "name": "ROBSON DA COSTA FERREIRA",
@@ -3502,6 +3752,12 @@
           "teamName": "ESPANHA",
           "number": "3",
           "name": "ALBERTO FRIAZ CARDOSO",
+          "goals": 3
+        },
+        {
+          "teamName": "FRANÇA",
+          "number": "11",
+          "name": "BENEDITO PIRES D. CONCEIÇÃO",
           "goals": 3
         },
         {
@@ -3541,9 +3797,9 @@
           "goals": 2
         },
         {
-          "teamName": "ALEMANHA",
-          "number": "21",
-          "name": "GEONE CARMO D. ALMEIDA",
+          "teamName": "ESPANHA",
+          "number": "4",
+          "name": "FRANCISCO D. ASSIS CARVALHO",
           "goals": 2
         }
       ],
@@ -3563,9 +3819,23 @@
           "red": 0
         },
         {
+          "teamName": "ESPANHA",
+          "number": "3",
+          "name": "CARLOS ALBERTO MACHADO D. SILVA",
+          "yellow": 1,
+          "red": 0
+        },
+        {
           "teamName": "GUATEMALA",
           "number": "14",
           "name": "DANIELSON PIMENTA COSTA",
+          "yellow": 1,
+          "red": 0
+        },
+        {
+          "teamName": "ESTADOS UNIDOS",
+          "number": "10",
+          "name": "DENILTON GAMA D. SOUZA",
           "yellow": 1,
           "red": 0
         },
@@ -3589,20 +3859,6 @@
           "name": "ELBERNEY SANTOS DA SILVA",
           "yellow": 1,
           "red": 0
-        },
-        {
-          "teamName": "GUATEMALA",
-          "number": "11",
-          "name": "FRANCISCO LAMEIRA SALES",
-          "yellow": 1,
-          "red": 0
-        },
-        {
-          "teamName": "ESCOCIA",
-          "number": "13",
-          "name": "JAIME FERREIRA D. MOURA",
-          "yellow": 1,
-          "red": 0
         }
       ]
     },
@@ -3616,26 +3872,28 @@
           "name": "Grupo A",
           "standings": [
             {
-              "name": "ESPANHA",
-              "pj": 2,
-              "v": 2,
+              "name": "FRANÇA",
+              "pj": 1,
+              "v": 1,
               "e": 0,
               "d": 0,
-              "gp": 4,
+              "gp": 2,
               "gc": 1,
-              "pts": 6,
+              "pts": 3,
+              "jogoExtra": true,
               "semChance": false,
               "fora": false
             },
             {
-              "name": "FRANÇA",
-              "pj": 2,
+              "name": "ESPANHA",
+              "pj": 1,
               "v": 1,
               "e": 0,
-              "d": 1,
+              "d": 0,
               "gp": 2,
-              "gc": 3,
+              "gc": 1,
               "pts": 3,
+              "jogoExtra": true,
               "semChance": false,
               "fora": false
             },
@@ -3748,7 +4006,7 @@
             {
               "id": "tabela-1785622372430-l",
               "teamA": "ESPANHA",
-              "teamB": "FRANÇA",
+              "teamB": "FRAN��A",
               "scoreA": 2,
               "scoreB": 0,
               "played": true,
@@ -3879,20 +4137,66 @@
               "teamA": "ESPANHA",
               "teamB": "HOLANDA",
               "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
+              "scoreB": 5,
+              "played": true,
               "date": "2026-08-11",
               "time": "19:00",
               "penA": null,
               "penB": null,
-              "events": [],
+              "events": [
+                {
+                  "id": "id-1786486337520-14",
+                  "type": "goal",
+                  "teamName": "HOLANDA",
+                  "number": "10",
+                  "name": "THAINA CONCEIÇÃO BATISTA",
+                  "period": 1,
+                  "clockElapsed": 334
+                },
+                {
+                  "id": "id-1786486693666-16",
+                  "type": "goal",
+                  "teamName": "HOLANDA",
+                  "number": "23",
+                  "name": "FABIANE D. OLIVEIRA D. CONCEI��ÃO",
+                  "period": 1,
+                  "clockElapsed": 628
+                },
+                {
+                  "id": "id-1786488260246-18",
+                  "type": "goal",
+                  "teamName": "HOLANDA",
+                  "number": "5",
+                  "name": "ANA CLARA D. ABREU D. SANTOS",
+                  "period": 2,
+                  "clockElapsed": 548
+                },
+                {
+                  "id": "id-1786488411943-20",
+                  "type": "goal",
+                  "teamName": "HOLANDA",
+                  "number": "10",
+                  "name": "THAINA CONCEI���������������������������������ÃO BATISTA",
+                  "period": 2,
+                  "clockElapsed": 700
+                },
+                {
+                  "id": "id-1786488806774-22",
+                  "type": "goal",
+                  "teamName": "HOLANDA",
+                  "number": "10",
+                  "name": "THAINA CONCEIÇÃO BATISTA",
+                  "period": 2,
+                  "clockElapsed": 1033
+                }
+              ],
               "wo": null,
               "anulado": false
             },
             {
               "id": "id-1786203343098-15",
               "teamA": "PORTUGAL",
-              "teamB": "FRANÇA",
+              "teamB": "FRAN��A",
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
@@ -3929,6 +4233,12 @@
       ],
       "topScorers": [
         {
+          "teamName": "HOLANDA",
+          "number": "10",
+          "name": "THAINA CONCEIÇÃO BATISTA",
+          "goals": 3
+        },
+        {
           "teamName": "PORTUGAL",
           "number": "11",
           "name": "BENEDITA BEZERRA D. SILVA",
@@ -3947,9 +4257,21 @@
           "goals": 2
         },
         {
+          "teamName": "HOLANDA",
+          "number": "5",
+          "name": "ANA CLARA D. ABREU D. SANTOS",
+          "goals": 1
+        },
+        {
           "teamName": "SUECIA",
           "number": "4",
           "name": "ELIANI D. SILVA NASCIMENTO",
+          "goals": 1
+        },
+        {
+          "teamName": "HOLANDA",
+          "number": "23",
+          "name": "FABIANE D. OLIVEIRA D. CONCEI��ÃO",
           "goals": 1
         },
         {
@@ -3968,18 +4290,6 @@
           "teamName": "FRANÇA",
           "number": "9",
           "name": "RAYLA D. COSTA DOS SANTOS",
-          "goals": 1
-        },
-        {
-          "teamName": "HOLANDA",
-          "number": "10",
-          "name": "THAINA CONCEIÇÃO BATISTA",
-          "goals": 1
-        },
-        {
-          "teamName": "FRANÇA",
-          "number": "7",
-          "name": "THAINA D. SILVA LIMA",
           "goals": 1
         }
       ],
