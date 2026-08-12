@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T02:54:47.570Z",
+  "generatedAt": "2026-08-12T19:08:15.401Z",
   "scheduleDate": "2026-08-11",
   "resenha": {
     "total": 1,
@@ -10,7 +10,7 @@
         "valor": 100,
         "time": "ITÁLIA",
         "pegou": "",
-        "ts": 1786487186218,
+        "ts": 1786561689873,
         "resultado": "ganhou",
         "tipo": "passa",
         "jogo": {
