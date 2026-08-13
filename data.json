@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T02:38:14.269Z",
+  "generatedAt": "2026-08-13T04:16:39.592Z",
   "scheduleDate": "2026-08-12",
   "resenha": {
     "total": 0,
@@ -3039,9 +3039,9 @@
           "name": "Semifinal",
           "matches": [
             {
-              "id": "tabela-1785622372448-17",
-              "teamA": "VENC JG 1",
-              "teamB": "VENC JG 2",
+              "id": "id-1786594579658-14",
+              "teamA": "ITÁLIA",
+              "teamB": "ARÁBIA SAUDITA",
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
@@ -3054,9 +3054,9 @@
               "anulado": false
             },
             {
-              "id": "tabela-1785622372448-18",
-              "teamA": "VENC JG 3",
-              "teamB": "VENC JG 4",
+              "id": "id-1786594579658-15",
+              "teamA": "ARGENTINA",
+              "teamB": "GANA",
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
@@ -4048,9 +4048,9 @@
           "name": "Final",
           "matches": [
             {
-              "id": "tabela-1785622372448-1a",
-              "teamA": "",
-              "teamB": "",
+              "id": "id-1786594589490-16",
+              "teamA": "ESTADOS UNIDOS",
+              "teamB": "FRANÇA",
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
@@ -4600,9 +4600,9 @@
           "name": "Final",
           "matches": [
             {
-              "id": "tabela-1785622372448-19",
-              "teamA": "",
-              "teamB": "",
+              "id": "id-1786594595400-17",
+              "teamA": "HOLANDA",
+              "teamB": "PORTUGAL",
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
