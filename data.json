@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-13T04:16:39.592Z",
-  "scheduleDate": "2026-08-12",
+  "generatedAt": "2026-08-14T16:02:41.877Z",
+  "scheduleDate": "2026-08-13",
   "resenha": {
     "total": 0,
     "fechadas": 0,
@@ -10,7 +10,7 @@
     {
       "teamName": "SENEGAL",
       "categoryName": "Principal (16 Times)",
-      "motivo": "W.O. — n����o comparecimento",
+      "motivo": "W.O. — não comparecimento",
       "anos": 2,
       "inicio": "2026-08-07",
       "fim": "2028-08-07",
@@ -118,7 +118,7 @@
                 {
                   "id": "sumula-papel-1785637767833-1o",
                   "type": "goal",
-                  "teamName": "IT��������LIA",
+                  "teamName": "ITÁLIA",
                   "number": "7",
                   "name": "FRANCINEY SERRÃO D. SANTOS"
                 },
@@ -368,7 +368,7 @@
                   "type": "goal",
                   "teamName": "ITÁLIA",
                   "number": "9",
-                  "name": "FRANCINEY SERR������������O D. SANTOS",
+                  "name": "FRANCINEY SERRÃO D. SANTOS",
                   "period": 2,
                   "clockElapsed": 232
                 },
@@ -2632,7 +2632,7 @@
                   "name": "ALDAIR FERNANDO S.SOUSA",
                   "period": 2,
                   "clockElapsed": 967,
-                  "paid": false
+                  "paid": true
                 }
               ],
               "wo": null,
@@ -2668,7 +2668,7 @@
                   "name": "JOÃO VITOR PACHECO D. VASCONCELOS",
                   "period": 1,
                   "clockElapsed": 903,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786499510239-54",
@@ -2678,7 +2678,7 @@
                   "name": "MATHEUS SOUSA TEIXEIRA",
                   "period": 1,
                   "clockElapsed": 970,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786500242484-56",
@@ -2692,7 +2692,7 @@
                 {
                   "id": "id-1786500843909-58",
                   "type": "goal",
-                  "teamName": "AR�����������������BIA SAUDITA",
+                  "teamName": "ARÁBIA SAUDITA",
                   "number": "3",
                   "name": "JOÃO VITOR PACHECO D. VASCONCELOS",
                   "period": 2,
@@ -2706,7 +2706,7 @@
                   "name": "ADRIANO SANTOS D. SANTOS",
                   "period": 2,
                   "clockElapsed": 726,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786500974005-62",
@@ -2734,7 +2734,7 @@
                   "name": "ADSON FERREIRA SILVA",
                   "period": 2,
                   "clockElapsed": 1045,
-                  "paid": false
+                  "paid": true
                 }
               ],
               "wo": null,
@@ -2769,7 +2769,7 @@
                   "name": "JEFERSON OLIVEIRA D. SILVA",
                   "period": 1,
                   "clockElapsed": 1026,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786582437500-18",
@@ -2779,7 +2779,7 @@
                   "name": "EDILSON JR. CARMO SANTOS",
                   "period": 1,
                   "clockElapsed": 1105,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786582439005-20",
@@ -2789,7 +2789,7 @@
                   "name": "THIAGO D. SILVA FRANÇA",
                   "period": 1,
                   "clockElapsed": 1107,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786583331008-24",
@@ -2808,7 +2808,7 @@
                   "name": "PEDRO LUCAS TRINDADE D. SILVA",
                   "period": 2,
                   "clockElapsed": 670,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786583821006-28",
@@ -2818,7 +2818,7 @@
                   "name": "VALTEAN D. COSTA RODRIGUES",
                   "period": 2,
                   "clockElapsed": 769,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786584000986-31",
@@ -2828,7 +2828,7 @@
                   "name": "",
                   "period": 2,
                   "clockElapsed": 885,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786584001587-33",
@@ -2838,7 +2838,7 @@
                   "name": "",
                   "period": 2,
                   "clockElapsed": 885,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786584007921-35",
@@ -2848,7 +2848,7 @@
                   "name": "PAULO VICTOR LIMA PANTOJA",
                   "period": 2,
                   "clockElapsed": 885,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786584040501-36",
@@ -2867,7 +2867,7 @@
                   "name": "ADRIANO BEZERRA SILVA",
                   "period": 2,
                   "clockElapsed": 1029,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786584376436-40",
@@ -2877,7 +2877,7 @@
                   "name": "GABRIEL FOGAÇA D. ALMEIDA",
                   "period": 2,
                   "clockElapsed": 1084,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786584453404-43",
@@ -2887,7 +2887,7 @@
                   "name": "ANDERSON D. SILVA E SILVA",
                   "period": 2,
                   "clockElapsed": 1146,
-                  "paid": false
+                  "paid": true
                 }
               ],
               "wo": null,
@@ -2958,7 +2958,7 @@
                   "name": "WILLIAM SOUZA SOARES",
                   "period": 2,
                   "clockElapsed": 455,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786587340878-27",
@@ -2968,7 +2968,7 @@
                   "name": "",
                   "period": 2,
                   "clockElapsed": 455,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786587346520-29",
@@ -2978,7 +2978,7 @@
                   "name": "MAILON BRENDON XAVIER SANTOS",
                   "period": 2,
                   "clockElapsed": 455,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786587356511-31",
@@ -2988,7 +2988,7 @@
                   "name": "JOARLYSON LUIZ XAVIER SANTOS",
                   "period": 2,
                   "clockElapsed": 455,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786587366470-33",
@@ -2998,7 +2998,7 @@
                   "name": "EBERTON MELO FREITAS",
                   "period": 2,
                   "clockElapsed": 455,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786587727940-35",
@@ -3008,7 +3008,7 @@
                   "name": "BENEDITO S. NETO",
                   "period": 2,
                   "clockElapsed": 716,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786588161374-38",
@@ -3027,7 +3027,7 @@
                   "name": "",
                   "period": 2,
                   "clockElapsed": 1127,
-                  "paid": false
+                  "paid": true
                 }
               ],
               "wo": null,
@@ -3042,14 +3042,98 @@
               "id": "id-1786594579658-14",
               "teamA": "ITÁLIA",
               "teamB": "ARÁBIA SAUDITA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
+              "scoreA": 6,
+              "scoreB": 1,
+              "played": true,
               "date": "2026-08-13",
               "time": "20:00",
               "penA": null,
               "penB": null,
-              "events": [],
+              "events": [
+                {
+                  "id": "id-1786663012234-14",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "77",
+                  "name": "SALOMÃO GONCALVES D. CRUZ COUTINHO",
+                  "period": 1,
+                  "clockElapsed": 354
+                },
+                {
+                  "id": "id-1786663491575-17",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "9",
+                  "name": "ALDAIR FERNANDO S.SOUSA",
+                  "period": 1,
+                  "clockElapsed": 770
+                },
+                {
+                  "id": "id-1786664317818-19",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "14",
+                  "name": "NALBERT D. OLIVEIRA FREITAS",
+                  "period": 1,
+                  "clockElapsed": 1085
+                },
+                {
+                  "id": "id-1786664761446-20",
+                  "type": "yellow",
+                  "teamName": "ARÁBIA SAUDITA",
+                  "number": "5",
+                  "name": "ADSON FERREIRA SILVA",
+                  "period": 2,
+                  "clockElapsed": 76,
+                  "paid": true
+                },
+                {
+                  "id": "id-1786665112675-22",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "77",
+                  "name": "SALOMÃO GONCALVES D. CRUZ COUTINHO",
+                  "period": 2,
+                  "clockElapsed": 401
+                },
+                {
+                  "id": "id-1786665144921-25",
+                  "type": "goal",
+                  "teamName": "ARÁBIA SAUDITA",
+                  "number": "21",
+                  "name": "VANDERCLEY SOARES D. CONCEIÇÃO",
+                  "period": 2,
+                  "clockElapsed": 434
+                },
+                {
+                  "id": "id-1786665200670-26",
+                  "type": "yellow",
+                  "teamName": "ARÁBIA SAUDITA",
+                  "number": "6",
+                  "name": "ROBSON SILVA MARTINS",
+                  "period": 2,
+                  "clockElapsed": 489,
+                  "paid": true
+                },
+                {
+                  "id": "id-1786665471353-30",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "10",
+                  "name": "PAULO HENRIQUE RODRIGUES D. OLIVEIRA",
+                  "period": 2,
+                  "clockElapsed": 760
+                },
+                {
+                  "id": "id-1786665850147-32",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "12",
+                  "name": "CLEIDISON DUARTE D. SOUZA",
+                  "period": 2,
+                  "clockElapsed": 1093
+                }
+              ],
               "wo": null,
               "anulado": false
             },
@@ -3057,14 +3141,110 @@
               "id": "id-1786594579658-15",
               "teamA": "ARGENTINA",
               "teamB": "GANA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
+              "scoreA": 2,
+              "scoreB": 3,
+              "played": true,
               "date": "2026-08-13",
               "time": "21:00",
               "penA": null,
               "penB": null,
-              "events": [],
+              "events": [
+                {
+                  "id": "id-1786668319818-15",
+                  "type": "goal",
+                  "teamName": "GANA",
+                  "number": "13",
+                  "name": "LUCAS MATHEUS QUEIROZ ARAUJO",
+                  "period": 1,
+                  "clockElapsed": 1081
+                },
+                {
+                  "id": "id-1786668973716-16",
+                  "type": "goal",
+                  "teamName": "ARGENTINA",
+                  "number": "9",
+                  "name": "IAGO D. MIRANDA FURTADO",
+                  "period": 2,
+                  "clockElapsed": 212
+                },
+                {
+                  "id": "id-1786669058709-18",
+                  "type": "goal",
+                  "teamName": "GANA",
+                  "number": "85",
+                  "name": "LUIS EDUARDO L. LIMA",
+                  "period": 2,
+                  "clockElapsed": 297
+                },
+                {
+                  "id": "id-1786669368939-21",
+                  "type": "red",
+                  "teamName": "GANA",
+                  "number": "11",
+                  "name": "MARCOS D. JESUS D. SANTOS",
+                  "period": 2,
+                  "clockElapsed": 498,
+                  "paid": false
+                },
+                {
+                  "id": "id-1786669369953-23",
+                  "type": "red",
+                  "teamName": "ARGENTINA",
+                  "number": "9",
+                  "name": "IAGO D. MIRANDA FURTADO",
+                  "period": 2,
+                  "clockElapsed": 498,
+                  "paid": false
+                },
+                {
+                  "id": "id-1786669440269-25",
+                  "type": "yellow",
+                  "teamName": "GANA",
+                  "number": "85",
+                  "name": "LUIS EDUARDO L. LIMA",
+                  "period": 2,
+                  "clockElapsed": 529,
+                  "paid": false
+                },
+                {
+                  "id": "id-1786669542100-26",
+                  "type": "yellow",
+                  "teamName": "ARGENTINA",
+                  "number": "5",
+                  "name": "EDILSON JR. CARMO SANTOS",
+                  "period": 2,
+                  "clockElapsed": 611,
+                  "paid": false
+                },
+                {
+                  "id": "id-1786670044760-28",
+                  "type": "goal",
+                  "teamName": "GANA",
+                  "number": "85",
+                  "name": "LUIS EDUARDO L. LIMA",
+                  "period": 2,
+                  "clockElapsed": 996
+                },
+                {
+                  "id": "id-1786670204297-30",
+                  "type": "yellow",
+                  "teamName": "GANA",
+                  "number": "13",
+                  "name": "LUCAS MATHEUS QUEIROZ ARAUJO",
+                  "period": 2,
+                  "clockElapsed": 1133,
+                  "paid": false
+                },
+                {
+                  "id": "id-1786670268312-32",
+                  "type": "goal",
+                  "teamName": "ARGENTINA",
+                  "number": "5",
+                  "name": "EDILSON JR. CARMO SANTOS",
+                  "period": 2,
+                  "clockElapsed": 1162
+                }
+              ],
               "wo": null,
               "anulado": false
             }
@@ -3074,9 +3254,9 @@
           "name": "Final",
           "matches": [
             {
-              "id": "tabela-1785622372448-1b",
-              "teamA": "",
-              "teamB": "",
+              "id": "id-1786723349693-14",
+              "teamA": "ITÁLIA",
+              "teamB": "GANA",
               "scoreA": 0,
               "scoreB": 0,
               "played": false,
@@ -3102,7 +3282,13 @@
           "teamName": "ITÁLIA",
           "number": "10",
           "name": "PAULO HENRIQUE RODRIGUES D. OLIVEIRA",
-          "goals": 7
+          "goals": 8
+        },
+        {
+          "teamName": "ITÁLIA",
+          "number": "7",
+          "name": "FRANCINEY SERRÃO D. SANTOS",
+          "goals": 6
         },
         {
           "teamName": "SUECIA",
@@ -3111,9 +3297,9 @@
           "goals": 5
         },
         {
-          "teamName": "ITÁLIA",
-          "number": "7",
-          "name": "FRANCINEY SERRÃO D. SANTOS",
+          "teamName": "ARGENTINA",
+          "number": "5",
+          "name": "EDILSON JR. CARMO SANTOS",
           "goals": 5
         },
         {
@@ -3129,27 +3315,21 @@
           "goals": 4
         },
         {
+          "teamName": "ITÁLIA",
+          "number": "12",
+          "name": "CLEIDISON DUARTE D. SOUZA",
+          "goals": 4
+        },
+        {
           "teamName": "GRÉCIA",
           "number": "77",
           "name": "DARLAN MONTEIRO D. SANTOS",
           "goals": 4
         },
         {
-          "teamName": "ARGENTINA",
-          "number": "5",
-          "name": "EDILSON JR. CARMO SANTOS",
-          "goals": 4
-        },
-        {
           "teamName": "GRÉCIA",
           "number": "7",
           "name": "JOÃO VITOR SOUSA LOPES",
-          "goals": 4
-        },
-        {
-          "teamName": "ARGENTINA",
-          "number": "8",
-          "name": "VALTEAN D. COSTA RODRIGUES",
           "goals": 4
         }
       ],
@@ -3183,6 +3363,13 @@
           "red": 1
         },
         {
+          "teamName": "ARGENTINA",
+          "number": "9",
+          "name": "IAGO D. MIRANDA FURTADO",
+          "yellow": 0,
+          "red": 1
+        },
+        {
           "teamName": "BRASIL",
           "number": "1",
           "name": "IAGO SOUSA CARVALHO",
@@ -3202,13 +3389,6 @@
           "name": "LEANDRO MACELINO GOMES",
           "yellow": 0,
           "red": 1
-        },
-        {
-          "teamName": "BRASIL",
-          "number": "1",
-          "name": "MAILON BRENDON XAVIER SANTOS",
-          "yellow": 0,
-          "red": 1
         }
       ]
     },
@@ -3223,36 +3403,36 @@
           "standings": [
             {
               "name": "ESPANHA",
-              "pj": 1,
-              "v": 1,
+              "pj": 2,
+              "v": 2,
               "e": 0,
               "d": 0,
-              "gp": 12,
-              "gc": 2,
+              "gp": 17,
+              "gc": 5,
+              "pts": 6,
+              "semChance": false,
+              "fora": false
+            },
+            {
+              "name": "FRANÇA",
+              "pj": 2,
+              "v": 1,
+              "e": 0,
+              "d": 1,
+              "gp": 9,
+              "gc": 6,
               "pts": 3,
               "semChance": false,
               "fora": false
             },
             {
-              "name": "FRAN������A",
-              "pj": 0,
-              "v": 0,
-              "e": 0,
-              "d": 0,
-              "gp": 0,
-              "gc": 0,
-              "pts": 0,
-              "semChance": false,
-              "fora": false
-            },
-            {
               "name": "GUATEMALA",
-              "pj": 1,
+              "pj": 2,
               "v": 0,
               "e": 0,
-              "d": 1,
-              "gp": 2,
-              "gc": 12,
+              "d": 2,
+              "gp": 3,
+              "gc": 18,
               "pts": 0,
               "semChance": true,
               "fora": false
@@ -4498,7 +4678,7 @@
                   "type": "goal",
                   "teamName": "HOLANDA",
                   "number": "10",
-                  "name": "THAINA CONCEI������������������ÃO BATISTA",
+                  "name": "THAINA CONCEIÇÃO BATISTA",
                   "period": 2,
                   "clockElapsed": 700
                 },
@@ -4575,7 +4755,7 @@
                 {
                   "id": "id-1786575163016-24",
                   "type": "goal",
-                  "teamName": "FRAN��A",
+                  "teamName": "FRANÇA",
                   "number": "9",
                   "name": "RAYLA D. COSTA DOS SANTOS",
                   "period": 2,
@@ -4625,15 +4805,15 @@
           "goals": 4
         },
         {
-          "teamName": "PORTUGAL",
-          "number": "5",
-          "name": "RICHELLY ANDRADE NOGUEIRA",
-          "goals": 3
-        },
-        {
           "teamName": "HOLANDA",
           "number": "10",
           "name": "THAINA CONCEIÇÃO BATISTA",
+          "goals": 4
+        },
+        {
+          "teamName": "PORTUGAL",
+          "number": "5",
+          "name": "RICHELLY ANDRADE NOGUEIRA",
           "goals": 3
         },
         {
@@ -4646,6 +4826,12 @@
           "teamName": "ESPANHA",
           "number": "27",
           "name": "DANYELLE SERRA D. SILVA",
+          "goals": 2
+        },
+        {
+          "teamName": "FRANÇA",
+          "number": "9",
+          "name": "RAYLA D. COSTA DOS SANTOS",
           "goals": 2
         },
         {
@@ -4670,12 +4856,6 @@
           "teamName": "ESPANHA",
           "number": "10",
           "name": "PAULIANA SOARES D. CUNHA D. SILVA",
-          "goals": 1
-        },
-        {
-          "teamName": "SUECIA",
-          "number": "13",
-          "name": "RAISSA BELO D. COSTA",
           "goals": 1
         }
       ],
