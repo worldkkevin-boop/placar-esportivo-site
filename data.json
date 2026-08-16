@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-14T16:02:41.877Z",
-  "scheduleDate": "2026-08-13",
+  "generatedAt": "2026-08-16T02:52:08.055Z",
+  "scheduleDate": "2026-08-15",
   "resenha": {
     "total": 0,
     "fechadas": 0,
@@ -21,7 +21,310 @@
     {
       "id": "principal",
       "name": "Principal (16 Times)",
-      "champion": null,
+      "champion": {
+        "champion": "ITÁLIA",
+        "runnerUp": "GANA",
+        "finalMatch": {
+          "id": "id-1786723349693-14",
+          "teamA": "ITÁLIA",
+          "teamB": "GANA",
+          "scoreA": 6,
+          "scoreB": 2,
+          "played": true,
+          "date": "2026-08-15",
+          "time": "21:00",
+          "events": [
+            {
+              "id": "id-1786844667857-14",
+              "type": "yellow",
+              "teamName": "GANA",
+              "number": "20",
+              "name": "EZEQUIEL D. JESUS FONSECA",
+              "period": 1,
+              "clockElapsed": 374,
+              "paid": false
+            },
+            {
+              "id": "id-1786844917810-17",
+              "type": "goal",
+              "teamName": "ITÁLIA",
+              "number": "77",
+              "name": "SALOMÃO GONCALVES D. CRUZ COUTINHO",
+              "period": 1,
+              "clockElapsed": 562
+            },
+            {
+              "id": "id-1786845349228-18",
+              "type": "yellow",
+              "teamName": "ITÁLIA",
+              "number": "7",
+              "name": "FRANCINEY SERRÃO D. SANTOS",
+              "period": 1,
+              "clockElapsed": 993,
+              "paid": false
+            },
+            {
+              "id": "id-1786845454097-20",
+              "type": "goal",
+              "teamName": "ITÁLIA",
+              "number": "23",
+              "name": "JONAS D. SANTOS MIRANDA",
+              "period": 1,
+              "clockElapsed": 1098
+            },
+            {
+              "id": "id-1786846534953-14",
+              "type": "yellow",
+              "teamName": "GANA",
+              "number": "10",
+              "name": "JOSE OTAVIO D. SILVA D. OLIVEIRA",
+              "period": 2,
+              "clockElapsed": 551,
+              "paid": false
+            },
+            {
+              "id": "id-1786846562238-16",
+              "type": "goal",
+              "teamName": "ITÁLIA",
+              "number": "77",
+              "name": "SALOMÃO GONCALVES D. CRUZ COUTINHO",
+              "period": 2,
+              "clockElapsed": 578
+            },
+            {
+              "id": "id-1786846640607-20",
+              "type": "goal",
+              "teamName": "ITÁLIA",
+              "number": "7",
+              "name": "FRANCINEY SERRÃO D. SANTOS",
+              "period": 2,
+              "clockElapsed": 657
+            },
+            {
+              "id": "id-1786846881438-23",
+              "type": "goal",
+              "teamName": "GANA",
+              "number": "8",
+              "name": "JHONATA B. DUREZA",
+              "period": 2,
+              "clockElapsed": 840
+            },
+            {
+              "id": "id-1786847105991-26",
+              "type": "goal",
+              "teamName": "ITÁLIA",
+              "number": "9",
+              "name": "ALDAIR FERNANDO S.SOUSA",
+              "period": 2,
+              "clockElapsed": 1064
+            },
+            {
+              "id": "id-1786847178240-28",
+              "type": "goal",
+              "teamName": "ITÁLIA",
+              "number": "17",
+              "name": "ANDERSSON GOMES ALBUQUERQUE",
+              "period": 2,
+              "clockElapsed": 1137
+            },
+            {
+              "id": "id-1786847215511-31",
+              "type": "goal",
+              "teamName": "GANA",
+              "number": "9",
+              "name": "LUIS EDUARDO L. LIMA",
+              "period": 2,
+              "clockElapsed": 1174
+            }
+          ],
+          "sumula": {
+            "info": {
+              "gameNumber": "",
+              "competition": "",
+              "category": "",
+              "gym": "",
+              "city": "",
+              "date": "2026-08-16",
+              "referees": "",
+              "scorers": "",
+              "kickoff": "",
+              "periodTimes": {
+                "1": {
+                  "start": "22:37",
+                  "end": "22:59"
+                },
+                "2": {
+                  "start": "23:05",
+                  "end": "23:17"
+                }
+              }
+            },
+            "teamA": {
+              "name": "ITÁLIA",
+              "players": [
+                {
+                  "number": "1",
+                  "name": "JEFERSON CAPELA D. SANTOS"
+                },
+                {
+                  "number": "7",
+                  "name": "FRANCINEY SERRÃO D. SANTOS"
+                },
+                {
+                  "number": "8",
+                  "name": "VITOR RAFAEL FARIAS D. COSTA"
+                },
+                {
+                  "number": "9",
+                  "name": "ALDAIR FERNANDO S.SOUSA"
+                },
+                {
+                  "number": "10",
+                  "name": "PAULO HENRIQUE RODRIGUES D. OLIVEIRA"
+                },
+                {
+                  "number": "11",
+                  "name": "VICTOR SOUSA SANTOS"
+                },
+                {
+                  "number": "12",
+                  "name": "CLEIDISON DUARTE D. SOUZA"
+                },
+                {
+                  "number": "14",
+                  "name": "NALBERT D. OLIVEIRA FREITAS"
+                },
+                {
+                  "number": "17",
+                  "name": "ANDERSSON GOMES ALBUQUERQUE"
+                },
+                {
+                  "number": "20",
+                  "name": "JOSE VICTOR MENDONÇA D. SILVA"
+                },
+                {
+                  "number": "22",
+                  "name": "PAULO CESAR SANTANA D. NASCIMENTO"
+                },
+                {
+                  "number": "23",
+                  "name": "JONAS D. SANTOS MIRANDA"
+                },
+                {
+                  "number": "77",
+                  "name": "SALOMÃO GONCALVES D. CRUZ COUTINHO"
+                }
+              ],
+              "captainNumber": "1",
+              "coachName": "BRUNO DUARTE",
+              "masseurName": "",
+              "fitnessCoachName": "",
+              "foulsByPeriod": {
+                "1": 5,
+                "2": 2
+              },
+              "timeouts": 0,
+              "cards": {
+                "yellow": 1,
+                "red": 0
+              }
+            },
+            "teamB": {
+              "name": "GANA",
+              "players": [
+                {
+                  "number": "1",
+                  "name": "DOUGLAS ROMANO VINAGRE"
+                },
+                {
+                  "number": "5",
+                  "name": "EBERTON MELO FREITAS"
+                },
+                {
+                  "number": "6",
+                  "name": "JOEMERSON SANTANA D. NASCIMENTO"
+                },
+                {
+                  "number": "8",
+                  "name": "JHONATA B. DUREZA"
+                },
+                {
+                  "number": "9",
+                  "name": "LUIS EDUARDO L. LIMA"
+                },
+                {
+                  "number": "10",
+                  "name": "JOSE OTAVIO D. SILVA D. OLIVEIRA"
+                },
+                {
+                  "number": "11",
+                  "name": "MARCOS D. JESUS D. SANTOS"
+                },
+                {
+                  "number": "12",
+                  "name": "BENEDITO S. NETO"
+                },
+                {
+                  "number": "12",
+                  "name": "RAMON LEMOS PASTANA"
+                },
+                {
+                  "number": "13",
+                  "name": "LUCAS MATHEUS QUEIROZ ARAUJO"
+                },
+                {
+                  "number": "14",
+                  "name": "LEONAN X. SILVA"
+                },
+                {
+                  "number": "20",
+                  "name": "EZEQUIEL D. JESUS FONSECA"
+                },
+                {
+                  "number": "91",
+                  "name": "ERICLES REIS D. SANTOS"
+                },
+                {
+                  "number": "",
+                  "name": "ARLYSON S. BRITO"
+                }
+              ],
+              "captainNumber": "5",
+              "coachName": "ITALO FERRAZ",
+              "masseurName": "",
+              "fitnessCoachName": "",
+              "foulsByPeriod": {
+                "1": 5,
+                "2": 3
+              },
+              "timeouts": 1,
+              "cards": {
+                "yellow": 2,
+                "red": 0
+              }
+            },
+            "stats": {
+              "teamA": {
+                "possessionMs": 1389837,
+                "corners": 4,
+                "shots": 22,
+                "shotsOn": 10
+              },
+              "teamB": {
+                "possessionMs": 1079050,
+                "corners": 7,
+                "shots": 29,
+                "shotsOn": 11
+              },
+              "posseMedida": true
+            },
+            "signatures": {},
+            "periodDuration": 1200,
+            "finishedAt": 1786847308632
+          }
+        },
+        "finalRoundName": "Final"
+      },
       "eliminated": [],
       "groups": [
         {
@@ -3194,7 +3497,7 @@
                   "name": "IAGO D. MIRANDA FURTADO",
                   "period": 2,
                   "clockElapsed": 498,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786669440269-25",
@@ -3214,7 +3517,7 @@
                   "name": "EDILSON JR. CARMO SANTOS",
                   "period": 2,
                   "clockElapsed": 611,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786670044760-28",
@@ -3257,14 +3560,117 @@
               "id": "id-1786723349693-14",
               "teamA": "ITÁLIA",
               "teamB": "GANA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
+              "scoreA": 6,
+              "scoreB": 2,
+              "played": true,
               "date": "2026-08-15",
               "time": "21:00",
               "penA": null,
               "penB": null,
-              "events": [],
+              "events": [
+                {
+                  "id": "id-1786844667857-14",
+                  "type": "yellow",
+                  "teamName": "GANA",
+                  "number": "20",
+                  "name": "EZEQUIEL D. JESUS FONSECA",
+                  "period": 1,
+                  "clockElapsed": 374,
+                  "paid": false
+                },
+                {
+                  "id": "id-1786844917810-17",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "77",
+                  "name": "SALOMÃO GONCALVES D. CRUZ COUTINHO",
+                  "period": 1,
+                  "clockElapsed": 562
+                },
+                {
+                  "id": "id-1786845349228-18",
+                  "type": "yellow",
+                  "teamName": "ITÁLIA",
+                  "number": "7",
+                  "name": "FRANCINEY SERRÃO D. SANTOS",
+                  "period": 1,
+                  "clockElapsed": 993,
+                  "paid": false
+                },
+                {
+                  "id": "id-1786845454097-20",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "23",
+                  "name": "JONAS D. SANTOS MIRANDA",
+                  "period": 1,
+                  "clockElapsed": 1098
+                },
+                {
+                  "id": "id-1786846534953-14",
+                  "type": "yellow",
+                  "teamName": "GANA",
+                  "number": "10",
+                  "name": "JOSE OTAVIO D. SILVA D. OLIVEIRA",
+                  "period": 2,
+                  "clockElapsed": 551,
+                  "paid": false
+                },
+                {
+                  "id": "id-1786846562238-16",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "77",
+                  "name": "SALOMÃO GONCALVES D. CRUZ COUTINHO",
+                  "period": 2,
+                  "clockElapsed": 578
+                },
+                {
+                  "id": "id-1786846640607-20",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "7",
+                  "name": "FRANCINEY SERRÃO D. SANTOS",
+                  "period": 2,
+                  "clockElapsed": 657
+                },
+                {
+                  "id": "id-1786846881438-23",
+                  "type": "goal",
+                  "teamName": "GANA",
+                  "number": "8",
+                  "name": "JHONATA B. DUREZA",
+                  "period": 2,
+                  "clockElapsed": 840
+                },
+                {
+                  "id": "id-1786847105991-26",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "9",
+                  "name": "ALDAIR FERNANDO S.SOUSA",
+                  "period": 2,
+                  "clockElapsed": 1064
+                },
+                {
+                  "id": "id-1786847178240-28",
+                  "type": "goal",
+                  "teamName": "ITÁLIA",
+                  "number": "17",
+                  "name": "ANDERSSON GOMES ALBUQUERQUE",
+                  "period": 2,
+                  "clockElapsed": 1137
+                },
+                {
+                  "id": "id-1786847215511-31",
+                  "type": "goal",
+                  "teamName": "GANA",
+                  "number": "9",
+                  "name": "LUIS EDUARDO L. LIMA",
+                  "period": 2,
+                  "clockElapsed": 1174
+                }
+              ],
               "wo": null,
               "anulado": false
             }
@@ -3288,7 +3694,7 @@
           "teamName": "ITÁLIA",
           "number": "7",
           "name": "FRANCINEY SERRÃO D. SANTOS",
-          "goals": 6
+          "goals": 7
         },
         {
           "teamName": "SUECIA",
@@ -3309,6 +3715,12 @@
           "goals": 5
         },
         {
+          "teamName": "ITÁLIA",
+          "number": "77",
+          "name": "SALOMÃO GONCALVES D. CRUZ COUTINHO",
+          "goals": 5
+        },
+        {
           "teamName": "ARGENTINA",
           "number": "7",
           "name": "ANDERSON D. SILVA E SILVA",
@@ -3324,12 +3736,6 @@
           "teamName": "GRÉCIA",
           "number": "77",
           "name": "DARLAN MONTEIRO D. SANTOS",
-          "goals": 4
-        },
-        {
-          "teamName": "GRÉCIA",
-          "number": "7",
-          "name": "JOÃO VITOR SOUSA LOPES",
           "goals": 4
         }
       ],
@@ -3395,7 +3801,268 @@
     {
       "id": "master",
       "name": "Master (4 Times)",
-      "champion": null,
+      "champion": {
+        "champion": "ESTADOS UNIDOS",
+        "runnerUp": "FRANÇA",
+        "finalMatch": {
+          "id": "id-1786594589490-16",
+          "teamA": "ESTADOS UNIDOS",
+          "teamB": "FRANÇA",
+          "scoreA": 4,
+          "scoreB": 2,
+          "played": true,
+          "date": "2026-08-15",
+          "time": "20:00",
+          "events": [
+            {
+              "id": "id-1786840772738-14",
+              "type": "goal",
+              "teamName": "ESTADOS UNIDOS",
+              "number": "11",
+              "name": "MARCOS ANTONIO D. NASCIMENTO LIMA",
+              "period": 1,
+              "clockElapsed": 598
+            },
+            {
+              "id": "id-1786841036299-17",
+              "type": "goal",
+              "teamName": "FRANÇA",
+              "number": "7",
+              "name": "MAYKON ANDRADE NOGUEIRA",
+              "period": 1,
+              "clockElapsed": 862
+            },
+            {
+              "id": "id-1786842359992-20",
+              "type": "goal",
+              "teamName": "ESTADOS UNIDOS",
+              "number": "11",
+              "name": "MARCOS ANTONIO D. NASCIMENTO LIMA",
+              "period": 2,
+              "clockElapsed": 444
+            },
+            {
+              "id": "id-1786842670441-23",
+              "type": "goal",
+              "teamName": "ESTADOS UNIDOS",
+              "number": "3",
+              "name": "WANDERSON D. SOCORRO GOMES LIMA",
+              "period": 2,
+              "clockElapsed": 725
+            },
+            {
+              "id": "id-1786842794422-24",
+              "type": "goal",
+              "teamName": "ESTADOS UNIDOS",
+              "number": "8",
+              "name": "MATEUS SÃO PEDRO DOS SANTOS",
+              "period": 2,
+              "clockElapsed": 849
+            },
+            {
+              "id": "id-1786843041685-26",
+              "type": "goal",
+              "teamName": "FRANÇA",
+              "number": "3",
+              "name": "JOSE LUIZ MENDES PIMENTEL",
+              "period": 2,
+              "clockElapsed": 1035
+            },
+            {
+              "id": "id-1786843202100-28",
+              "type": "yellow",
+              "teamName": "FRANÇA",
+              "number": "9",
+              "name": "WILLIAN DA SILVA BRANDÃO",
+              "period": 2,
+              "clockElapsed": 1196,
+              "paid": true
+            }
+          ],
+          "sumula": {
+            "info": {
+              "gameNumber": "",
+              "competition": "",
+              "category": "",
+              "gym": "",
+              "city": "",
+              "date": "2026-08-16",
+              "referees": "",
+              "scorers": "",
+              "kickoff": "",
+              "periodTimes": {
+                "1": {
+                  "start": "21:25",
+                  "end": "21:52"
+                },
+                "2": {
+                  "start": "21:57",
+                  "end": "22:20"
+                }
+              }
+            },
+            "teamA": {
+              "name": "ESTADOS UNIDOS",
+              "players": [
+                {
+                  "number": "1",
+                  "name": "VALDEMIR PEREIRA TEIXEIRA"
+                },
+                {
+                  "number": "2",
+                  "name": "GILMAR SILVA FERREIRA"
+                },
+                {
+                  "number": "3",
+                  "name": "WANDERSON D. SOCORRO GOMES LIMA"
+                },
+                {
+                  "number": "6",
+                  "name": "EDSON MARCOS COSTA PANTOJA"
+                },
+                {
+                  "number": "7",
+                  "name": "LEONILDO D. SILVA COSTA"
+                },
+                {
+                  "number": "8",
+                  "name": "MATEUS SÃO PEDRO DOS SANTOS"
+                },
+                {
+                  "number": "10",
+                  "name": "DENILTON GAMA D. SOUZA"
+                },
+                {
+                  "number": "11",
+                  "name": "MARCOS ANTONIO D. NASCIMENTO LIMA"
+                },
+                {
+                  "number": "12",
+                  "name": "MARLON SANTOS D. SANTOS"
+                },
+                {
+                  "number": "16",
+                  "name": "MAURICIO SOUZA PICANÇO"
+                },
+                {
+                  "number": "20",
+                  "name": "CASSIO EVANGELISTA DA SILVA"
+                },
+                {
+                  "number": "22",
+                  "name": "LEANDRO CARVALHO PIMENTA D. SOUZA"
+                },
+                {
+                  "number": "33",
+                  "name": "ERBSON D. SILVA SOUZA PIRES"
+                },
+                {
+                  "number": "35",
+                  "name": "WALDEMIR AUGUSTO F. LOURENÇO"
+                }
+              ],
+              "captainNumber": "10",
+              "coachName": "",
+              "masseurName": "",
+              "fitnessCoachName": "",
+              "foulsByPeriod": {
+                "1": 2,
+                "2": 5
+              },
+              "timeouts": 1,
+              "cards": {
+                "yellow": 0,
+                "red": 0
+              }
+            },
+            "teamB": {
+              "name": "FRANÇA",
+              "players": [
+                {
+                  "number": "2",
+                  "name": "EVANDRO MACIEL D. MORAES"
+                },
+                {
+                  "number": "3",
+                  "name": "JOSE LUIZ MENDES PIMENTEL"
+                },
+                {
+                  "number": "4",
+                  "name": "FABIO D. SANTOS SILVA"
+                },
+                {
+                  "number": "5",
+                  "name": "JADER BARBOSA D. COSTA"
+                },
+                {
+                  "number": "5",
+                  "name": "EDER WILSON AMORIM RABELO"
+                },
+                {
+                  "number": "7",
+                  "name": "MAYKON ANDRADE NOGUEIRA"
+                },
+                {
+                  "number": "9",
+                  "name": "WILLIAN DA SILVA BRANDÃO"
+                },
+                {
+                  "number": "10",
+                  "name": "MARCOS ANTONIO SOARES D. SILVA"
+                },
+                {
+                  "number": "11",
+                  "name": "BENEDITO PIRES D. CONCEIÇÃO"
+                },
+                {
+                  "number": "12",
+                  "name": "JOSIMAR D. ROSARIO FERREIRA"
+                },
+                {
+                  "number": "13",
+                  "name": "JACKSON SILVA D. SANTOS"
+                },
+                {
+                  "number": "30",
+                  "name": "ULIELDSON PEREIRA SOUTO"
+                }
+              ],
+              "captainNumber": "29",
+              "coachName": "",
+              "masseurName": "",
+              "fitnessCoachName": "",
+              "foulsByPeriod": {
+                "1": 5,
+                "2": 5
+              },
+              "timeouts": 1,
+              "cards": {
+                "yellow": 1,
+                "red": 0
+              }
+            },
+            "stats": {
+              "teamA": {
+                "possessionMs": 1066344,
+                "corners": 5,
+                "shots": 29,
+                "shotsOn": 8
+              },
+              "teamB": {
+                "possessionMs": 927074,
+                "corners": 5,
+                "shots": 20,
+                "shotsOn": 9
+              },
+              "posseMedida": true
+            },
+            "signatures": {},
+            "periodDuration": 1200,
+            "finishedAt": 1786843256500
+          }
+        },
+        "finalRoundName": "Final"
+      },
       "eliminated": [],
       "groups": [
         {
@@ -3662,7 +4329,7 @@
                   "name": "CARLOS ALBERTO MACHADO D. SILVA",
                   "period": 1,
                   "clockElapsed": 99,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786230472250-42",
@@ -3945,7 +4612,7 @@
                   "name": "DIEGO FURTADO D. COSTA",
                   "period": 2,
                   "clockElapsed": 1200,
-                  "paid": false
+                  "paid": true
                 }
               ],
               "wo": null,
@@ -4017,7 +4684,7 @@
                   "name": "",
                   "period": 2,
                   "clockElapsed": 1200,
-                  "paid": false
+                  "paid": true
                 }
               ],
               "wo": null,
@@ -4095,7 +4762,7 @@
                   "name": "",
                   "period": 2,
                   "clockElapsed": 724,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786492322018-27",
@@ -4105,7 +4772,7 @@
                   "name": "DENILTON GAMA D. SOUZA",
                   "period": 2,
                   "clockElapsed": 789,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786492509390-28",
@@ -4124,7 +4791,7 @@
                   "name": "CARLOS ALBERTO MACHADO D. SILVA",
                   "period": 2,
                   "clockElapsed": 1124,
-                  "paid": false
+                  "paid": true
                 }
               ],
               "wo": null,
@@ -4150,7 +4817,7 @@
                   "name": "BENEDITO PIRES D. CONCEIÇÃO",
                   "period": 1,
                   "clockElapsed": 305,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786577044449-20",
@@ -4160,7 +4827,7 @@
                   "name": "JAIME FERREIRA D. MOURA",
                   "period": 1,
                   "clockElapsed": 381,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786577296503-22",
@@ -4197,7 +4864,7 @@
                   "name": "EDER WILSON AMORIM RABELO",
                   "period": 2,
                   "clockElapsed": 604,
-                  "paid": false
+                  "paid": true
                 },
                 {
                   "id": "id-1786579611606-18",
@@ -4216,7 +4883,7 @@
                   "name": "WILLIAN DA SILVA BRANDÃO",
                   "period": 2,
                   "clockElapsed": 1080,
-                  "paid": false
+                  "paid": true
                 }
               ],
               "wo": null,
@@ -4231,14 +4898,79 @@
               "id": "id-1786594589490-16",
               "teamA": "ESTADOS UNIDOS",
               "teamB": "FRANÇA",
-              "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
+              "scoreA": 4,
+              "scoreB": 2,
+              "played": true,
               "date": "2026-08-15",
               "time": "20:00",
               "penA": null,
               "penB": null,
-              "events": [],
+              "events": [
+                {
+                  "id": "id-1786840772738-14",
+                  "type": "goal",
+                  "teamName": "ESTADOS UNIDOS",
+                  "number": "11",
+                  "name": "MARCOS ANTONIO D. NASCIMENTO LIMA",
+                  "period": 1,
+                  "clockElapsed": 598
+                },
+                {
+                  "id": "id-1786841036299-17",
+                  "type": "goal",
+                  "teamName": "FRANÇA",
+                  "number": "7",
+                  "name": "MAYKON ANDRADE NOGUEIRA",
+                  "period": 1,
+                  "clockElapsed": 862
+                },
+                {
+                  "id": "id-1786842359992-20",
+                  "type": "goal",
+                  "teamName": "ESTADOS UNIDOS",
+                  "number": "11",
+                  "name": "MARCOS ANTONIO D. NASCIMENTO LIMA",
+                  "period": 2,
+                  "clockElapsed": 444
+                },
+                {
+                  "id": "id-1786842670441-23",
+                  "type": "goal",
+                  "teamName": "ESTADOS UNIDOS",
+                  "number": "3",
+                  "name": "WANDERSON D. SOCORRO GOMES LIMA",
+                  "period": 2,
+                  "clockElapsed": 725
+                },
+                {
+                  "id": "id-1786842794422-24",
+                  "type": "goal",
+                  "teamName": "ESTADOS UNIDOS",
+                  "number": "8",
+                  "name": "MATEUS SÃO PEDRO DOS SANTOS",
+                  "period": 2,
+                  "clockElapsed": 849
+                },
+                {
+                  "id": "id-1786843041685-26",
+                  "type": "goal",
+                  "teamName": "FRANÇA",
+                  "number": "3",
+                  "name": "JOSE LUIZ MENDES PIMENTEL",
+                  "period": 2,
+                  "clockElapsed": 1035
+                },
+                {
+                  "id": "id-1786843202100-28",
+                  "type": "yellow",
+                  "teamName": "FRANÇA",
+                  "number": "9",
+                  "name": "WILLIAN DA SILVA BRANDÃO",
+                  "period": 2,
+                  "clockElapsed": 1196,
+                  "paid": true
+                }
+              ],
               "wo": null,
               "anulado": false
             }
@@ -4369,7 +5101,191 @@
     {
       "id": "feminino",
       "name": "Feminino (5 Times)",
-      "champion": null,
+      "champion": {
+        "champion": "PORTUGAL",
+        "runnerUp": "HOLANDA",
+        "finalMatch": {
+          "id": "id-1786594595400-17",
+          "teamA": "HOLANDA",
+          "teamB": "PORTUGAL",
+          "scoreA": 0,
+          "scoreB": 1,
+          "played": true,
+          "date": "2026-08-15",
+          "time": "19:00",
+          "events": [
+            {
+              "id": "id-1786838033993-15",
+              "type": "yellow",
+              "teamName": "PORTUGAL",
+              "number": "5",
+              "name": "RICHELLY ANDRADE NOGUEIRA",
+              "period": 2,
+              "clockElapsed": 782,
+              "paid": true
+            },
+            {
+              "id": "id-1786838880146-17",
+              "type": "goal",
+              "teamName": "PORTUGAL",
+              "number": "24",
+              "name": "DANIELLE D. SANTOS",
+              "period": 2,
+              "clockElapsed": 1170
+            }
+          ],
+          "sumula": {
+            "info": {
+              "gameNumber": "",
+              "competition": "",
+              "category": "",
+              "gym": "",
+              "city": "",
+              "date": "2026-08-15",
+              "referees": "",
+              "scorers": "",
+              "kickoff": "",
+              "periodTimes": {
+                "1": {
+                  "start": "20:06",
+                  "end": "20:28"
+                },
+                "2": {
+                  "start": "20:37",
+                  "end": "21:08"
+                }
+              }
+            },
+            "teamA": {
+              "name": "HOLANDA",
+              "players": [
+                {
+                  "number": "3",
+                  "name": "RITA D. KASSIA SILVA LOBATO"
+                },
+                {
+                  "number": "5",
+                  "name": "ANA CLARA D. ABREU D. SANTOS"
+                },
+                {
+                  "number": "6",
+                  "name": "SAMARA D. SOUZA CARVALHO"
+                },
+                {
+                  "number": "7",
+                  "name": "JAFE C. ALMEIDA"
+                },
+                {
+                  "number": "10",
+                  "name": "THAINA CONCEIÇÃO BATISTA"
+                },
+                {
+                  "number": "12",
+                  "name": "JESIELY D. SILVA CARDOSO"
+                },
+                {
+                  "number": "23",
+                  "name": "FABIANE D. OLIVEIRA D. CONCEIÇÃO"
+                },
+                {
+                  "number": "29",
+                  "name": "LEANDRA FERREIRA GOMES"
+                },
+                {
+                  "number": "99",
+                  "name": "ZENICE SANTOS LOBATO"
+                }
+              ],
+              "captainNumber": "29",
+              "coachName": "",
+              "masseurName": "",
+              "fitnessCoachName": "",
+              "foulsByPeriod": {
+                "1": 2,
+                "2": 0
+              },
+              "timeouts": 1,
+              "cards": {
+                "yellow": 0,
+                "red": 0
+              }
+            },
+            "teamB": {
+              "name": "PORTUGAL",
+              "players": [
+                {
+                  "number": "1",
+                  "name": "CLEIDIANE D. SILVA NASCIMENTO"
+                },
+                {
+                  "number": "5",
+                  "name": "RICHELLY ANDRADE NOGUEIRA"
+                },
+                {
+                  "number": "7",
+                  "name": "VANESSA SILVA BASTOS"
+                },
+                {
+                  "number": "8",
+                  "name": "MARIA BEATRIZ PINHEIRO PENA"
+                },
+                {
+                  "number": "9",
+                  "name": "GEISA MARIA GAMA"
+                },
+                {
+                  "number": "11",
+                  "name": "BENEDITA BEZERRA D. SILVA"
+                },
+                {
+                  "number": "12",
+                  "name": "JENNIFER NANDA GOMES D. SILVA"
+                },
+                {
+                  "number": "13",
+                  "name": "IZABELA D. SANTOS SILVA"
+                },
+                {
+                  "number": "24",
+                  "name": "DANIELLE D. SANTOS"
+                }
+              ],
+              "captainNumber": "7",
+              "coachName": "",
+              "masseurName": "",
+              "fitnessCoachName": "",
+              "foulsByPeriod": {
+                "1": 4,
+                "2": 5
+              },
+              "timeouts": 1,
+              "cards": {
+                "yellow": 1,
+                "red": 0
+              }
+            },
+            "stats": {
+              "teamA": {
+                "possessionMs": 1494397,
+                "corners": 9,
+                "shots": 31,
+                "shotsOn": 9
+              },
+              "teamB": {
+                "possessionMs": 1121135,
+                "corners": 7,
+                "shots": 20,
+                "shotsOn": 8
+              },
+              "posseMedida": true
+            },
+            "signatures": {},
+            "periodDuration": 1200,
+            "finishedAt": 1786838976627
+          }
+        },
+        "finalRoundName": "Final"
+      },
       "eliminated": [],
       "groups": [
         {
@@ -4784,13 +5700,33 @@
               "teamA": "HOLANDA",
               "teamB": "PORTUGAL",
               "scoreA": 0,
-              "scoreB": 0,
-              "played": false,
+              "scoreB": 1,
+              "played": true,
               "date": "2026-08-15",
               "time": "19:00",
               "penA": null,
               "penB": null,
-              "events": [],
+              "events": [
+                {
+                  "id": "id-1786838033993-15",
+                  "type": "yellow",
+                  "teamName": "PORTUGAL",
+                  "number": "5",
+                  "name": "RICHELLY ANDRADE NOGUEIRA",
+                  "period": 2,
+                  "clockElapsed": 782,
+                  "paid": true
+                },
+                {
+                  "id": "id-1786838880146-17",
+                  "type": "goal",
+                  "teamName": "PORTUGAL",
+                  "number": "24",
+                  "name": "DANIELLE D. SANTOS",
+                  "period": 2,
+                  "clockElapsed": 1170
+                }
+              ],
               "wo": null,
               "anulado": false
             }
@@ -4841,6 +5777,12 @@
           "goals": 1
         },
         {
+          "teamName": "PORTUGAL",
+          "number": "24",
+          "name": "DANIELLE D. SANTOS",
+          "goals": 1
+        },
+        {
           "teamName": "SUECIA",
           "number": "4",
           "name": "ELIANI D. SILVA NASCIMENTO",
@@ -4851,12 +5793,6 @@
           "number": "23",
           "name": "FABIANE D. OLIVEIRA D. CONCEIÇÃO",
           "goals": 1
-        },
-        {
-          "teamName": "ESPANHA",
-          "number": "10",
-          "name": "PAULIANA SOARES D. CUNHA D. SILVA",
-          "goals": 1
         }
       ],
       "topCards": [
@@ -4864,6 +5800,13 @@
           "teamName": "ESPANHA",
           "number": "10",
           "name": "PAULIANA SOARES D. CUNHA D. SILVA",
+          "yellow": 1,
+          "red": 0
+        },
+        {
+          "teamName": "PORTUGAL",
+          "number": "5",
+          "name": "RICHELLY ANDRADE NOGUEIRA",
           "yellow": 1,
           "red": 0
         }
